@@ -31,7 +31,7 @@ A realm in Keycloak is the equivalent of a tenant. By default, there is a single
 - Fill in the form (the only obligatory field is <b>Name</b>) 
 - Select Create, and we will get the General page for the Test realm, as shown in Figure 1, and where we can add additional information (do not forget to click on **Save**, if necessary).
 
-![Figure 1 - Create a Realm]()
+![Figure 1 - Create a Realm](images/Figure1.png)
 
 ### Create a Client
 In the example that follows we will create an application client that will use a dedicated control flow which do not require any authentication from the user (within FISHY this will be the most frequent case).
@@ -41,7 +41,7 @@ In the example that follows we will create an application client that will use a
 - We will create an **application client**. In the **Add Client** dialog box, give it an unique ID (e.g., **python_fishy**) and select the **Openid-connet** protocol. After clicking **Save** we get the client configuration page.
 - On the **python_fishy client page** that appears, configure the fields as shown in Figure 2.
 
-![Figure 2 - Client application settings]()
+![Figure 2 - Client application settings](images/Figure2.png)
 
 - **NOTE**: We must first select the **Access Type** as **confidential**. Then activate (on) the **Service Accounts Enabled** option. This parameter activates the authentication flow we intent to use in this example (**Client Credentials Flow**).
 - Next we must fill in the **Valid Redirect URIs** field, whic will be the entry point for the client ```http://localhost:8081``` in our example. Don't forget to click on **Save**.
