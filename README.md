@@ -28,8 +28,8 @@ Using the URL: ```http://localhost:8080/auth/```, enter the **Keycloak Admin Con
 ### Create a Realm
 A realm in Keycloak is the equivalent of a tenant. By default, there is a single realm in Keycloak called <b>master</b>. This is dedicated to managing Keycloak and should not be used for other purposes. To create the first realm:
 - Hover the mouse over the top-left corner where it says Master, then click on **Add realm**. 
-- Fill in the form (the only obligatory field is <b>Name</b>) 
-- Select Create, and we will get the General page for the Test realm, as shown in Figure 1, and where we can add additional information (do not forget to click on **Save**, if necessary).
+- Fill in the form (the only mandatory field is **Name**) 
+- Select **Create**, and we will get the **General** page for the Test realm, as shown in Figure 1, and where we can add additional information (do not forget to click on **Save**, if necessary).
 
 ![Figure 1 - Create a Realm](images/Figure1.png)
 
@@ -56,6 +56,15 @@ For authentication, it is necessary to pass the parameters **Client ID**, **Clie
 
 [Example in Java](FISHY-ccflow-ex.java)
 
-
-
 ## Installing RabbitMQ
+To install the RabbitMQ in a container, use the command:
+
+```docker run -d --hostname rabbit-test --name rabbitmq-simulator -p 8081:15672 -p 5672:5672 rabbitmq:3-management```
+
+In the above command, port 5672 is used for RabbitMQ client connections and port 8081 is for the RabbitMQ management page.
+
+### Configuring RabbitMQ
+
+Next, we access to the RabbitMQ main page using the URL ```http://localhost:8081```, which is shown in Figure 3.
+
+![Figure 3 - RabbitMQ admin console](image/Figure3.png)
