@@ -67,4 +67,4 @@ In the above command, port 5672 is used for RabbitMQ client connections and port
 
 Next, we access to the RabbitMQ main page using the URL ```http://localhost:8081```, which is shown in Figure 3.
 
-![Figure 3 - RabbitMQ admin console](image/Figure3.png)
+![Figure 3 - RabbitMQ admin console](images/Figure3.png)
