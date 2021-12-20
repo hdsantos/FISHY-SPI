@@ -52,6 +52,10 @@ For illustration and testing purposes we developed two templates with the code r
 
 For authentication, it is necessary to pass the parameters **Client ID**, **Client Secret** (obtained previously), and **Scope** (with an optional scope value, email in the examples, but it cloud be anything else). The call must be made to the proper **token endpoint**. The “grant type” specifies the flow to use – in the next example, ‘client_credentials’ denotes **CCF** (**Client Credential Flow**).
 
-[Example in Python](FISHY-
+[Example in Python](FISHY-ccflow-ex.py)
+
+[Example in Java](FISHY-ccflow-ex.java)
+
+
 
 ## Installing RabbitMQ
