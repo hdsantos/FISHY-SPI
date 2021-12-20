@@ -21,7 +21,7 @@ To install the Keycloak in a docker container, we can use the command:
 This will start Keycloak, exposing the entry point on the local port 8080; it will also <b>create an initial admin user</b> with a <b>default password admin</b>, too.
 
 When installing keycloak, it automatically instantiates a database. It's a good idea to create a volume so that we don't have to repeat the settings when the container shuts down.
-- <b>Note</b>: Keycloak uses by default a relational DB H2 to store the authentication information, for simple test cases. This simple solution can be used without major problems. However, its replacement is highly recommended, in complex cases or production environments.
+- **Note**: Keycloak uses by default a relational DB H2 to store the authentication information, for simple test cases. This simple solution can be used without major problems. However, its replacement is highly recommended, in complex cases or production environments.
 
 ### Login to the Admin console
 Using the URL: ```http://localhost:8080/auth/```, enter the **Keycloak Admin Console**, and login using the previously chosen credentials.
@@ -29,10 +29,12 @@ Using the URL: ```http://localhost:8080/auth/```, enter the **Keycloak Admin Con
 A realm in Keycloak is the equivalent of a tenant. By default, there is a single realm in Keycloak called <b>master</b>. This is dedicated to managing Keycloak and should not be used for other purposes. To create the first realm:
 - Hover the mouse over the top-left corner where it says Master, then click on **Add realm**. 
 - Fill in the form (the only obligatory field is <b>Name</b>) 
-- Select Create. We have now the opportunity to add additional information (clicking on **Save**, if necessary), as shown on Figure 1.
+- Select Create, and we will get the General page for the Test realm, as shown in Figure 1, and where we can add additional information (do not forget to click on **Save**, if necessary).
 
-![Figure 1 - Create a Real]()
+![Figure 1 - Create a Realm]()
+
 ### Create a Client
+In the example that follows we will create an application client that will use a dedicated control flow which do not require any authentication from the user (within FISHY this will be the most frequent case).
 - In the top left drop-down list, select the previously created realm (Test, in the example, if it is not selected yet)
 - Click <b>Clients</b> in the left side menu to open the Clients page
 - On the right side, click <b>Create</b>
@@ -43,5 +45,13 @@ A realm in Keycloak is the equivalent of a tenant. By default, there is a single
 
 - **NOTE**: We must first select the **Access Type** as **confidential**. Then activate (on) the **Service Accounts Enabled** option. This parameter activates the authentication flow we intent to use in this example (**Client Credentials Flow**).
 - Next we must fill in the **Valid Redirect URIs** field, whic will be the entry point for the client ```http://localhost:8081``` in our example. Don't forget to click on **Save**.
-- Finally, we must select the **Credentials** tab and copy the Secret for this Client ID (python_fishy), which we will embbed in the client code next.
+- Finally, we must select the **Credentials** tab and copy the **Secret** for this Client ID (python_fishy), which we will embbed in the client code next.
+
+### Testing and templates (Python and Java)
+For illustration and testing purposes we developed two templates with the code required to interface Keycloak, both in Python and Java. For the Java example we also created a different client using the same procedure described above.
+
+For authentication, it is necessary to pass the parameters **Client ID**, **Client Secret** (obtained previously), and **Scope** (with an optional scope value, email in the examples, but it cloud be anything else). The call must be made to the proper **token endpoint**. The “grant type” specifies the flow to use – in the next example, ‘client_credentials’ denotes **CCF** (**Client Credential Flow**).
+
+[Example in Python](FISHY-
+
 ## Installing RabbitMQ
