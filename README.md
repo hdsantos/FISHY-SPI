@@ -69,3 +69,8 @@ We can access the RabbitMQ main page using the URL ```http://localhost:8081```, 
 - **Note**: concerning queues creation, it is unnecessary to perform it from the management site since producers can also make it when sending data.
 
 ![Figure 3 - RabbitMQ admin console](images/Figure3.png)
+
+## Framework for testing SPI
+We now need a **producer** and a **consumer**to test the complete architecture. The producer will be capturing raw data from the infrastructure. Within the FISHY architecture, this producer is one or more modules at the SIA level. However, since there is no prototype available to work with, we will be using a simple simulator agent that reads real log files, applies the required transformations, and submits the data to the broker after authentication.
+
+The actual [producer code in Python](FISHY-prod-ex.py) is a simpler version. It focus 
