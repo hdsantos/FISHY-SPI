@@ -1,11 +1,11 @@
 # FISHY-SPI
 Description of the FISHY SPI component interface.
 ## Introduction
-This example aims to show everything from installation to integration of tools used in SPI development. Here we will show a brief description of the steps that must be followed.
-We will start by defining some basic concepts, and then describing the installation and integration of keycloak with RabbitMQ, and a client built-in Python. It is worth noting that the development is being done in Python, but in the first part of the document, we also have a small class in java, to serve as another example.
+This example aims to show the details from installation to integration of tools used in SPI development. Here we will show a brief description of the steps that must be followed to have a basic deployment of the module.
+We will start by defining some basic concepts, and then describing the installation and integration of keycloak with RabbitMQ, and a template client, written both in Python and Java.
 ## Fundamentals
 ### Keycloak context
-keycloak will be used as an Authorization Service (AS). It will provide authentication and authorization protocols.
+keycloak will be used as an Authorization Service (AS). It will provide authentication and authorization protocols. As an implementation of the OpenID and OAuth2 protocols, Keycloak supports both user authentication, locally or in a federation, and application authentication. In this case, we are mainly interested in this last aspect, namely the so-called [Client Credential Flow](https://auth0.com/docs/authorization/flows/client-credentials-flow).
 #### Realm
 A realm manages a set of users, their credentials, <b>roles</b>, and <b>groups</b>. A user belongs to and logs into a realm. Realms are isolated from one another and can only manage and authenticate the users that they control.
 #### Client and Scopes
