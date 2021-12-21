@@ -1,18 +1,17 @@
 # FISHY-SPI
 Description of the FISHY SPI component interface.
 ## Introduction
-This example aims to show the details from installation to integration of tools used in SPI development. Here we will show a brief description of the steps that must be followed to have a basic deployment of the module.
-We will start by defining some basic concepts, and then describing the installation and integration of keycloak with RabbitMQ, and a template client, written both in Python and Java.
+This example shows the details from installation to integration of tools used in SPI development. Here we will conduct a brief description of the steps that we must follow to have a basic deployment of the module.
+We will start by defining some basic concepts and then describing the installation and integration of keycloak with RabbitMQ, and a template client, written both in Python and Java.
 ## Fundamentals
 ### Keycloak context
-keycloak will be used as an Authorization Service (AS). It will provide authentication and authorization protocols. As an implementation of the OpenID and OAuth2 protocols, Keycloak supports both user authentication, locally or in a federation, and application authentication. In this case, we are mainly interested in this last aspect, namely the so-called [Client Credential Flow](https://auth0.com/docs/authorization/flows/client-credentials-flow).
+Keycloak will be used as an Authorization Service (AS). It will provide authentication and authorization protocols. As an implementation of the OpenID and OAuth2 protocols, Keycloak supports user authentication, locally or in a federation, and application authentication. In this case, we are mainly interested in this last aspect, namely the so-called [Client Credential Flow](https://auth0.com/docs/authorization/flows/client-credentials-flow).
 #### Realm
-A realm manages a set of users, their credentials, <b>roles</b>, and <b>groups</b>. A user belongs to and logs into a realm. Realms are isolated from one another and can only manage and authenticate the users that they control.
+A realm manages a set of users, their credentials, **roles**, and **groups**. A user belongs to and logs into a realm. Realms are isolated and obviously can only manage and authenticate users under their control.
 #### Client and Scopes
-When a client is registered, we must define <b>protocol mappers</b> and role scope mappings for that client.
+When a client is registered, we must define its **protocol mappers** and **role scope** mappings.
 ### RabbitMQ context
-RabbitMQ will be used as a message broker. After <b>publishers</b> (or <b>producers</b>) are authenticated and authorized they can start sending messages to specific qeues in RabbitMQ, which will keep the data in those queues.
-The information at qeues stay available for <b>consumers</b> that previously subscribed to each one. Qeues are not persistnt meaning consumers must store the data if required.
+RabbitMQ will be used as a message broker. After **publishers** (or **producers**) are authenticated and authorized, they can start sending messages to specific queues in RabbitMQ, which will keep the data in those queues. The information at queues stays available for **consumers** that previously subscribed to each one. <u>Qeues are not persistent</u> meaning consumers must store the data if required.
 ## Installing Keycloak and perform basic configuration
 To install the Keycloak in a docker container, we can use the command:
 
@@ -57,14 +56,15 @@ For authentication, it is necessary to pass the parameters **Client ID**, **Clie
 [Example in Java](FISHY-ccflow-ex.java)
 
 ## Installing RabbitMQ
-To install the RabbitMQ in a container, use the command:
+To install the RabbitMQ in a container, we can use the command:
 
-```docker run -d --hostname rabbit-test --name rabbitmq-simulator -p 8081:15672 -p 5672:5672 rabbitmq:3-management```
+```docker run -d --hostname rabbit-test --name rabbitmq-simulator -p 8082:15672 -p 5672:5672 rabbitmq:3-management```
 
-In the above command, port 5672 is used for RabbitMQ client connections and port 8081 is for the RabbitMQ management page.
+In the above command, port 5672 is used for RabbitMQ client connections and port 8082 is for the RabbitMQ management page.
 
-### Configuring RabbitMQ
+### Accessing RabbitMQ
 
-Next, we access to the RabbitMQ main page using the URL ```http://localhost:8081```, which is shown in Figure 3.
+We can access the RabbitMQ main page using the URL ```http://localhost:8081```, and using the default username and password, **guest**. Figure 3 shows the main page, from where we can monitor the activity, as weel as performing some configurations, like creating quees and logins management (as usual, it is recommenden to modify the default administration login).
+- **Note**: concerning queues creation it is not necessary to perform it from the management site, since producers can also make it when sending data.
 
 ![Figure 3 - RabbitMQ admin console](images/Figure3.png)
