@@ -18,10 +18,10 @@ To install the Keycloak in a docker container, we can use the command:
 ```docker run -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.io/keycloak/keycloak:15.0.2```
 
 This will start Keycloak as a normal process (not as a daemon), exposing the entry point on the local port 8080; it will also **create an initial admin user** with a **default password admin**.
-- **Note**: executing it as a process is a good idea in the testing phase for debugging purposes since we can see all system output in the process shell window. However, it will be better to run it as a daemon in production.
+> **Note**: executing it as a process is a good idea in the testing phase for debugging purposes since we can see all system output in the process shell window. However, it will be better to run it as a daemon in production.
 
 When installing Keycloak, it automatically instantiates a database. It's a good idea to create a volume so that we don't have to repeat the settings when the container shuts down.
-- **Note**: Keycloak uses a relational DB H2 to store the authentication information for simple test cases by default. We can use this simple solution without significant problems. However, in production and more complex environments, replacing it with a more robust DB and using a persistent volume is highly recommended.
+> **Note**: Keycloak uses by default a relational H2 Database Engine to store the authentication information. We can use this simple solution without significant problems. However, in production and more complex environments, replacing it with a more robust DB and **using a persistent volume** is highly recommended.
 
 ### Login to the Admin console
 Using the URL: ```http://localhost:8080/auth/```, enter the **Keycloak Admin Console**, and log in using the previously chosen credentials.
