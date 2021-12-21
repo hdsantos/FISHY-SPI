@@ -73,4 +73,8 @@ We can access the RabbitMQ main page using the URL ```http://localhost:8081```, 
 ## Framework for testing SPI
 We now need a **producer** and a **consumer**to test the complete architecture. The producer will be capturing raw data from the infrastructure. Within the FISHY architecture, this producer is one or more modules at the SIA level. However, since there is no prototype available to work with, we will be using a simple simulator agent that reads real log files, applies the required transformations, and submits the data to the broker after authentication.
 
-The actual [producer code in Python](FISHY-prod-ex.py) is a simpler version. It focus 
+The actual [producer code in Python](FISHY-prod-ex.py) is a simpler version. It focuses on the required format transformation from raw data to classified events following the taxonomy under development. To support that transformation, we deploy a simple DB. After, the code exemplifies the interface with the RabbitMQ (we will add authentication later).
+
+The consumer will be integrated with the TIM and SCM modules. Again, since we do not have those prototypes yet, we developed a simulated version of the consumer, aiming to test the RambbitMQ and Keycloak interfaces. Concerning Keycloak, we only need to integrate the functionality described above.
+
+The actual [consumer code in Python](FISHY-cons-ex.py) is also a simpler version. It focuses on the RabbitMQ interface (we will add authentication later).
