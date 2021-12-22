@@ -2,26 +2,26 @@
 Description of the FISHY SPI component interface.
 ## Introduction
 This example shows the details from installation to integration of tools used in SPI development. Here we will conduct a brief description of the steps that we must follow to have a basic deployment of the module.
-We will start by defining some basic concepts and then describing the installation and integration of keycloak with RabbitMQ, and a template client, written both in Python and Java.
+We will start by defining some basic concepts and then describing the installation and integration of keycloak with RabbitMQ, and a template client, written both in Python and Java. We endup with a brief description of the framework developed to test the module, including the prototype of a producer and consumer, both written in Python.
 ## Fundamentals
 ### Keycloak context
-Keycloak will be used as an Authorization Service (AS). It will provide authentication and authorization protocols. As an implementation of the OpenID and OAuth2 protocols, Keycloak supports user authentication, locally or in a federation, and application authentication. In this case, we are mainly interested in this last aspect, namely the so-called [Client Credential Flow](https://auth0.com/docs/authorization/flows/client-credentials-flow).
+[Keycloak](https://www.keycloak.org/) will be used as an Authorization Service (AS). It will provide authentication and authorization protocols. As an implementation of the OpenID and OAuth2 protocols, Keycloak supports user authentication, locally or in a federation, and application authentication. In this case, we are mainly interested in this last aspect, namely the so-called [Client Credential Flow](https://auth0.com/docs/authorization/flows/client-credentials-flow).
 #### Realm
 A realm manages a set of users, their credentials, **roles**, and **groups**. A user belongs to and logs into a realm. Realms are isolated and obviously can only manage and authenticate users under their control.
 #### Client and Scopes
 When a client is registered, we must define its **protocol mappers** and **role scope** mappings.
 ### RabbitMQ context
-RabbitMQ will be used as a message broker. After **publishers** (or **producers**) are authenticated and authorized, they can start sending messages to specific queues in RabbitMQ, which will keep the data in those queues. The information at queues stays available for **consumers** that previously subscribed to each one. <u>Qeues are not persistent</u> meaning consumers must store the data if required.
+[RabbitMQ](https://www.rabbitmq.com/) will be used as a message broker. After **publishers** (or **producers**) are authenticated and authorized, they can start sending messages to specific queues in RabbitMQ, which will keep the data in those queues. The information at queues stays available for **consumers** that previously subscribed to each one. <u>Qeues are not persistent</u> meaning consumers must store the data if required.
 ## Installing Keycloak and perform basic configuration
 To install the Keycloak in a docker container, we can use the command:
 
 ```docker run -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.io/keycloak/keycloak:15.0.2```
 
 This will start Keycloak as a normal process (not as a daemon), exposing the entry point on the local port 8080; it will also **create an initial admin user** with a **default password admin**.
-- **Note**: executing it as a process is a good idea in the testing phase for debugging purposes since we can see all system output in the process shell window. However, it will be better to run it as a daemon in production.
+> **Note**: executing it as a process is a good idea in the testing phase for debugging purposes since we can see all system output in the process shell window. However, it will be better to run it as a daemon in production.
 
 When installing Keycloak, it automatically instantiates a database. It's a good idea to create a volume so that we don't have to repeat the settings when the container shuts down.
-- **Note**: Keycloak uses a relational DB H2 to store the authentication information for simple test cases by default. We can use this simple solution without significant problems. However, in production and more complex environments, replacing it with a more robust DB and using a persistent volume is highly recommended.
+> **Note**: Keycloak uses by default a relational H2 Database Engine to store the authentication information. We can use this simple solution without significant problems. However, in production and more complex environments, replacing it with a more robust DB and **using a persistent volume** is highly recommended.
 
 ### Login to the Admin console
 Using the URL: ```http://localhost:8080/auth/```, enter the **Keycloak Admin Console**, and log in using the previously chosen credentials.

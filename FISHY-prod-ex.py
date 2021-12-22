@@ -1,5 +1,4 @@
 # Producer example
-
 from threading import Event
 from format_cef._cef.base import datetime_sanitiser
 import pandas as pd
@@ -15,12 +14,13 @@ import maya
 #Open Conection with BD
 conn = psycopg2.connect(database="postgres", user="db-admin", password="admin", host="127.0.0.1", port="5432")
 
-#DF - Get all the information from the dictionary in the BD
+# DF - Get all the information from the dictionary in the BD
 df_dict = pd.read_sql_query("SELECT * FROM  {}".format('"Dictionary"'),con=conn)
 
-#DF Queue
+# DF Queue
 df_queue = pd.read_sql_query("SELECT DISTINCT queue FROM  {}".format('"Dictionary"'),con=conn) #Name of each row
-lqueue = df_queue.values.tolist()  
+lqueue = df_queue.values.tolist()
+# Get the Queues names to create with Rabbit later
 list_queue = [item for sublist in lqueue for item in sublist]
 
 conn.close() #Close database connection
@@ -45,10 +45,10 @@ df_result.to_csv('teste_merge.csv')
 #print(df_result)
 
 
-#AUTHENTICATION PROCEDURE
+# AUTHENTICATION PROCEDURE goes here
 
-
-#Open connection with RabbitMQ
+# Open connection with RabbitMQ
+# Still Using default credentials!
 credentials = pika.PlainCredentials('guest', 'guest')
 connection = pika.BlockingConnection(pika.ConnectionParameters('localhost', 5672, '/',credentials))
 channel = connection.channel()
@@ -57,9 +57,9 @@ channel = connection.channel()
 for queue in list_queue:
     channel.queue_declare(queue=str(queue), exclusive=False)
 
-    
-
-#Check the queue with the queues already registered in the dictionary, and then send the metrics to the correct queues in RabbitMQ
+# Sending function
+# Check the queue with the queues already registered in the dictionary,
+# and then send the data to the correct queues in RabbitMQ
 def send_msg(data, queue):
     for ind in data.index:
         if data['queue'][ind]== queue:  
@@ -72,14 +72,9 @@ def send_msg(data, queue):
                         body= msg)
             print('{} Send'.format(msg))
     print('All messages  -- {} Send'.format(queue))
-    
 
-#Scrolls through the list of queues
+# Scrolls through the list of queues
+# and send data
 for queue in list_queue:
     send_msg(df_result, queue)
     #df_result.to_csv('cef_test.csv')
-
-
-
-
-
