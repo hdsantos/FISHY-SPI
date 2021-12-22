@@ -15,7 +15,7 @@ When a client is registered, we must define its **protocol mappers** and **role 
 ## Installing Keycloak and perform basic configuration
 To install the Keycloak in a docker container, we can use the command:
 
-```docker run -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.io/keycloak/keycloak:15.0.2```
+```docker run -d -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.io/keycloak/keycloak:15.0.2```
 
 This will start Keycloak as a normal process (not as a daemon), exposing the entry point on the local port 8080; it will also **create an initial admin user** with a **default password admin**.
 > **Note**: executing it as a process is a good idea in the testing phase for debugging purposes since we can see all system output in the process shell window. However, it will be better to run it as a daemon in production.
