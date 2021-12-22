@@ -5,6 +5,7 @@ from format_cef._cef.base import datetime_sanitiser
 import pandas as pd
 import psycopg2
 from pandas.io.json import json_normalize
+import json
 import pika
 import requests
 from format_cef import format_cef
@@ -12,7 +13,7 @@ import maya
 
 
 #Open Conection with BD
-conn = psycopg2.connect(database="db-dictionary", user="db-admin", password="admin", host="127.0.0.1", port="5432")
+conn = psycopg2.connect(database="postgres", user="db-admin", password="admin", host="127.0.0.1", port="5432")
 
 #DF - Get all the information from the dictionary in the BD
 df_dict = pd.read_sql_query("SELECT * FROM  {}".format('"Dictionary"'),con=conn)
@@ -24,13 +25,21 @@ list_queue = [item for sublist in lqueue for item in sublist]
 
 conn.close() #Close database connection
 
+#In our case, this step was necessary because the imported json comes with some flaws.
+#Read json file as text as json comes invalidly from azure storage explorer
+with open('/home/alan/Documents/Code/Metrics-simulator/publish/PT1H.json') as f:
+  rawdata = [line.rstrip('\n') for line in f] #Break json into a string list
 
-#DF Excel
-df_log = pd.read_excel("/home/alan/Documents/Code/logs-Soane/PT1H-iothub.xlsx", sheet_name="PT1H-iothub-JSON-metrics")
-df_log = df_log[['metricName','time','count','total','minimum','maximum','average']] #Filter
 
-#Left join between df-logs and df-dictionary 
-df_result = pd.merge(df_dict, df_log, how='left', on=['metricName','metricName'])
+log_list = []
+for log in rawdata:#Scan raw data and transform string into dictionary
+    log_list.append(json.loads(log))
+df_log = pd.DataFrame.from_records(log_list)#Collect everything that was made into a dictionary and assemble a DF
+df_log = df_log[['metricName','time','count','total','minimum','maximum','average']] #Add filters to collect the necessary information in the DF
+
+## Compare the DF of Logs (json) with the database (Postgres) where the taxonomy classification is
+df_result = pd.merge(df_log, df_dict, how='left', on=['metricName','metricName'])
+
 
 df_result.to_csv('teste_merge.csv')
 #print(df_result)
