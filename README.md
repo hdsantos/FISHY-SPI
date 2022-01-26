@@ -25,7 +25,7 @@ Make sure you have docker installed.
 
 ## Starting the containers
 ```$cd FISHY-SPI```
-```$docker-compose up -d keycloak-db kong-db```
+```$docker-compose up -d keycloak-db kong-db```<br />
 ```$docker-compose run --rm kong kong migrations bootstrap```
 ```$docker-compose up -d```
 
