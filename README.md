@@ -16,7 +16,10 @@ When a client is registered, we must define its **protocol mappers** and **role 
 [Konga](https://pantsel.github.io/konga/) It is only used to facilitate testing and visualization of configurations that are running on kong. Attention, using this tool is for testing purposes.
 ### RabbitMQ context
 [RabbitMQ](https://www.rabbitmq.com/) will be used as a message broker. After **publishers** (or **producers**) are authenticated and authorized, they can start sending messages to specific queues in RabbitMQ, which will keep the data in those queues. The information at queues stays available for **consumers** that previously subscribed to each one. <u>Qeues are not persistent</u> meaning consumers must store the data if required.
-## Installing Keycloak and perform basic configuration
+## Installation
+#Docker
+Make sure you have docker installed.
+
 To install the Keycloak in a docker container, we can use the command:
 
 ```docker run -d -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.io/keycloak/keycloak:16.1.0```
