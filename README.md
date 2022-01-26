@@ -2,7 +2,7 @@
 Description of the FISHY SPI component interface.
 ## Introduction
 This example shows the details from installation to integration of the tools used in SPI development. Here we will briefly describe the steps that we must follow to have a basic deployment of the module.
-We'll start by defining some basic concepts and then describing the installation and integration of the keycloak, Kong(API Gateway) with RabbitMQ and a template client, written in Python and Java. We end with a brief description of the framework developed to test the module, including a prototype of a producer and consumer, both written in Python.
+We'll start by defining some basic concepts and then describing the installation and integration of the keycloak, Kong(API Gateway) with RabbitMQ and a template client, written in Python and Java. To facilitate testing and visualization of the information, we will use a GUI called Konga, an open-source tool, developed by the community, attention that this tool will be used for testing purposes. We end with a brief description of the framework developed to test the module, including a prototype producer and consumer, both written in Python.
 ## Fundamentals
 ### Keycloak context
 [Keycloak](https://www.keycloak.org/) will be used as an Authorization Service (AS). It will provide authentication and authorization protocols. As an implementation of the OpenID and OAuth2 protocols, Keycloak supports user authentication, locally or in a federation, and application authentication. In this case, we are mainly interested in this last aspect, namely the so-called [Client Credential Flow](https://auth0.com/docs/authorization/flows/client-credentials-flow).
@@ -10,6 +10,10 @@ We'll start by defining some basic concepts and then describing the installation
 A realm manages a set of users, their credentials, **roles**, and **groups**. A user belongs to and logs into a realm. Realms are isolated and obviously can only manage and authenticate users under their control.
 #### Client and Scopes
 When a client is registered, we must define its **protocol mappers** and **role scope** mappings.
+### Kong API Gateway
+[Kong](https://konghq.com/) An API gateway acts as a reverse proxy to accept all application programming interface (API) calls, aggregate the various services needed to service them and return the appropriate result. In our case, it will be used to manage all calls and integrated with keycloak, to perform token validations and direct calls to their respective endpoints.
+### Konga GUI
+[Konga](https://pantsel.github.io/konga/) It is only used to facilitate testing and visualization of configurations that are running on kong. Attention, using this tool is for testing purposes.
 ### RabbitMQ context
 [RabbitMQ](https://www.rabbitmq.com/) will be used as a message broker. After **publishers** (or **producers**) are authenticated and authorized, they can start sending messages to specific queues in RabbitMQ, which will keep the data in those queues. The information at queues stays available for **consumers** that previously subscribed to each one. <u>Qeues are not persistent</u> meaning consumers must store the data if required.
 ## Installing Keycloak and perform basic configuration
