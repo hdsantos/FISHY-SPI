@@ -24,8 +24,8 @@ Make sure you have docker installed.
 ```$git clone https://github.com/hdsantos/FISHY-SPI.git```
 
 ## Starting the containers
-```$cd FISHY-SPI```
-```$docker-compose up -d keycloak-db kong-db```<br />
+<p>```$cd FISHY-SPI```</p>
+<p>```$docker-compose up -d keycloak-db kong-db```</p>
 ```$docker-compose run --rm kong kong migrations bootstrap```
 ```$docker-compose up -d```
 
