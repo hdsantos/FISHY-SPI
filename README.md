@@ -24,12 +24,11 @@ Make sure you have docker installed.
 ```$git clone https://github.com/hdsantos/FISHY-SPI.git```
 
 ## Starting the containers
-<p>
-```$cd FISHY-SPI```<br />
-```$docker-compose up -d keycloak-db kong-db```<br />
-```$docker-compose run --rm kong kong migrations bootstrap```<br />
-```$docker-compose up -d```<br />
-</p>
+
+*```$$cd FISHY-SPI```
+*```$docker-compose up -d keycloak-db kong-db```
+*```$docker-compose run --rm kong kong migrations bootstrap```
+*```$docker-compose up -d```
 
 To install the Keycloak in a docker container, we can use the command:
 
