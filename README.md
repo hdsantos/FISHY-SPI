@@ -17,8 +17,17 @@ When a client is registered, we must define its **protocol mappers** and **role 
 ### RabbitMQ context
 [RabbitMQ](https://www.rabbitmq.com/) will be used as a message broker. After **publishers** (or **producers**) are authenticated and authorized, they can start sending messages to specific queues in RabbitMQ, which will keep the data in those queues. The information at queues stays available for **consumers** that previously subscribed to each one. <u>Qeues are not persistent</u> meaning consumers must store the data if required.
 ## Installation
-##Docker
+## Docker
 Make sure you have docker installed.
+
+## clone the repository
+```$git clone https://github.com/hdsantos/FISHY-SPI.git```
+
+## Starting the containers
+```$cd FISHY-SPI```
+```$docker-compose up -d keycloak-db kong-db```
+```$docker-compose run --rm kong kong migrations bootstrap```
+```$docker-compose up -d```
 
 To install the Keycloak in a docker container, we can use the command:
 
