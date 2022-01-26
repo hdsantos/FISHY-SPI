@@ -1,8 +1,8 @@
 # FISHY-SPI
 Description of the FISHY SPI component interface.
 ## Introduction
-This example shows the details from installation to integration of tools used in SPI development. Here we will conduct a brief description of the steps that we must follow to have a basic deployment of the module.
-We will start by defining some basic concepts and then describing the installation and integration of keycloak with RabbitMQ, and a template client, written both in Python and Java. We endup with a brief description of the framework developed to test the module, including the prototype of a producer and consumer, both written in Python.
+This example shows the details from installation to integration of the tools used in SPI development. Here we will briefly describe the steps that we must follow to have a basic deployment of the module.
+We'll start by defining some basic concepts and then describing the installation and integration of the keycloak, Kong(API Gateway) with RabbitMQ and a template client, written in Python and Java. We end with a brief description of the framework developed to test the module, including a prototype of a producer and consumer, both written in Python.
 ## Fundamentals
 ### Keycloak context
 [Keycloak](https://www.keycloak.org/) will be used as an Authorization Service (AS). It will provide authentication and authorization protocols. As an implementation of the OpenID and OAuth2 protocols, Keycloak supports user authentication, locally or in a federation, and application authentication. In this case, we are mainly interested in this last aspect, namely the so-called [Client Credential Flow](https://auth0.com/docs/authorization/flows/client-credentials-flow).
