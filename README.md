@@ -45,13 +45,13 @@ Access the BD folder and import the Dictionary.cvs, into the same instance of th
 
 At this point all services are expected to be running, and we can start the configuration.
 
-### Login to the Admin console
+### Login to the Keycloak Admin console
 Using the URL: ```http://localhost:8180/auth/```, enter the **Keycloak Admin Console**, and log in using the previously chosen credentials(**user: admin, password: admin**).
 
 ### Create a Realm
 A realm in Keycloak is the equivalent of a tenant. There is a single domain in Keycloak called **master** by default. This is dedicated to Keycloak management and should not be used for other purposes. To create the first realm:
 - Hover over the top left corner where it says Master and click on **Add Kingdom**.
-- Fill in the form (the only mandatory field is **Name**)
+- Fill in the form (the only mandatory field is **Name**).
 - Select **Create**, and we will get the **General** page for the **experimental** domain, as shown in Figure 1, and where we can add additional information (don't forget to click **Save**, if necessary).
 
 ![Figure 1 - Create a Realm](images/Figure1.png)
@@ -109,7 +109,7 @@ The current [Python consumer code](FISHY-cons-ex.py) is also a simpler version, 
 ## Visualization - Konga(GUI)
 You can view through Kong(GUI), all the settings made here.
 
-- Access http://localhost:1337/, and create a user, as shown in Figure 6.
+- Access ```http://localhost:1337/```, and create a user, as shown in Figure 6.
 
 ![Figure 6 - Konga admin console](images/Figure6.png)
 
@@ -117,5 +117,5 @@ You can view through Kong(GUI), all the settings made here.
 
 ![Figure 7 - Konga](images/Figure7.png)
 
-After these steps, you can see in the menus all the services, routes, and plugins that have been configured through our client (```FISHY-cons-ex```).
+After these steps, you can see in the menus all the services, routes, and plugins that have been configured through our client (```FISHY-prod-ex```).
 - **Note**: The use of konga(GUI), is for test environment only.
