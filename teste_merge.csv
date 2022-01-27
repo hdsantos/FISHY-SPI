@@ -1,0 +1,1107 @@
+,metricName,time,count,total,minimum,maximum,average,queue,metric
+0,d2c.telemetry.ingress.allProtocol,2021-12-20T00:00:00.0000000Z,527,527,1.0,1.0,1.0,Not.classified,Not.verified
+1,d2c.telemetry.ingress.allProtocol,2021-12-20T00:01:00.0000000Z,557,557,1.0,1.0,1.0,Not.classified,Not.verified
+2,d2c.telemetry.ingress.allProtocol,2021-12-20T00:02:00.0000000Z,575,575,1.0,1.0,1.0,Not.classified,Not.verified
+3,d2c.telemetry.ingress.success,2021-12-20T00:00:00.0000000Z,527,527,1.0,1.0,1.0,Not.classified,Not.verified
+4,d2c.telemetry.ingress.success,2021-12-20T00:01:00.0000000Z,557,557,1.0,1.0,1.0,Not.classified,Not.verified
+5,d2c.telemetry.ingress.success,2021-12-20T00:02:00.0000000Z,575,575,1.0,1.0,1.0,Not.classified,Not.verified
+6,devices.totalDevices,2021-12-20T00:00:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+7,devices.totalDevices,2021-12-20T00:01:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+8,devices.totalDevices,2021-12-20T00:02:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+9,devices.connectedDevices.allProtocol,2021-12-20T00:00:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+10,devices.connectedDevices.allProtocol,2021-12-20T00:01:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+11,devices.connectedDevices.allProtocol,2021-12-20T00:02:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+12,d2c.telemetry.egress.success,2021-12-20T00:00:00.0000000Z,389,3095,1.0,30.0,7.95629820051414,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+13,d2c.telemetry.egress.success,2021-12-20T00:01:00.0000000Z,415,3341,1.0,30.0,8.05060240963855,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+14,d2c.telemetry.egress.success,2021-12-20T00:02:00.0000000Z,424,3562,1.0,30.0,8.40094339622642,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+15,d2c.telemetry.egress.fallback,2021-12-20T00:00:00.0000000Z,3059,3059,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+16,d2c.telemetry.egress.fallback,2021-12-20T00:01:00.0000000Z,3305,3305,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+17,d2c.telemetry.egress.fallback,2021-12-20T00:02:00.0000000Z,3526,3526,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+18,d2c.endpoints.egress.eventHubs,2021-12-20T00:00:00.0000000Z,23,36,1.0,2.0,1.56521739130435,,
+19,d2c.endpoints.egress.eventHubs,2021-12-20T00:01:00.0000000Z,20,36,1.0,2.0,1.8,,
+20,d2c.endpoints.egress.eventHubs,2021-12-20T00:02:00.0000000Z,25,38,1.0,2.0,1.52,,
+21,d2c.endpoints.latency.eventHubs,2021-12-20T00:00:00.0000000Z,23,3390,44.0,273.0,147.391304347826,,
+22,d2c.endpoints.latency.eventHubs,2021-12-20T00:01:00.0000000Z,20,2826,32.0,611.0,141.3,,
+23,d2c.endpoints.latency.eventHubs,2021-12-20T00:02:00.0000000Z,25,3120,40.0,218.0,124.8,,
+24,d2c.endpoints.egress.builtIn.events,2021-12-20T00:00:00.0000000Z,366,3059,1.0,30.0,8.35792349726776,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+25,d2c.endpoints.egress.builtIn.events,2021-12-20T00:01:00.0000000Z,395,3305,1.0,30.0,8.36708860759494,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+26,d2c.endpoints.egress.builtIn.events,2021-12-20T00:02:00.0000000Z,399,3524,1.0,30.0,8.83208020050125,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+27,d2c.endpoints.latency.builtIn.events,2021-12-20T00:00:00.0000000Z,366,40467,13.0,243.0,110.565573770492,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+28,d2c.endpoints.latency.builtIn.events,2021-12-20T00:01:00.0000000Z,395,43289,8.0,252.0,109.592405063291,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+29,d2c.endpoints.latency.builtIn.events,2021-12-20T00:02:00.0000000Z,399,44015,14.0,288.0,110.31328320802,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+30,RoutingDeliveries,2021-12-20T00:00:00.0000000Z,389,3095,1.0,30.0,7.95629820051414,Not.classified,Not.verified
+31,RoutingDeliveries,2021-12-20T00:01:00.0000000Z,415,3341,1.0,30.0,8.05060240963855,Not.classified,Not.verified
+32,RoutingDeliveries,2021-12-20T00:02:00.0000000Z,424,3562,1.0,30.0,8.40094339622642,Not.classified,Not.verified
+33,RoutingDeliveryLatency,2021-12-20T00:00:00.0000000Z,389,43857,13.0,273.0,112.74293059126,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+34,RoutingDeliveryLatency,2021-12-20T00:01:00.0000000Z,415,46115,8.0,611.0,111.120481927711,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+35,RoutingDeliveryLatency,2021-12-20T00:02:00.0000000Z,424,47135,14.0,288.0,111.167452830189,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+36,RoutingDataSizeInBytesDelivered,2021-12-20T00:00:00.0000000Z,389,6333336,,,16281.0694087404,Not.classified,Not.verified
+37,RoutingDataSizeInBytesDelivered,2021-12-20T00:01:00.0000000Z,415,6749257,,,16263.2698795181,Not.classified,Not.verified
+38,RoutingDataSizeInBytesDelivered,2021-12-20T00:02:00.0000000Z,424,7461790,,,17598.5613207547,Not.classified,Not.verified
+39,dailyMessageQuotaUsed,2021-12-20T00:00:00.0000000Z,39,113670482,2913331.0,2916307.0,2914627.74358974,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+40,dailyMessageQuotaUsed,2021-12-20T00:01:00.0000000Z,23,8005,15.0,1688.0,348.04347826087,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+41,dailyMessageQuotaUsed,2021-12-20T00:02:00.0000000Z,36,60732,15.0,2944.0,1687.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+42,deviceDataUsage,2021-12-20T00:00:00.0000000Z,527,5447630,2.0,32695.0,10337.0588235294,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+43,deviceDataUsage,2021-12-20T00:01:00.0000000Z,557,5813598,2.0,43657.0,10437.3393177738,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+44,deviceDataUsage,2021-12-20T00:02:00.0000000Z,575,6484768,2.0,32702.0,11277.8573913043,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+45,deviceDataUsageV2,2021-12-20T00:00:00.0000000Z,528,5461851,2.0,32695.0,10344.4147727273,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+46,deviceDataUsageV2,2021-12-20T00:01:00.0000000Z,557,5813598,2.0,43657.0,10437.3393177738,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+47,deviceDataUsageV2,2021-12-20T00:02:00.0000000Z,575,6484768,2.0,32702.0,11277.8573913043,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+48,totalDeviceCount,2021-12-20T00:00:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+49,totalDeviceCount,2021-12-20T00:01:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+50,totalDeviceCount,2021-12-20T00:02:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+51,connectedDeviceCount,2021-12-20T00:00:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+52,connectedDeviceCount,2021-12-20T00:01:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+53,connectedDeviceCount,2021-12-20T00:02:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+54,d2c.telemetry.ingress.allProtocol,2021-12-20T00:03:00.0000000Z,546,546,1.0,1.0,1.0,Not.classified,Not.verified
+55,d2c.telemetry.ingress.allProtocol,2021-12-20T00:04:00.0000000Z,573,573,1.0,1.0,1.0,Not.classified,Not.verified
+56,d2c.telemetry.ingress.allProtocol,2021-12-20T00:05:00.0000000Z,543,543,1.0,1.0,1.0,Not.classified,Not.verified
+57,d2c.telemetry.ingress.success,2021-12-20T00:03:00.0000000Z,546,546,1.0,1.0,1.0,Not.classified,Not.verified
+58,d2c.telemetry.ingress.success,2021-12-20T00:04:00.0000000Z,573,573,1.0,1.0,1.0,Not.classified,Not.verified
+59,d2c.telemetry.ingress.success,2021-12-20T00:05:00.0000000Z,543,543,1.0,1.0,1.0,Not.classified,Not.verified
+60,devices.totalDevices,2021-12-20T00:03:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+61,devices.totalDevices,2021-12-20T00:04:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+62,devices.totalDevices,2021-12-20T00:05:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+63,devices.connectedDevices.allProtocol,2021-12-20T00:03:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+64,devices.connectedDevices.allProtocol,2021-12-20T00:04:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+65,devices.connectedDevices.allProtocol,2021-12-20T00:05:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+66,d2c.telemetry.egress.success,2021-12-20T00:03:00.0000000Z,402,3396,1.0,30.0,8.44776119402985,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+67,d2c.telemetry.egress.success,2021-12-20T00:04:00.0000000Z,422,3517,1.0,37.0,8.33412322274881,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+68,d2c.telemetry.egress.success,2021-12-20T00:05:00.0000000Z,406,3327,1.0,30.0,8.19458128078818,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+69,d2c.telemetry.egress.fallback,2021-12-20T00:03:00.0000000Z,3279,3279,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+70,d2c.telemetry.egress.fallback,2021-12-20T00:04:00.0000000Z,3284,3284,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+71,d2c.telemetry.egress.fallback,2021-12-20T00:05:00.0000000Z,3293,3293,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+72,d2c.endpoints.egress.eventHubs,2021-12-20T00:03:00.0000000Z,30,130,1.0,30.0,4.33333333333333,,
+73,d2c.endpoints.egress.eventHubs,2021-12-20T00:04:00.0000000Z,34,218,1.0,37.0,6.41176470588235,,
+74,d2c.endpoints.egress.eventHubs,2021-12-20T00:05:00.0000000Z,24,34,1.0,2.0,1.41666666666667,,
+75,d2c.endpoints.latency.eventHubs,2021-12-20T00:03:00.0000000Z,30,3704,30.0,246.0,123.466666666667,,
+76,d2c.endpoints.latency.eventHubs,2021-12-20T00:04:00.0000000Z,34,4597,24.0,384.0,135.205882352941,,
+77,d2c.endpoints.latency.eventHubs,2021-12-20T00:05:00.0000000Z,24,3116,22.0,259.0,129.833333333333,,
+78,d2c.endpoints.egress.builtIn.events,2021-12-20T00:03:00.0000000Z,372,3266,1.0,30.0,8.77956989247312,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+79,d2c.endpoints.egress.builtIn.events,2021-12-20T00:04:00.0000000Z,388,3299,1.0,30.0,8.50257731958763,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+80,d2c.endpoints.egress.builtIn.events,2021-12-20T00:05:00.0000000Z,382,3293,1.0,30.0,8.62041884816754,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+81,d2c.endpoints.latency.builtIn.events,2021-12-20T00:03:00.0000000Z,372,42753,19.0,346.0,114.927419354839,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+82,d2c.endpoints.latency.builtIn.events,2021-12-20T00:04:00.0000000Z,388,44739,16.0,254.0,115.306701030928,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+83,d2c.endpoints.latency.builtIn.events,2021-12-20T00:05:00.0000000Z,382,44497,17.0,314.0,116.484293193717,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+84,RoutingDeliveries,2021-12-20T00:03:00.0000000Z,402,3396,1.0,30.0,8.44776119402985,Not.classified,Not.verified
+85,RoutingDeliveries,2021-12-20T00:04:00.0000000Z,422,3517,1.0,37.0,8.33412322274881,Not.classified,Not.verified
+86,RoutingDeliveries,2021-12-20T00:05:00.0000000Z,406,3327,1.0,30.0,8.19458128078818,Not.classified,Not.verified
+87,RoutingDeliveryLatency,2021-12-20T00:03:00.0000000Z,402,46457,19.0,346.0,115.564676616915,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+88,RoutingDeliveryLatency,2021-12-20T00:04:00.0000000Z,422,49336,16.0,384.0,116.909952606635,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+89,RoutingDeliveryLatency,2021-12-20T00:05:00.0000000Z,406,47613,17.0,314.0,117.273399014778,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+90,RoutingDataSizeInBytesDelivered,2021-12-20T00:03:00.0000000Z,402,7155610,,,17800.0248756219,Not.classified,Not.verified
+91,RoutingDataSizeInBytesDelivered,2021-12-20T00:04:00.0000000Z,422,7260854,,,17205.8151658768,Not.classified,Not.verified
+92,RoutingDataSizeInBytesDelivered,2021-12-20T00:05:00.0000000Z,406,7019095,,,17288.4113300493,Not.classified,Not.verified
+93,dailyMessageQuotaUsed,2021-12-20T00:03:00.0000000Z,39,123942,1688.0,5487.0,3178.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+94,dailyMessageQuotaUsed,2021-12-20T00:04:00.0000000Z,39,184958,2932.0,6671.0,4742.51282051282,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+95,dailyMessageQuotaUsed,2021-12-20T00:05:00.0000000Z,39,264627,5521.0,9238.0,6785.30769230769,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+96,deviceDataUsage,2021-12-20T00:03:00.0000000Z,546,6226105,2.0,44453.0,11403.1227106227,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+97,deviceDataUsage,2021-12-20T00:04:00.0000000Z,573,6230181,2.0,32703.0,10872.9162303665,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+98,deviceDataUsage,2021-12-20T00:05:00.0000000Z,543,6171386,2.0,38823.0,11365.3517495396,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+99,deviceDataUsageV2,2021-12-20T00:03:00.0000000Z,546,6226105,2.0,44453.0,11403.1227106227,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+100,deviceDataUsageV2,2021-12-20T00:04:00.0000000Z,573,6230181,2.0,32703.0,10872.9162303665,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+101,deviceDataUsageV2,2021-12-20T00:05:00.0000000Z,542,6144825,2.0,38823.0,11337.315498155,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+102,totalDeviceCount,2021-12-20T00:03:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+103,totalDeviceCount,2021-12-20T00:04:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+104,totalDeviceCount,2021-12-20T00:05:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+105,connectedDeviceCount,2021-12-20T00:03:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+106,connectedDeviceCount,2021-12-20T00:04:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+107,connectedDeviceCount,2021-12-20T00:05:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+108,d2c.telemetry.ingress.allProtocol,2021-12-20T00:06:00.0000000Z,559,559,1.0,1.0,1.0,Not.classified,Not.verified
+109,d2c.telemetry.ingress.allProtocol,2021-12-20T00:07:00.0000000Z,503,503,1.0,1.0,1.0,Not.classified,Not.verified
+110,d2c.telemetry.ingress.allProtocol,2021-12-20T00:08:00.0000000Z,571,571,1.0,1.0,1.0,Not.classified,Not.verified
+111,d2c.telemetry.ingress.success,2021-12-20T00:06:00.0000000Z,559,559,1.0,1.0,1.0,Not.classified,Not.verified
+112,d2c.telemetry.ingress.success,2021-12-20T00:07:00.0000000Z,503,503,1.0,1.0,1.0,Not.classified,Not.verified
+113,d2c.telemetry.ingress.success,2021-12-20T00:08:00.0000000Z,571,571,1.0,1.0,1.0,Not.classified,Not.verified
+114,devices.totalDevices,2021-12-20T00:06:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+115,devices.totalDevices,2021-12-20T00:07:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+116,devices.totalDevices,2021-12-20T00:08:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+117,devices.connectedDevices.allProtocol,2021-12-20T00:06:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+118,devices.connectedDevices.allProtocol,2021-12-20T00:07:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+119,devices.connectedDevices.allProtocol,2021-12-20T00:08:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+120,d2c.telemetry.egress.success,2021-12-20T00:06:00.0000000Z,418,3554,1.0,30.0,8.50239234449761,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+121,d2c.telemetry.egress.success,2021-12-20T00:07:00.0000000Z,380,2935,1.0,30.0,7.72368421052632,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+122,d2c.telemetry.egress.success,2021-12-20T00:08:00.0000000Z,425,3346,1.0,30.0,7.87294117647059,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+123,d2c.telemetry.egress.fallback,2021-12-20T00:06:00.0000000Z,3380,3380,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+124,d2c.telemetry.egress.fallback,2021-12-20T00:07:00.0000000Z,2909,2909,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+125,d2c.telemetry.egress.fallback,2021-12-20T00:08:00.0000000Z,3208,3208,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+126,d2c.endpoints.egress.eventHubs,2021-12-20T00:06:00.0000000Z,33,174,1.0,20.0,5.27272727272727,,
+127,d2c.endpoints.egress.eventHubs,2021-12-20T00:07:00.0000000Z,22,36,1.0,2.0,1.63636363636364,,
+128,d2c.endpoints.egress.eventHubs,2021-12-20T00:08:00.0000000Z,29,138,1.0,30.0,4.75862068965517,,
+129,d2c.endpoints.latency.eventHubs,2021-12-20T00:06:00.0000000Z,33,4830,32.0,300.0,146.363636363636,,
+130,d2c.endpoints.latency.eventHubs,2021-12-20T00:07:00.0000000Z,22,3091,32.0,261.0,140.5,,
+131,d2c.endpoints.latency.eventHubs,2021-12-20T00:08:00.0000000Z,29,4039,16.0,259.0,139.275862068966,,
+132,d2c.endpoints.egress.builtIn.events,2021-12-20T00:06:00.0000000Z,385,3380,1.0,30.0,8.77922077922078,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+133,d2c.endpoints.egress.builtIn.events,2021-12-20T00:07:00.0000000Z,358,2899,1.0,30.0,8.09776536312849,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+134,d2c.endpoints.egress.builtIn.events,2021-12-20T00:08:00.0000000Z,396,3208,1.0,30.0,8.1010101010101,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+135,d2c.endpoints.latency.builtIn.events,2021-12-20T00:06:00.0000000Z,385,45742,18.0,325.0,118.81038961039,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+136,d2c.endpoints.latency.builtIn.events,2021-12-20T00:07:00.0000000Z,358,41228,22.0,361.0,115.162011173184,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+137,d2c.endpoints.latency.builtIn.events,2021-12-20T00:08:00.0000000Z,396,48284,15.0,340.0,121.929292929293,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+138,RoutingDeliveries,2021-12-20T00:06:00.0000000Z,418,3554,1.0,30.0,8.50239234449761,Not.classified,Not.verified
+139,RoutingDeliveries,2021-12-20T00:07:00.0000000Z,379,2918,1.0,30.0,7.69920844327177,Not.classified,Not.verified
+140,RoutingDeliveries,2021-12-20T00:08:00.0000000Z,426,3363,1.0,30.0,7.8943661971831,Not.classified,Not.verified
+141,RoutingDeliveryLatency,2021-12-20T00:06:00.0000000Z,418,50572,18.0,325.0,120.985645933014,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+142,RoutingDeliveryLatency,2021-12-20T00:07:00.0000000Z,379,44163,22.0,361.0,116.525065963061,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+143,RoutingDeliveryLatency,2021-12-20T00:08:00.0000000Z,426,52479,15.0,340.0,123.19014084507,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+144,RoutingDataSizeInBytesDelivered,2021-12-20T00:06:00.0000000Z,418,7403366,,,17711.4019138756,Not.classified,Not.verified
+145,RoutingDataSizeInBytesDelivered,2021-12-20T00:07:00.0000000Z,379,6444447,,,17003.8179419525,Not.classified,Not.verified
+146,RoutingDataSizeInBytesDelivered,2021-12-20T00:08:00.0000000Z,426,7141641,,,16764.4154929577,Not.classified,Not.verified
+147,d2c.twin.read.success,2021-12-20T00:07:00.0000000Z,1,1,1.0,1.0,1.0,,
+148,d2c.twin.read.size,2021-12-20T00:07:00.0000000Z,1,2613,2613.0,2613.0,2613.0,,
+149,d2c.twin.update.success,2021-12-20T00:07:00.0000000Z,1,1,1.0,1.0,1.0,,
+150,d2c.twin.update.size,2021-12-20T00:07:00.0000000Z,1,212,212.0,212.0,212.0,,
+151,dailyMessageQuotaUsed,2021-12-20T00:06:00.0000000Z,39,334979,6666.0,10430.0,8589.20512820513,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+152,dailyMessageQuotaUsed,2021-12-20T00:07:00.0000000Z,39,410686,9261.0,12983.0,10530.4102564103,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+153,dailyMessageQuotaUsed,2021-12-20T00:08:00.0000000Z,39,488053,11238.0,14719.0,12514.1794871795,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+154,deviceDataUsage,2021-12-20T00:06:00.0000000Z,559,6321339,2.0,49340.0,11308.2987477639,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+155,deviceDataUsage,2021-12-20T00:07:00.0000000Z,505,5692201,2.0,32705.0,11271.6851485149,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+156,deviceDataUsage,2021-12-20T00:08:00.0000000Z,571,6164972,2.0,32697.0,10796.7985989492,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+157,deviceDataUsageV2,2021-12-20T00:06:00.0000000Z,560,6347900,2.0,49340.0,11335.5357142857,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+158,deviceDataUsageV2,2021-12-20T00:07:00.0000000Z,505,5692201,2.0,32705.0,11271.6851485149,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+159,deviceDataUsageV2,2021-12-20T00:08:00.0000000Z,571,6164972,2.0,32697.0,10796.7985989492,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+160,totalDeviceCount,2021-12-20T00:06:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+161,totalDeviceCount,2021-12-20T00:07:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+162,totalDeviceCount,2021-12-20T00:08:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+163,connectedDeviceCount,2021-12-20T00:06:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+164,connectedDeviceCount,2021-12-20T00:07:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+165,connectedDeviceCount,2021-12-20T00:08:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+166,d2c.telemetry.ingress.allProtocol,2021-12-20T00:09:00.0000000Z,527,527,1.0,1.0,1.0,Not.classified,Not.verified
+167,d2c.telemetry.ingress.allProtocol,2021-12-20T00:10:00.0000000Z,555,555,1.0,1.0,1.0,Not.classified,Not.verified
+168,d2c.telemetry.ingress.allProtocol,2021-12-20T00:11:00.0000000Z,548,548,1.0,1.0,1.0,Not.classified,Not.verified
+169,d2c.telemetry.ingress.success,2021-12-20T00:09:00.0000000Z,527,527,1.0,1.0,1.0,Not.classified,Not.verified
+170,d2c.telemetry.ingress.success,2021-12-20T00:10:00.0000000Z,555,555,1.0,1.0,1.0,Not.classified,Not.verified
+171,d2c.telemetry.ingress.success,2021-12-20T00:11:00.0000000Z,548,548,1.0,1.0,1.0,Not.classified,Not.verified
+172,devices.totalDevices,2021-12-20T00:09:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+173,devices.totalDevices,2021-12-20T00:10:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+174,devices.totalDevices,2021-12-20T00:11:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+175,devices.connectedDevices.allProtocol,2021-12-20T00:09:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+176,devices.connectedDevices.allProtocol,2021-12-20T00:10:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+177,devices.connectedDevices.allProtocol,2021-12-20T00:11:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+178,d2c.telemetry.egress.success,2021-12-20T00:09:00.0000000Z,384,3078,1.0,40.0,8.015625,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+179,d2c.telemetry.egress.success,2021-12-20T00:10:00.0000000Z,414,3332,1.0,30.0,8.04830917874396,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+180,d2c.telemetry.egress.success,2021-12-20T00:11:00.0000000Z,411,3350,1.0,30.0,8.15085158150852,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+181,d2c.telemetry.egress.fallback,2021-12-20T00:09:00.0000000Z,3070,3070,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+182,d2c.telemetry.egress.fallback,2021-12-20T00:10:00.0000000Z,3263,3263,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+183,d2c.telemetry.egress.fallback,2021-12-20T00:11:00.0000000Z,3173,3173,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+184,d2c.endpoints.egress.eventHubs,2021-12-20T00:09:00.0000000Z,25,38,1.0,2.0,1.52,,
+185,d2c.endpoints.egress.eventHubs,2021-12-20T00:10:00.0000000Z,22,36,1.0,2.0,1.63636363636364,,
+186,d2c.endpoints.egress.eventHubs,2021-12-20T00:11:00.0000000Z,34,180,1.0,27.0,5.29411764705882,,
+187,d2c.endpoints.latency.eventHubs,2021-12-20T00:09:00.0000000Z,25,3638,23.0,516.0,145.52,,
+188,d2c.endpoints.latency.eventHubs,2021-12-20T00:10:00.0000000Z,22,2900,20.0,399.0,131.818181818182,,
+189,d2c.endpoints.latency.eventHubs,2021-12-20T00:11:00.0000000Z,34,4058,30.0,211.0,119.352941176471,,
+190,d2c.endpoints.egress.builtIn.events,2021-12-20T00:09:00.0000000Z,359,3040,1.0,40.0,8.46796657381616,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+191,d2c.endpoints.egress.builtIn.events,2021-12-20T00:10:00.0000000Z,392,3296,1.0,30.0,8.40816326530612,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+192,d2c.endpoints.egress.builtIn.events,2021-12-20T00:11:00.0000000Z,377,3170,1.0,30.0,8.40848806366048,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+193,d2c.endpoints.latency.builtIn.events,2021-12-20T00:09:00.0000000Z,359,39529,19.0,237.0,110.108635097493,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+194,d2c.endpoints.latency.builtIn.events,2021-12-20T00:10:00.0000000Z,392,46765,11.0,318.0,119.298469387755,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+195,d2c.endpoints.latency.builtIn.events,2021-12-20T00:11:00.0000000Z,377,41705,11.0,338.0,110.623342175066,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+196,RoutingDeliveries,2021-12-20T00:09:00.0000000Z,384,3078,1.0,40.0,8.015625,Not.classified,Not.verified
+197,RoutingDeliveries,2021-12-20T00:10:00.0000000Z,413,3312,1.0,30.0,8.01937046004843,Not.classified,Not.verified
+198,RoutingDeliveries,2021-12-20T00:11:00.0000000Z,412,3370,1.0,30.0,8.17961165048544,Not.classified,Not.verified
+199,RoutingDeliveryLatency,2021-12-20T00:09:00.0000000Z,384,43167,19.0,516.0,112.4140625,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+200,RoutingDeliveryLatency,2021-12-20T00:10:00.0000000Z,413,49569,11.0,399.0,120.021791767554,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+201,RoutingDeliveryLatency,2021-12-20T00:11:00.0000000Z,412,45859,11.0,338.0,111.308252427184,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+202,RoutingDataSizeInBytesDelivered,2021-12-20T00:09:00.0000000Z,384,7052282,,,18365.3177083333,Not.classified,Not.verified
+203,RoutingDataSizeInBytesDelivered,2021-12-20T00:10:00.0000000Z,413,7374265,,,17855.3631961259,Not.classified,Not.verified
+204,RoutingDataSizeInBytesDelivered,2021-12-20T00:11:00.0000000Z,412,7298019,,,17713.6383495146,Not.classified,Not.verified
+205,dailyMessageQuotaUsed,2021-12-20T00:09:00.0000000Z,39,550146,13045.0,15713.0,14106.3076923077,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+206,dailyMessageQuotaUsed,2021-12-20T00:10:00.0000000Z,39,620491,14780.0,17546.0,15910.0256410256,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+207,dailyMessageQuotaUsed,2021-12-20T00:11:00.0000000Z,39,693956,16627.0,19568.0,17793.7435897436,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+208,deviceDataUsage,2021-12-20T00:09:00.0000000Z,527,6272074,2.0,35361.0,11901.4686907021,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+209,deviceDataUsage,2021-12-20T00:10:00.0000000Z,555,6387983,2.0,43808.0,11509.8792792793,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+210,deviceDataUsage,2021-12-20T00:11:00.0000000Z,548,6394219,2.0,32703.0,11668.2828467153,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+211,deviceDataUsageV2,2021-12-20T00:09:00.0000000Z,527,6272074,2.0,35361.0,11901.4686907021,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+212,deviceDataUsageV2,2021-12-20T00:10:00.0000000Z,555,6387983,2.0,43808.0,11509.8792792793,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+213,deviceDataUsageV2,2021-12-20T00:11:00.0000000Z,548,6394219,2.0,32703.0,11668.2828467153,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+214,totalDeviceCount,2021-12-20T00:09:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+215,totalDeviceCount,2021-12-20T00:10:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+216,totalDeviceCount,2021-12-20T00:11:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+217,connectedDeviceCount,2021-12-20T00:09:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+218,connectedDeviceCount,2021-12-20T00:10:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+219,connectedDeviceCount,2021-12-20T00:11:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+220,d2c.telemetry.ingress.allProtocol,2021-12-20T00:12:00.0000000Z,575,575,1.0,1.0,1.0,Not.classified,Not.verified
+221,d2c.telemetry.ingress.allProtocol,2021-12-20T00:13:00.0000000Z,593,593,1.0,1.0,1.0,Not.classified,Not.verified
+222,d2c.telemetry.ingress.allProtocol,2021-12-20T00:14:00.0000000Z,598,598,1.0,1.0,1.0,Not.classified,Not.verified
+223,d2c.telemetry.ingress.success,2021-12-20T00:12:00.0000000Z,575,575,1.0,1.0,1.0,Not.classified,Not.verified
+224,d2c.telemetry.ingress.success,2021-12-20T00:13:00.0000000Z,593,593,1.0,1.0,1.0,Not.classified,Not.verified
+225,d2c.telemetry.ingress.success,2021-12-20T00:14:00.0000000Z,598,598,1.0,1.0,1.0,Not.classified,Not.verified
+226,devices.totalDevices,2021-12-20T00:12:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+227,devices.totalDevices,2021-12-20T00:13:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+228,devices.totalDevices,2021-12-20T00:14:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+229,devices.connectedDevices.allProtocol,2021-12-20T00:12:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+230,devices.connectedDevices.allProtocol,2021-12-20T00:13:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+231,devices.connectedDevices.allProtocol,2021-12-20T00:14:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+232,d2c.telemetry.egress.success,2021-12-20T00:12:00.0000000Z,414,3602,1.0,30.0,8.70048309178744,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+233,d2c.telemetry.egress.success,2021-12-20T00:13:00.0000000Z,442,3726,1.0,30.0,8.42986425339367,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+234,d2c.telemetry.egress.success,2021-12-20T00:14:00.0000000Z,429,3972,1.0,40.0,9.25874125874126,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+235,d2c.telemetry.egress.fallback,2021-12-20T00:12:00.0000000Z,3574,3574,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+236,d2c.telemetry.egress.fallback,2021-12-20T00:13:00.0000000Z,3698,3698,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+237,d2c.telemetry.egress.fallback,2021-12-20T00:14:00.0000000Z,3914,3914,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+238,d2c.endpoints.egress.eventHubs,2021-12-20T00:12:00.0000000Z,18,33,1.0,2.0,1.83333333333333,,
+239,d2c.endpoints.egress.eventHubs,2021-12-20T00:13:00.0000000Z,23,33,1.0,2.0,1.43478260869565,,
+240,d2c.endpoints.egress.eventHubs,2021-12-20T00:14:00.0000000Z,24,38,1.0,2.0,1.58333333333333,,
+241,d2c.endpoints.latency.eventHubs,2021-12-20T00:12:00.0000000Z,18,2979,44.0,447.0,165.5,,
+242,d2c.endpoints.latency.eventHubs,2021-12-20T00:13:00.0000000Z,23,2555,18.0,241.0,111.086956521739,,
+243,d2c.endpoints.latency.eventHubs,2021-12-20T00:14:00.0000000Z,24,3108,47.0,224.0,129.5,,
+244,d2c.endpoints.egress.builtIn.events,2021-12-20T00:12:00.0000000Z,396,3569,1.0,30.0,9.01262626262626,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+245,d2c.endpoints.egress.builtIn.events,2021-12-20T00:13:00.0000000Z,419,3693,1.0,30.0,8.81384248210024,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+246,d2c.endpoints.egress.builtIn.events,2021-12-20T00:14:00.0000000Z,405,3934,1.0,40.0,9.71358024691358,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+247,d2c.endpoints.latency.builtIn.events,2021-12-20T00:12:00.0000000Z,396,45969,19.0,410.0,116.083333333333,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+248,d2c.endpoints.latency.builtIn.events,2021-12-20T00:13:00.0000000Z,419,49238,10.0,342.0,117.513126491647,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+249,d2c.endpoints.latency.builtIn.events,2021-12-20T00:14:00.0000000Z,405,46610,19.0,282.0,115.086419753086,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+250,RoutingDeliveries,2021-12-20T00:12:00.0000000Z,414,3602,1.0,30.0,8.70048309178744,Not.classified,Not.verified
+251,RoutingDeliveries,2021-12-20T00:13:00.0000000Z,442,3726,1.0,30.0,8.42986425339367,Not.classified,Not.verified
+252,RoutingDeliveries,2021-12-20T00:14:00.0000000Z,429,3972,1.0,40.0,9.25874125874126,Not.classified,Not.verified
+253,RoutingDeliveryLatency,2021-12-20T00:12:00.0000000Z,414,48948,19.0,447.0,118.231884057971,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+254,RoutingDeliveryLatency,2021-12-20T00:13:00.0000000Z,442,51793,10.0,342.0,117.178733031674,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+255,RoutingDeliveryLatency,2021-12-20T00:14:00.0000000Z,429,49718,19.0,282.0,115.892773892774,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+256,RoutingDataSizeInBytesDelivered,2021-12-20T00:12:00.0000000Z,414,7778496,,,18788.6376811594,Not.classified,Not.verified
+257,RoutingDataSizeInBytesDelivered,2021-12-20T00:13:00.0000000Z,442,7885903,,,17841.4095022624,Not.classified,Not.verified
+258,RoutingDataSizeInBytesDelivered,2021-12-20T00:14:00.0000000Z,429,8429309,,,19648.7389277389,Not.classified,Not.verified
+259,dailyMessageQuotaUsed,2021-12-20T00:12:00.0000000Z,39,769404,18508.0,21461.0,19728.3076923077,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+260,dailyMessageQuotaUsed,2021-12-20T00:13:00.0000000Z,39,844001,20473.0,23472.0,21641.0512820513,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+261,dailyMessageQuotaUsed,2021-12-20T00:14:00.0000000Z,39,921653,22309.0,25589.0,23632.1282051282,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+262,deviceDataUsage,2021-12-20T00:12:00.0000000Z,575,6746513,2.0,31246.0,11733.0660869565,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+263,deviceDataUsage,2021-12-20T00:13:00.0000000Z,593,6829341,2.0,44453.0,11516.5952782462,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+264,deviceDataUsage,2021-12-20T00:14:00.0000000Z,598,7258315,2.0,32705.0,12137.6505016722,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+265,deviceDataUsageV2,2021-12-20T00:12:00.0000000Z,575,6746513,2.0,31246.0,11733.0660869565,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+266,deviceDataUsageV2,2021-12-20T00:13:00.0000000Z,593,6829341,2.0,44453.0,11516.5952782462,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+267,deviceDataUsageV2,2021-12-20T00:14:00.0000000Z,598,7258315,2.0,32705.0,12137.6505016722,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+268,totalDeviceCount,2021-12-20T00:12:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+269,totalDeviceCount,2021-12-20T00:13:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+270,totalDeviceCount,2021-12-20T00:14:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+271,connectedDeviceCount,2021-12-20T00:12:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+272,connectedDeviceCount,2021-12-20T00:13:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+273,connectedDeviceCount,2021-12-20T00:14:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+274,d2c.telemetry.ingress.allProtocol,2021-12-20T00:15:00.0000000Z,589,589,1.0,1.0,1.0,Not.classified,Not.verified
+275,d2c.telemetry.ingress.allProtocol,2021-12-20T00:16:00.0000000Z,600,600,1.0,1.0,1.0,Not.classified,Not.verified
+276,d2c.telemetry.ingress.allProtocol,2021-12-20T00:17:00.0000000Z,585,585,1.0,1.0,1.0,Not.classified,Not.verified
+277,d2c.telemetry.ingress.success,2021-12-20T00:15:00.0000000Z,589,589,1.0,1.0,1.0,Not.classified,Not.verified
+278,d2c.telemetry.ingress.success,2021-12-20T00:16:00.0000000Z,600,600,1.0,1.0,1.0,Not.classified,Not.verified
+279,d2c.telemetry.ingress.success,2021-12-20T00:17:00.0000000Z,585,585,1.0,1.0,1.0,Not.classified,Not.verified
+280,devices.totalDevices,2021-12-20T00:15:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+281,devices.totalDevices,2021-12-20T00:16:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+282,devices.totalDevices,2021-12-20T00:17:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+283,devices.connectedDevices.allProtocol,2021-12-20T00:15:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+284,devices.connectedDevices.allProtocol,2021-12-20T00:16:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+285,devices.connectedDevices.allProtocol,2021-12-20T00:17:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+286,d2c.telemetry.egress.success,2021-12-20T00:15:00.0000000Z,423,3831,1.0,30.0,9.05673758865248,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+287,d2c.telemetry.egress.success,2021-12-20T00:16:00.0000000Z,443,3725,1.0,30.0,8.40857787810384,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+288,d2c.telemetry.egress.success,2021-12-20T00:17:00.0000000Z,419,3811,1.0,30.0,9.09546539379475,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+289,d2c.telemetry.egress.fallback,2021-12-20T00:15:00.0000000Z,3793,3793,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+290,d2c.telemetry.egress.fallback,2021-12-20T00:16:00.0000000Z,3647,3647,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+291,d2c.telemetry.egress.fallback,2021-12-20T00:17:00.0000000Z,3787,3787,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+292,d2c.endpoints.egress.eventHubs,2021-12-20T00:15:00.0000000Z,24,38,1.0,2.0,1.58333333333333,,
+293,d2c.endpoints.egress.eventHubs,2021-12-20T00:16:00.0000000Z,26,88,1.0,20.0,3.38461538461538,,
+294,d2c.endpoints.egress.eventHubs,2021-12-20T00:17:00.0000000Z,20,34,1.0,2.0,1.7,,
+295,d2c.endpoints.latency.eventHubs,2021-12-20T00:15:00.0000000Z,24,2996,13.0,306.0,124.833333333333,,
+296,d2c.endpoints.latency.eventHubs,2021-12-20T00:16:00.0000000Z,26,3050,18.0,234.0,117.307692307692,,
+297,d2c.endpoints.latency.eventHubs,2021-12-20T00:17:00.0000000Z,20,3267,27.0,500.0,163.35,,
+298,d2c.endpoints.egress.builtIn.events,2021-12-20T00:15:00.0000000Z,399,3793,1.0,30.0,9.5062656641604,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+299,d2c.endpoints.egress.builtIn.events,2021-12-20T00:16:00.0000000Z,417,3637,1.0,30.0,8.72182254196643,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+300,d2c.endpoints.egress.builtIn.events,2021-12-20T00:17:00.0000000Z,399,3777,1.0,30.0,9.46616541353383,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+301,d2c.endpoints.latency.builtIn.events,2021-12-20T00:15:00.0000000Z,399,48180,17.0,336.0,120.751879699248,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+302,d2c.endpoints.latency.builtIn.events,2021-12-20T00:16:00.0000000Z,417,49378,17.0,576.0,118.412470023981,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+303,d2c.endpoints.latency.builtIn.events,2021-12-20T00:17:00.0000000Z,399,47500,20.0,379.0,119.047619047619,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+304,RoutingDeliveries,2021-12-20T00:15:00.0000000Z,423,3831,1.0,30.0,9.05673758865248,Not.classified,Not.verified
+305,RoutingDeliveries,2021-12-20T00:16:00.0000000Z,443,3725,1.0,30.0,8.40857787810384,Not.classified,Not.verified
+306,RoutingDeliveries,2021-12-20T00:17:00.0000000Z,419,3811,1.0,30.0,9.09546539379475,Not.classified,Not.verified
+307,RoutingDeliveryLatency,2021-12-20T00:15:00.0000000Z,423,51176,13.0,336.0,120.983451536643,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+308,RoutingDeliveryLatency,2021-12-20T00:16:00.0000000Z,443,52428,17.0,576.0,118.34762979684,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+309,RoutingDeliveryLatency,2021-12-20T00:17:00.0000000Z,419,50767,20.0,500.0,121.162291169451,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+310,RoutingDataSizeInBytesDelivered,2021-12-20T00:15:00.0000000Z,423,8020349,,,18960.6359338061,Not.classified,Not.verified
+311,RoutingDataSizeInBytesDelivered,2021-12-20T00:16:00.0000000Z,443,7940864,,,17925.2009029345,Not.classified,Not.verified
+312,RoutingDataSizeInBytesDelivered,2021-12-20T00:17:00.0000000Z,419,7937963,,,18945.0190930788,Not.classified,Not.verified
+313,dailyMessageQuotaUsed,2021-12-20T00:15:00.0000000Z,39,1003328,24301.0,27750.0,25726.358974359,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+314,dailyMessageQuotaUsed,2021-12-20T00:16:00.0000000Z,39,1085730,26373.0,29840.0,27839.2307692308,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+315,dailyMessageQuotaUsed,2021-12-20T00:17:00.0000000Z,39,1166365,28532.0,32574.0,29906.7948717949,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+316,deviceDataUsage,2021-12-20T00:15:00.0000000Z,589,6971819,2.0,32705.0,11836.7045840407,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+317,deviceDataUsage,2021-12-20T00:16:00.0000000Z,600,6883675,2.0,32697.0,11472.7916666667,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+318,deviceDataUsage,2021-12-20T00:17:00.0000000Z,585,6882936,2.0,31255.0,11765.7025641026,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+319,deviceDataUsageV2,2021-12-20T00:15:00.0000000Z,589,6971819,2.0,32705.0,11836.7045840407,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+320,deviceDataUsageV2,2021-12-20T00:16:00.0000000Z,600,6883675,2.0,32697.0,11472.7916666667,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+321,deviceDataUsageV2,2021-12-20T00:17:00.0000000Z,585,6882936,2.0,31255.0,11765.7025641026,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+322,totalDeviceCount,2021-12-20T00:15:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+323,totalDeviceCount,2021-12-20T00:16:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+324,totalDeviceCount,2021-12-20T00:17:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+325,connectedDeviceCount,2021-12-20T00:15:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+326,connectedDeviceCount,2021-12-20T00:16:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+327,connectedDeviceCount,2021-12-20T00:17:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+328,d2c.telemetry.ingress.allProtocol,2021-12-20T00:18:00.0000000Z,617,617,1.0,1.0,1.0,Not.classified,Not.verified
+329,d2c.telemetry.ingress.allProtocol,2021-12-20T00:19:00.0000000Z,641,641,1.0,1.0,1.0,Not.classified,Not.verified
+330,d2c.telemetry.ingress.allProtocol,2021-12-20T00:20:00.0000000Z,631,631,1.0,1.0,1.0,Not.classified,Not.verified
+331,d2c.telemetry.ingress.success,2021-12-20T00:18:00.0000000Z,617,617,1.0,1.0,1.0,Not.classified,Not.verified
+332,d2c.telemetry.ingress.success,2021-12-20T00:19:00.0000000Z,641,641,1.0,1.0,1.0,Not.classified,Not.verified
+333,d2c.telemetry.ingress.success,2021-12-20T00:20:00.0000000Z,631,631,1.0,1.0,1.0,Not.classified,Not.verified
+334,devices.totalDevices,2021-12-20T00:18:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+335,devices.totalDevices,2021-12-20T00:19:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+336,devices.totalDevices,2021-12-20T00:20:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+337,devices.connectedDevices.allProtocol,2021-12-20T00:18:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+338,devices.connectedDevices.allProtocol,2021-12-20T00:19:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+339,devices.connectedDevices.allProtocol,2021-12-20T00:20:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+340,d2c.telemetry.egress.success,2021-12-20T00:18:00.0000000Z,453,4050,1.0,30.0,8.94039735099338,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+341,d2c.telemetry.egress.success,2021-12-20T00:19:00.0000000Z,477,4352,1.0,30.0,9.12368972746331,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+342,d2c.telemetry.egress.success,2021-12-20T00:20:00.0000000Z,465,4204,1.0,30.0,9.04086021505376,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+343,d2c.telemetry.egress.fallback,2021-12-20T00:18:00.0000000Z,4012,4012,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+344,d2c.telemetry.egress.fallback,2021-12-20T00:19:00.0000000Z,4314,4314,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+345,d2c.telemetry.egress.fallback,2021-12-20T00:20:00.0000000Z,4146,4146,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+346,d2c.endpoints.egress.eventHubs,2021-12-20T00:18:00.0000000Z,25,38,1.0,2.0,1.52,,
+347,d2c.endpoints.egress.eventHubs,2021-12-20T00:19:00.0000000Z,25,38,1.0,2.0,1.52,,
+348,d2c.endpoints.egress.eventHubs,2021-12-20T00:20:00.0000000Z,24,38,1.0,2.0,1.58333333333333,,
+349,d2c.endpoints.latency.eventHubs,2021-12-20T00:18:00.0000000Z,25,3535,37.0,238.0,141.4,,
+350,d2c.endpoints.latency.eventHubs,2021-12-20T00:19:00.0000000Z,25,9235,40.0,3427.0,369.4,,
+351,d2c.endpoints.latency.eventHubs,2021-12-20T00:20:00.0000000Z,24,3046,25.0,307.0,126.916666666667,,
+352,d2c.endpoints.egress.builtIn.events,2021-12-20T00:18:00.0000000Z,428,4012,1.0,30.0,9.37383177570093,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+353,d2c.endpoints.egress.builtIn.events,2021-12-20T00:19:00.0000000Z,452,4314,1.0,30.0,9.54424778761062,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+354,d2c.endpoints.egress.builtIn.events,2021-12-20T00:20:00.0000000Z,441,4166,1.0,30.0,9.44671201814059,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+355,d2c.endpoints.latency.builtIn.events,2021-12-20T00:18:00.0000000Z,428,46724,14.0,318.0,109.168224299065,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+356,d2c.endpoints.latency.builtIn.events,2021-12-20T00:19:00.0000000Z,452,49472,12.0,262.0,109.451327433628,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+357,d2c.endpoints.latency.builtIn.events,2021-12-20T00:20:00.0000000Z,441,49212,19.0,317.0,111.591836734694,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+358,RoutingDeliveries,2021-12-20T00:18:00.0000000Z,453,4050,1.0,30.0,8.94039735099338,Not.classified,Not.verified
+359,RoutingDeliveries,2021-12-20T00:19:00.0000000Z,477,4352,1.0,30.0,9.12368972746331,Not.classified,Not.verified
+360,RoutingDeliveries,2021-12-20T00:20:00.0000000Z,465,4204,1.0,30.0,9.04086021505376,Not.classified,Not.verified
+361,RoutingDeliveryLatency,2021-12-20T00:18:00.0000000Z,453,50259,14.0,318.0,110.94701986755,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+362,RoutingDeliveryLatency,2021-12-20T00:19:00.0000000Z,477,58707,12.0,3427.0,123.075471698113,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+363,RoutingDeliveryLatency,2021-12-20T00:20:00.0000000Z,465,52258,19.0,317.0,112.382795698925,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+364,RoutingDataSizeInBytesDelivered,2021-12-20T00:18:00.0000000Z,453,8430632,,,18610.6666666667,Not.classified,Not.verified
+365,RoutingDataSizeInBytesDelivered,2021-12-20T00:19:00.0000000Z,477,8937213,,,18736.2955974843,Not.classified,Not.verified
+366,RoutingDataSizeInBytesDelivered,2021-12-20T00:20:00.0000000Z,465,8673490,,,18652.6666666667,Not.classified,Not.verified
+367,dailyMessageQuotaUsed,2021-12-20T00:18:00.0000000Z,39,1243138,30630.0,34663.0,31875.3333333333,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+368,dailyMessageQuotaUsed,2021-12-20T00:19:00.0000000Z,39,1326470,32616.0,36912.0,34012.0512820513,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+369,dailyMessageQuotaUsed,2021-12-20T00:20:00.0000000Z,39,1410519,34675.0,39178.0,36167.1538461538,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+370,deviceDataUsage,2021-12-20T00:18:00.0000000Z,617,7314806,2.0,32697.0,11855.4392220421,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+371,deviceDataUsage,2021-12-20T00:19:00.0000000Z,641,7694035,2.0,32877.0,12003.1747269891,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+372,deviceDataUsage,2021-12-20T00:20:00.0000000Z,631,7485590,2.0,32702.0,11863.058637084,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+373,deviceDataUsageV2,2021-12-20T00:18:00.0000000Z,617,7314806,2.0,32697.0,11855.4392220421,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+374,deviceDataUsageV2,2021-12-20T00:19:00.0000000Z,641,7694035,2.0,32877.0,12003.1747269891,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+375,deviceDataUsageV2,2021-12-20T00:20:00.0000000Z,631,7485590,2.0,32702.0,11863.058637084,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+376,totalDeviceCount,2021-12-20T00:18:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+377,totalDeviceCount,2021-12-20T00:19:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+378,totalDeviceCount,2021-12-20T00:20:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+379,connectedDeviceCount,2021-12-20T00:18:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+380,connectedDeviceCount,2021-12-20T00:19:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+381,connectedDeviceCount,2021-12-20T00:20:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+382,d2c.telemetry.ingress.allProtocol,2021-12-20T00:21:00.0000000Z,613,613,1.0,1.0,1.0,Not.classified,Not.verified
+383,d2c.telemetry.ingress.allProtocol,2021-12-20T00:22:00.0000000Z,689,689,1.0,1.0,1.0,Not.classified,Not.verified
+384,d2c.telemetry.ingress.allProtocol,2021-12-20T00:23:00.0000000Z,651,651,1.0,1.0,1.0,Not.classified,Not.verified
+385,d2c.telemetry.ingress.success,2021-12-20T00:21:00.0000000Z,613,613,1.0,1.0,1.0,Not.classified,Not.verified
+386,d2c.telemetry.ingress.success,2021-12-20T00:22:00.0000000Z,689,689,1.0,1.0,1.0,Not.classified,Not.verified
+387,d2c.telemetry.ingress.success,2021-12-20T00:23:00.0000000Z,651,651,1.0,1.0,1.0,Not.classified,Not.verified
+388,devices.totalDevices,2021-12-20T00:21:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+389,devices.totalDevices,2021-12-20T00:22:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+390,devices.totalDevices,2021-12-20T00:23:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+391,devices.connectedDevices.allProtocol,2021-12-20T00:21:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+392,devices.connectedDevices.allProtocol,2021-12-20T00:22:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+393,devices.connectedDevices.allProtocol,2021-12-20T00:23:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+394,d2c.telemetry.egress.success,2021-12-20T00:21:00.0000000Z,446,3986,1.0,40.0,8.9372197309417,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+395,d2c.telemetry.egress.success,2021-12-20T00:22:00.0000000Z,513,4548,1.0,30.0,8.86549707602339,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+396,d2c.telemetry.egress.success,2021-12-20T00:23:00.0000000Z,491,4442,1.0,30.0,9.04684317718941,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+397,d2c.telemetry.egress.fallback,2021-12-20T00:21:00.0000000Z,3912,3912,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+398,d2c.telemetry.egress.fallback,2021-12-20T00:22:00.0000000Z,4312,4312,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+399,d2c.telemetry.egress.fallback,2021-12-20T00:23:00.0000000Z,4314,4314,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+400,d2c.endpoints.egress.eventHubs,2021-12-20T00:21:00.0000000Z,28,84,1.0,30.0,3.0,,
+401,d2c.endpoints.egress.eventHubs,2021-12-20T00:22:00.0000000Z,50,236,1.0,20.0,4.72,,
+402,d2c.endpoints.egress.eventHubs,2021-12-20T00:23:00.0000000Z,29,120,1.0,25.0,4.13793103448276,,
+403,d2c.endpoints.latency.eventHubs,2021-12-20T00:21:00.0000000Z,28,3709,30.0,422.0,132.464285714286,,
+404,d2c.endpoints.latency.eventHubs,2021-12-20T00:22:00.0000000Z,50,5588,26.0,182.0,111.76,,
+405,d2c.endpoints.latency.eventHubs,2021-12-20T00:23:00.0000000Z,29,4379,31.0,529.0,151.0,,
+406,d2c.endpoints.egress.builtIn.events,2021-12-20T00:21:00.0000000Z,418,3902,1.0,40.0,9.33492822966507,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+407,d2c.endpoints.egress.builtIn.events,2021-12-20T00:22:00.0000000Z,463,4312,1.0,30.0,9.31317494600432,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+408,d2c.endpoints.egress.builtIn.events,2021-12-20T00:23:00.0000000Z,462,4322,1.0,30.0,9.35497835497836,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+409,d2c.endpoints.latency.builtIn.events,2021-12-20T00:21:00.0000000Z,418,48016,13.0,406.0,114.870813397129,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+410,d2c.endpoints.latency.builtIn.events,2021-12-20T00:22:00.0000000Z,463,51719,15.0,261.0,111.704103671706,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+411,d2c.endpoints.latency.builtIn.events,2021-12-20T00:23:00.0000000Z,462,50912,15.0,314.0,110.199134199134,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+412,RoutingDeliveries,2021-12-20T00:21:00.0000000Z,445,3966,1.0,40.0,8.9123595505618,Not.classified,Not.verified
+413,RoutingDeliveries,2021-12-20T00:22:00.0000000Z,514,4568,1.0,30.0,8.88715953307393,Not.classified,Not.verified
+414,RoutingDeliveries,2021-12-20T00:23:00.0000000Z,490,4437,1.0,30.0,9.05510204081633,Not.classified,Not.verified
+415,RoutingDeliveryLatency,2021-12-20T00:21:00.0000000Z,445,51561,13.0,422.0,115.867415730337,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+416,RoutingDeliveryLatency,2021-12-20T00:22:00.0000000Z,514,57471,15.0,261.0,111.811284046693,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+417,RoutingDeliveryLatency,2021-12-20T00:23:00.0000000Z,490,55198,15.0,529.0,112.648979591837,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+418,RoutingDataSizeInBytesDelivered,2021-12-20T00:21:00.0000000Z,445,8028090,,,18040.6516853933,Not.classified,Not.verified
+419,RoutingDataSizeInBytesDelivered,2021-12-20T00:22:00.0000000Z,514,10393553,,,20220.920233463,Not.classified,Not.verified
+420,RoutingDataSizeInBytesDelivered,2021-12-20T00:23:00.0000000Z,490,8978080,,,18322.612244898,Not.classified,Not.verified
+421,d2c.twin.update.success,2021-12-20T00:21:00.0000000Z,1,1,1.0,1.0,1.0,,
+422,d2c.twin.update.size,2021-12-20T00:21:00.0000000Z,1,2,2.0,2.0,2.0,,
+423,dailyMessageQuotaUsed,2021-12-20T00:21:00.0000000Z,39,1498615,36955.0,41384.0,38426.0256410256,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+424,dailyMessageQuotaUsed,2021-12-20T00:22:00.0000000Z,39,1582516,38421.0,43916.0,40577.3333333333,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+425,dailyMessageQuotaUsed,2021-12-20T00:23:00.0000000Z,39,1671927,41417.0,43973.0,42869.9230769231,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+426,deviceDataUsage,2021-12-20T00:21:00.0000000Z,614,6979190,2.0,32700.0,11366.7589576547,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+427,deviceDataUsage,2021-12-20T00:22:00.0000000Z,689,9054613,2.0,143268.0,13141.6734397678,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+428,deviceDataUsage,2021-12-20T00:23:00.0000000Z,651,7714262,2.0,44453.0,11849.8648233487,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+429,deviceDataUsageV2,2021-12-20T00:21:00.0000000Z,614,6979190,2.0,32700.0,11366.7589576547,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+430,deviceDataUsageV2,2021-12-20T00:22:00.0000000Z,689,9054613,2.0,143268.0,13141.6734397678,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+431,deviceDataUsageV2,2021-12-20T00:23:00.0000000Z,651,7714262,2.0,44453.0,11849.8648233487,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+432,totalDeviceCount,2021-12-20T00:21:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+433,totalDeviceCount,2021-12-20T00:22:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+434,totalDeviceCount,2021-12-20T00:23:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+435,connectedDeviceCount,2021-12-20T00:21:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+436,connectedDeviceCount,2021-12-20T00:22:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+437,connectedDeviceCount,2021-12-20T00:23:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+438,d2c.telemetry.ingress.allProtocol,2021-12-20T00:24:00.0000000Z,667,667,1.0,1.0,1.0,Not.classified,Not.verified
+439,d2c.telemetry.ingress.allProtocol,2021-12-20T00:25:00.0000000Z,702,702,1.0,1.0,1.0,Not.classified,Not.verified
+440,d2c.telemetry.ingress.allProtocol,2021-12-20T00:26:00.0000000Z,661,661,1.0,1.0,1.0,Not.classified,Not.verified
+441,d2c.telemetry.ingress.success,2021-12-20T00:24:00.0000000Z,667,667,1.0,1.0,1.0,Not.classified,Not.verified
+442,d2c.telemetry.ingress.success,2021-12-20T00:25:00.0000000Z,702,702,1.0,1.0,1.0,Not.classified,Not.verified
+443,d2c.telemetry.ingress.success,2021-12-20T00:26:00.0000000Z,661,661,1.0,1.0,1.0,Not.classified,Not.verified
+444,devices.totalDevices,2021-12-20T00:24:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+445,devices.totalDevices,2021-12-20T00:25:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+446,devices.totalDevices,2021-12-20T00:26:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+447,devices.connectedDevices.allProtocol,2021-12-20T00:24:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+448,devices.connectedDevices.allProtocol,2021-12-20T00:25:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+449,devices.connectedDevices.allProtocol,2021-12-20T00:26:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+450,d2c.telemetry.egress.success,2021-12-20T00:24:00.0000000Z,488,4498,1.0,30.0,9.2172131147541,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+451,d2c.telemetry.egress.success,2021-12-20T00:25:00.0000000Z,483,4998,1.0,445.0,10.3478260869565,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+452,d2c.telemetry.egress.success,2021-12-20T00:26:00.0000000Z,476,4506,1.0,45.0,9.46638655462185,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+453,d2c.telemetry.egress.fallback,2021-12-20T00:24:00.0000000Z,4472,4472,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+454,d2c.telemetry.egress.fallback,2021-12-20T00:25:00.0000000Z,4877,4877,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+455,d2c.telemetry.egress.fallback,2021-12-20T00:26:00.0000000Z,4476,4476,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+456,d2c.endpoints.egress.eventHubs,2021-12-20T00:24:00.0000000Z,20,34,1.0,2.0,1.7,,
+457,d2c.endpoints.egress.eventHubs,2021-12-20T00:25:00.0000000Z,29,111,1.0,20.0,3.82758620689655,,
+458,d2c.endpoints.egress.eventHubs,2021-12-20T00:26:00.0000000Z,22,37,1.0,2.0,1.68181818181818,,
+459,d2c.endpoints.latency.eventHubs,2021-12-20T00:24:00.0000000Z,20,2189,26.0,178.0,109.45,,
+460,d2c.endpoints.latency.eventHubs,2021-12-20T00:25:00.0000000Z,29,3608,49.0,234.0,124.413793103448,,
+461,d2c.endpoints.latency.eventHubs,2021-12-20T00:26:00.0000000Z,22,3332,28.0,352.0,151.454545454545,,
+462,d2c.endpoints.egress.builtIn.events,2021-12-20T00:24:00.0000000Z,468,4464,1.0,30.0,9.53846153846154,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+463,d2c.endpoints.egress.builtIn.events,2021-12-20T00:25:00.0000000Z,454,4887,1.0,445.0,10.7643171806167,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+464,d2c.endpoints.egress.builtIn.events,2021-12-20T00:26:00.0000000Z,454,4469,1.0,45.0,9.84361233480176,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+465,d2c.endpoints.latency.builtIn.events,2021-12-20T00:24:00.0000000Z,468,56218,17.0,393.0,120.123931623932,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+466,d2c.endpoints.latency.builtIn.events,2021-12-20T00:25:00.0000000Z,454,66170,24.0,8042.0,145.748898678414,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+467,d2c.endpoints.latency.builtIn.events,2021-12-20T00:26:00.0000000Z,454,55001,20.0,380.0,121.147577092511,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+468,RoutingDeliveries,2021-12-20T00:24:00.0000000Z,489,4503,1.0,30.0,9.20858895705521,Not.classified,Not.verified
+469,RoutingDeliveries,2021-12-20T00:25:00.0000000Z,483,4998,1.0,445.0,10.3478260869565,Not.classified,Not.verified
+470,RoutingDeliveries,2021-12-20T00:26:00.0000000Z,476,4506,1.0,45.0,9.46638655462185,Not.classified,Not.verified
+471,RoutingDeliveryLatency,2021-12-20T00:24:00.0000000Z,489,58500,17.0,393.0,119.631901840491,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+472,RoutingDeliveryLatency,2021-12-20T00:25:00.0000000Z,483,69778,24.0,8042.0,144.467908902692,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+473,RoutingDeliveryLatency,2021-12-20T00:26:00.0000000Z,476,58333,20.0,380.0,122.548319327731,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+474,RoutingDataSizeInBytesDelivered,2021-12-20T00:24:00.0000000Z,489,8955502,,,18313.9100204499,Not.classified,Not.verified
+475,RoutingDataSizeInBytesDelivered,2021-12-20T00:25:00.0000000Z,483,10008415,,,20721.3561076605,Not.classified,Not.verified
+476,RoutingDataSizeInBytesDelivered,2021-12-20T00:26:00.0000000Z,476,9201750,,,19331.4075630252,Not.classified,Not.verified
+477,dailyMessageQuotaUsed,2021-12-20T00:24:00.0000000Z,39,1768456,43926.0,46207.0,45345.0256410256,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+478,dailyMessageQuotaUsed,2021-12-20T00:25:00.0000000Z,39,1854888,45416.0,48485.0,47561.2307692308,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+479,dailyMessageQuotaUsed,2021-12-20T00:26:00.0000000Z,39,1949730,48431.0,52484.0,49993.0769230769,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+480,deviceDataUsage,2021-12-20T00:24:00.0000000Z,667,7692262,2.0,32700.0,11532.6266866567,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+481,deviceDataUsage,2021-12-20T00:25:00.0000000Z,702,8589134,2.0,32700.0,12235.2336182336,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+482,deviceDataUsage,2021-12-20T00:26:00.0000000Z,661,7956683,2.0,48349.0,12037.3419062027,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+483,deviceDataUsageV2,2021-12-20T00:24:00.0000000Z,667,7692262,2.0,32700.0,11532.6266866567,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+484,deviceDataUsageV2,2021-12-20T00:25:00.0000000Z,702,8589134,2.0,32700.0,12235.2336182336,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+485,deviceDataUsageV2,2021-12-20T00:26:00.0000000Z,661,7956683,2.0,48349.0,12037.3419062027,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+486,totalDeviceCount,2021-12-20T00:24:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+487,totalDeviceCount,2021-12-20T00:25:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+488,totalDeviceCount,2021-12-20T00:26:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+489,connectedDeviceCount,2021-12-20T00:24:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+490,connectedDeviceCount,2021-12-20T00:25:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+491,connectedDeviceCount,2021-12-20T00:26:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+492,d2c.telemetry.ingress.allProtocol,2021-12-20T00:27:00.0000000Z,638,638,1.0,1.0,1.0,Not.classified,Not.verified
+493,d2c.telemetry.ingress.allProtocol,2021-12-20T00:28:00.0000000Z,662,662,1.0,1.0,1.0,Not.classified,Not.verified
+494,d2c.telemetry.ingress.allProtocol,2021-12-20T00:29:00.0000000Z,649,649,1.0,1.0,1.0,Not.classified,Not.verified
+495,d2c.telemetry.ingress.success,2021-12-20T00:27:00.0000000Z,638,638,1.0,1.0,1.0,Not.classified,Not.verified
+496,d2c.telemetry.ingress.success,2021-12-20T00:28:00.0000000Z,662,662,1.0,1.0,1.0,Not.classified,Not.verified
+497,d2c.telemetry.ingress.success,2021-12-20T00:29:00.0000000Z,649,649,1.0,1.0,1.0,Not.classified,Not.verified
+498,devices.totalDevices,2021-12-20T00:27:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+499,devices.totalDevices,2021-12-20T00:28:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+500,devices.totalDevices,2021-12-20T00:29:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+501,devices.connectedDevices.allProtocol,2021-12-20T00:27:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+502,devices.connectedDevices.allProtocol,2021-12-20T00:28:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+503,devices.connectedDevices.allProtocol,2021-12-20T00:29:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+504,d2c.telemetry.egress.success,2021-12-20T00:27:00.0000000Z,459,4313,1.0,30.0,9.39651416122004,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+505,d2c.telemetry.egress.success,2021-12-20T00:28:00.0000000Z,485,4518,1.0,30.0,9.31546391752577,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+506,d2c.telemetry.egress.success,2021-12-20T00:29:00.0000000Z,478,4346,1.0,30.0,9.09205020920502,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+507,d2c.telemetry.egress.fallback,2021-12-20T00:27:00.0000000Z,4280,4280,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+508,d2c.telemetry.egress.fallback,2021-12-20T00:28:00.0000000Z,4494,4494,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+509,d2c.telemetry.egress.fallback,2021-12-20T00:29:00.0000000Z,4300,4300,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+510,d2c.endpoints.egress.eventHubs,2021-12-20T00:27:00.0000000Z,21,36,1.0,2.0,1.71428571428571,,
+511,d2c.endpoints.egress.eventHubs,2021-12-20T00:28:00.0000000Z,22,34,1.0,2.0,1.54545454545455,,
+512,d2c.endpoints.egress.eventHubs,2021-12-20T00:29:00.0000000Z,26,36,1.0,2.0,1.38461538461538,,
+513,d2c.endpoints.latency.eventHubs,2021-12-20T00:27:00.0000000Z,21,2611,29.0,221.0,124.333333333333,,
+514,d2c.endpoints.latency.eventHubs,2021-12-20T00:28:00.0000000Z,22,3303,40.0,493.0,150.136363636364,,
+515,d2c.endpoints.latency.eventHubs,2021-12-20T00:29:00.0000000Z,26,3085,34.0,246.0,118.653846153846,,
+516,d2c.endpoints.egress.builtIn.events,2021-12-20T00:27:00.0000000Z,438,4277,1.0,30.0,9.7648401826484,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+517,d2c.endpoints.egress.builtIn.events,2021-12-20T00:28:00.0000000Z,463,4484,1.0,30.0,9.68466522678186,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+518,d2c.endpoints.egress.builtIn.events,2021-12-20T00:29:00.0000000Z,452,4310,1.0,30.0,9.53539823008849,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+519,d2c.endpoints.latency.builtIn.events,2021-12-20T00:27:00.0000000Z,438,51643,19.0,318.0,117.906392694064,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+520,d2c.endpoints.latency.builtIn.events,2021-12-20T00:28:00.0000000Z,463,55513,20.0,263.0,119.89848812095,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+521,d2c.endpoints.latency.builtIn.events,2021-12-20T00:29:00.0000000Z,452,52552,14.0,344.0,116.265486725664,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+522,RoutingDeliveries,2021-12-20T00:27:00.0000000Z,459,4313,1.0,30.0,9.39651416122004,Not.classified,Not.verified
+523,RoutingDeliveries,2021-12-20T00:28:00.0000000Z,485,4518,1.0,30.0,9.31546391752577,Not.classified,Not.verified
+524,RoutingDeliveries,2021-12-20T00:29:00.0000000Z,478,4346,1.0,30.0,9.09205020920502,Not.classified,Not.verified
+525,RoutingDeliveryLatency,2021-12-20T00:27:00.0000000Z,459,54254,19.0,318.0,118.200435729848,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+526,RoutingDeliveryLatency,2021-12-20T00:28:00.0000000Z,485,58816,20.0,493.0,121.270103092784,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+527,RoutingDeliveryLatency,2021-12-20T00:29:00.0000000Z,478,55637,14.0,344.0,116.39539748954,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+528,RoutingDataSizeInBytesDelivered,2021-12-20T00:27:00.0000000Z,459,8741945,,,19045.6318082789,Not.classified,Not.verified
+529,RoutingDataSizeInBytesDelivered,2021-12-20T00:28:00.0000000Z,484,9188351,,,18984.1962809917,Not.classified,Not.verified
+530,RoutingDataSizeInBytesDelivered,2021-12-20T00:29:00.0000000Z,479,9112193,,,19023.3674321503,Not.classified,Not.verified
+531,d2c.twin.read.success,2021-12-20T00:27:00.0000000Z,1,1,1.0,1.0,1.0,,
+532,d2c.twin.read.success,2021-12-20T00:28:00.0000000Z,1,1,1.0,1.0,1.0,,
+533,d2c.twin.read.size,2021-12-20T00:27:00.0000000Z,1,30952,30952.0,30952.0,30952.0,,
+534,d2c.twin.read.size,2021-12-20T00:28:00.0000000Z,1,2385,2385.0,2385.0,2385.0,,
+535,d2c.twin.update.success,2021-12-20T00:28:00.0000000Z,1,1,1.0,1.0,1.0,,
+536,d2c.twin.update.success,2021-12-20T00:29:00.0000000Z,2,2,1.0,1.0,1.0,,
+537,d2c.twin.update.size,2021-12-20T00:28:00.0000000Z,1,212,212.0,212.0,212.0,,
+538,d2c.twin.update.size,2021-12-20T00:29:00.0000000Z,2,17325,785.0,16540.0,8662.5,,
+539,dailyMessageQuotaUsed,2021-12-20T00:27:00.0000000Z,39,2043565,50839.0,53401.0,52399.1025641026,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+540,dailyMessageQuotaUsed,2021-12-20T00:28:00.0000000Z,39,2135918,53354.0,55652.0,54767.1282051282,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+541,dailyMessageQuotaUsed,2021-12-20T00:29:00.0000000Z,39,2223952,55596.0,57943.0,57024.4102564103,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+542,deviceDataUsage,2021-12-20T00:27:00.0000000Z,639,7570309,2.0,32692.0,11847.1189358372,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+543,deviceDataUsage,2021-12-20T00:28:00.0000000Z,664,7994058,2.0,31203.0,12039.2439759036,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+544,deviceDataUsage,2021-12-20T00:29:00.0000000Z,651,7823332,2.0,37862.0,12017.4070660522,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+545,deviceDataUsageV2,2021-12-20T00:27:00.0000000Z,639,7570309,2.0,32692.0,11847.1189358372,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+546,deviceDataUsageV2,2021-12-20T00:28:00.0000000Z,664,7994058,2.0,31203.0,12039.2439759036,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+547,deviceDataUsageV2,2021-12-20T00:29:00.0000000Z,651,7823332,2.0,37862.0,12017.4070660522,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+548,totalDeviceCount,2021-12-20T00:27:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+549,totalDeviceCount,2021-12-20T00:28:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+550,totalDeviceCount,2021-12-20T00:29:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+551,connectedDeviceCount,2021-12-20T00:27:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+552,connectedDeviceCount,2021-12-20T00:28:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+553,connectedDeviceCount,2021-12-20T00:29:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+554,d2c.telemetry.ingress.allProtocol,2021-12-20T00:30:00.0000000Z,670,670,1.0,1.0,1.0,Not.classified,Not.verified
+555,d2c.telemetry.ingress.allProtocol,2021-12-20T00:31:00.0000000Z,639,639,1.0,1.0,1.0,Not.classified,Not.verified
+556,d2c.telemetry.ingress.allProtocol,2021-12-20T00:32:00.0000000Z,640,640,1.0,1.0,1.0,Not.classified,Not.verified
+557,d2c.telemetry.ingress.success,2021-12-20T00:30:00.0000000Z,670,670,1.0,1.0,1.0,Not.classified,Not.verified
+558,d2c.telemetry.ingress.success,2021-12-20T00:31:00.0000000Z,639,639,1.0,1.0,1.0,Not.classified,Not.verified
+559,d2c.telemetry.ingress.success,2021-12-20T00:32:00.0000000Z,640,640,1.0,1.0,1.0,Not.classified,Not.verified
+560,devices.totalDevices,2021-12-20T00:30:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+561,devices.totalDevices,2021-12-20T00:31:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+562,devices.totalDevices,2021-12-20T00:32:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+563,devices.connectedDevices.allProtocol,2021-12-20T00:30:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+564,devices.connectedDevices.allProtocol,2021-12-20T00:31:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+565,devices.connectedDevices.allProtocol,2021-12-20T00:32:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+566,d2c.telemetry.egress.success,2021-12-20T00:30:00.0000000Z,479,4410,1.0,30.0,9.20668058455115,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+567,d2c.telemetry.egress.success,2021-12-20T00:31:00.0000000Z,474,4321,1.0,30.0,9.11603375527426,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+568,d2c.telemetry.egress.success,2021-12-20T00:32:00.0000000Z,471,4199,1.0,30.0,8.91507430997877,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+569,d2c.telemetry.egress.fallback,2021-12-20T00:30:00.0000000Z,4382,4382,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+570,d2c.telemetry.egress.fallback,2021-12-20T00:31:00.0000000Z,4275,4275,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+571,d2c.telemetry.egress.fallback,2021-12-20T00:32:00.0000000Z,4162,4162,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+572,d2c.endpoints.egress.eventHubs,2021-12-20T00:30:00.0000000Z,25,38,1.0,2.0,1.52,,
+573,d2c.endpoints.egress.eventHubs,2021-12-20T00:31:00.0000000Z,26,36,1.0,2.0,1.38461538461538,,
+574,d2c.endpoints.egress.eventHubs,2021-12-20T00:32:00.0000000Z,25,38,1.0,2.0,1.52,,
+575,d2c.endpoints.latency.eventHubs,2021-12-20T00:30:00.0000000Z,25,4170,63.0,449.0,166.8,,
+576,d2c.endpoints.latency.eventHubs,2021-12-20T00:31:00.0000000Z,26,3694,20.0,459.0,142.076923076923,,
+577,d2c.endpoints.latency.eventHubs,2021-12-20T00:32:00.0000000Z,25,2960,20.0,261.0,118.4,,
+578,d2c.endpoints.egress.builtIn.events,2021-12-20T00:30:00.0000000Z,454,4372,1.0,30.0,9.62995594713656,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+579,d2c.endpoints.egress.builtIn.events,2021-12-20T00:31:00.0000000Z,448,4285,1.0,30.0,9.56473214285714,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+580,d2c.endpoints.egress.builtIn.events,2021-12-20T00:32:00.0000000Z,446,4161,1.0,30.0,9.32959641255605,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+581,d2c.endpoints.latency.builtIn.events,2021-12-20T00:30:00.0000000Z,454,50818,17.0,366.0,111.933920704846,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+582,d2c.endpoints.latency.builtIn.events,2021-12-20T00:31:00.0000000Z,448,47404,22.0,281.0,105.8125,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+583,d2c.endpoints.latency.builtIn.events,2021-12-20T00:32:00.0000000Z,446,47472,11.0,258.0,106.439461883408,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+584,RoutingDeliveries,2021-12-20T00:30:00.0000000Z,479,4410,1.0,30.0,9.20668058455115,Not.classified,Not.verified
+585,RoutingDeliveries,2021-12-20T00:31:00.0000000Z,474,4321,1.0,30.0,9.11603375527426,Not.classified,Not.verified
+586,RoutingDeliveries,2021-12-20T00:32:00.0000000Z,470,4198,1.0,30.0,8.93191489361702,Not.classified,Not.verified
+587,RoutingDeliveryLatency,2021-12-20T00:30:00.0000000Z,479,54988,17.0,449.0,114.797494780793,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+588,RoutingDeliveryLatency,2021-12-20T00:31:00.0000000Z,474,51098,20.0,459.0,107.801687763713,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+589,RoutingDeliveryLatency,2021-12-20T00:32:00.0000000Z,470,50348,11.0,261.0,107.123404255319,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+590,RoutingDataSizeInBytesDelivered,2021-12-20T00:30:00.0000000Z,479,9173182,,,19150.6931106472,Not.classified,Not.verified
+591,RoutingDataSizeInBytesDelivered,2021-12-20T00:31:00.0000000Z,474,9027330,,,19045.0,Not.classified,Not.verified
+592,RoutingDataSizeInBytesDelivered,2021-12-20T00:32:00.0000000Z,470,8613405,,,18326.3936170213,Not.classified,Not.verified
+593,d2c.twin.update.success,2021-12-20T00:30:00.0000000Z,1,1,1.0,1.0,1.0,,
+594,d2c.twin.update.size,2021-12-20T00:30:00.0000000Z,1,2,2.0,2.0,2.0,,
+595,dailyMessageQuotaUsed,2021-12-20T00:30:00.0000000Z,39,2316636,57085.0,61724.0,59400.9230769231,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+596,dailyMessageQuotaUsed,2021-12-20T00:31:00.0000000Z,39,2406871,60318.0,62621.0,61714.641025641,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+597,dailyMessageQuotaUsed,2021-12-20T00:32:00.0000000Z,39,2491494,61764.0,64909.0,63884.4615384615,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+598,deviceDataUsage,2021-12-20T00:30:00.0000000Z,671,7975639,2.0,32694.0,11886.1982116244,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+599,deviceDataUsage,2021-12-20T00:31:00.0000000Z,639,7787335,2.0,32699.0,12186.7527386541,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+600,deviceDataUsage,2021-12-20T00:32:00.0000000Z,640,7423389,2.0,32699.0,11599.0453125,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+601,deviceDataUsageV2,2021-12-20T00:30:00.0000000Z,671,7975639,2.0,32694.0,11886.1982116244,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+602,deviceDataUsageV2,2021-12-20T00:31:00.0000000Z,639,7787335,2.0,32699.0,12186.7527386541,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+603,deviceDataUsageV2,2021-12-20T00:32:00.0000000Z,640,7423389,2.0,32699.0,11599.0453125,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+604,totalDeviceCount,2021-12-20T00:30:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+605,totalDeviceCount,2021-12-20T00:31:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+606,totalDeviceCount,2021-12-20T00:32:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+607,connectedDeviceCount,2021-12-20T00:30:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+608,connectedDeviceCount,2021-12-20T00:31:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+609,connectedDeviceCount,2021-12-20T00:32:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+610,d2c.telemetry.ingress.allProtocol,2021-12-20T00:33:00.0000000Z,617,617,1.0,1.0,1.0,Not.classified,Not.verified
+611,d2c.telemetry.ingress.allProtocol,2021-12-20T00:34:00.0000000Z,623,623,1.0,1.0,1.0,Not.classified,Not.verified
+612,d2c.telemetry.ingress.allProtocol,2021-12-20T00:35:00.0000000Z,627,627,1.0,1.0,1.0,Not.classified,Not.verified
+613,d2c.telemetry.ingress.success,2021-12-20T00:33:00.0000000Z,617,617,1.0,1.0,1.0,Not.classified,Not.verified
+614,d2c.telemetry.ingress.success,2021-12-20T00:34:00.0000000Z,623,623,1.0,1.0,1.0,Not.classified,Not.verified
+615,d2c.telemetry.ingress.success,2021-12-20T00:35:00.0000000Z,627,627,1.0,1.0,1.0,Not.classified,Not.verified
+616,devices.totalDevices,2021-12-20T00:33:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+617,devices.totalDevices,2021-12-20T00:34:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+618,devices.totalDevices,2021-12-20T00:35:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+619,devices.connectedDevices.allProtocol,2021-12-20T00:33:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+620,devices.connectedDevices.allProtocol,2021-12-20T00:34:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+621,devices.connectedDevices.allProtocol,2021-12-20T00:35:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+622,d2c.telemetry.egress.success,2021-12-20T00:33:00.0000000Z,456,3947,1.0,38.0,8.65570175438597,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+623,d2c.telemetry.egress.success,2021-12-20T00:34:00.0000000Z,457,4033,1.0,47.0,8.82494529540481,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+624,d2c.telemetry.egress.success,2021-12-20T00:35:00.0000000Z,475,4006,1.0,33.0,8.43368421052632,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+625,d2c.telemetry.egress.fallback,2021-12-20T00:33:00.0000000Z,3808,3808,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+626,d2c.telemetry.egress.fallback,2021-12-20T00:34:00.0000000Z,3818,3818,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+627,d2c.telemetry.egress.fallback,2021-12-20T00:35:00.0000000Z,3986,3986,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+628,d2c.endpoints.egress.eventHubs,2021-12-20T00:33:00.0000000Z,33,128,1.0,20.0,3.87878787878788,,
+629,d2c.endpoints.egress.eventHubs,2021-12-20T00:34:00.0000000Z,41,218,1.0,47.0,5.31707317073171,,
+630,d2c.endpoints.egress.eventHubs,2021-12-20T00:35:00.0000000Z,24,38,1.0,2.0,1.58333333333333,,
+631,d2c.endpoints.latency.eventHubs,2021-12-20T00:33:00.0000000Z,33,4466,38.0,360.0,135.333333333333,,
+632,d2c.endpoints.latency.eventHubs,2021-12-20T00:34:00.0000000Z,41,5048,30.0,267.0,123.121951219512,,
+633,d2c.endpoints.latency.eventHubs,2021-12-20T00:35:00.0000000Z,24,3814,38.0,521.0,158.916666666667,,
+634,d2c.endpoints.egress.builtIn.events,2021-12-20T00:33:00.0000000Z,423,3819,1.0,38.0,9.02836879432624,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+635,d2c.endpoints.egress.builtIn.events,2021-12-20T00:34:00.0000000Z,416,3815,1.0,38.0,9.17067307692308,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+636,d2c.endpoints.egress.builtIn.events,2021-12-20T00:35:00.0000000Z,451,3968,1.0,33.0,8.79822616407982,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+637,d2c.endpoints.latency.builtIn.events,2021-12-20T00:33:00.0000000Z,423,46595,20.0,277.0,110.1536643026,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+638,d2c.endpoints.latency.builtIn.events,2021-12-20T00:34:00.0000000Z,416,45516,24.0,1179.0,109.413461538462,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+639,d2c.endpoints.latency.builtIn.events,2021-12-20T00:35:00.0000000Z,451,46541,22.0,289.0,103.19512195122,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+640,RoutingDeliveries,2021-12-20T00:33:00.0000000Z,457,3948,1.0,38.0,8.63894967177243,Not.classified,Not.verified
+641,RoutingDeliveries,2021-12-20T00:34:00.0000000Z,457,4033,1.0,47.0,8.82494529540481,Not.classified,Not.verified
+642,RoutingDeliveries,2021-12-20T00:35:00.0000000Z,475,4006,1.0,33.0,8.43368421052632,Not.classified,Not.verified
+643,RoutingDeliveryLatency,2021-12-20T00:33:00.0000000Z,457,51145,20.0,360.0,111.91466083151,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+644,RoutingDeliveryLatency,2021-12-20T00:34:00.0000000Z,457,50564,24.0,1179.0,110.643326039387,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+645,RoutingDeliveryLatency,2021-12-20T00:35:00.0000000Z,475,50355,22.0,521.0,106.010526315789,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+646,RoutingDataSizeInBytesDelivered,2021-12-20T00:33:00.0000000Z,457,7921605,,,17333.9277899344,Not.classified,Not.verified
+647,RoutingDataSizeInBytesDelivered,2021-12-20T00:34:00.0000000Z,457,8250042,,,18052.6083150985,Not.classified,Not.verified
+648,RoutingDataSizeInBytesDelivered,2021-12-20T00:35:00.0000000Z,475,8479416,,,17851.4021052632,Not.classified,Not.verified
+649,dailyMessageQuotaUsed,2021-12-20T00:33:00.0000000Z,39,2581442,64854.0,67157.0,66190.8205128205,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+650,dailyMessageQuotaUsed,2021-12-20T00:34:00.0000000Z,39,2666011,66325.0,69278.0,68359.2564102564,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+651,dailyMessageQuotaUsed,2021-12-20T00:35:00.0000000Z,39,2749689,69199.0,72624.0,70504.8461538462,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+652,deviceDataUsage,2021-12-20T00:33:00.0000000Z,617,6823873,2.0,44453.0,11059.7617504052,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+653,deviceDataUsage,2021-12-20T00:34:00.0000000Z,623,7123036,2.0,36372.0,11433.4446227929,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+654,deviceDataUsage,2021-12-20T00:35:00.0000000Z,627,7376805,2.0,32700.0,11765.2392344498,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+655,deviceDataUsageV2,2021-12-20T00:33:00.0000000Z,617,6823873,2.0,44453.0,11059.7617504052,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+656,deviceDataUsageV2,2021-12-20T00:34:00.0000000Z,623,7123036,2.0,36372.0,11433.4446227929,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+657,deviceDataUsageV2,2021-12-20T00:35:00.0000000Z,627,7376805,2.0,32700.0,11765.2392344498,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+658,totalDeviceCount,2021-12-20T00:33:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+659,totalDeviceCount,2021-12-20T00:34:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+660,totalDeviceCount,2021-12-20T00:35:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+661,connectedDeviceCount,2021-12-20T00:33:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+662,connectedDeviceCount,2021-12-20T00:34:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+663,connectedDeviceCount,2021-12-20T00:35:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+664,d2c.telemetry.ingress.allProtocol,2021-12-20T00:36:00.0000000Z,622,622,1.0,1.0,1.0,Not.classified,Not.verified
+665,d2c.telemetry.ingress.allProtocol,2021-12-20T00:37:00.0000000Z,592,592,1.0,1.0,1.0,Not.classified,Not.verified
+666,d2c.telemetry.ingress.allProtocol,2021-12-20T00:38:00.0000000Z,616,616,1.0,1.0,1.0,Not.classified,Not.verified
+667,d2c.telemetry.ingress.success,2021-12-20T00:36:00.0000000Z,622,622,1.0,1.0,1.0,Not.classified,Not.verified
+668,d2c.telemetry.ingress.success,2021-12-20T00:37:00.0000000Z,592,592,1.0,1.0,1.0,Not.classified,Not.verified
+669,d2c.telemetry.ingress.success,2021-12-20T00:38:00.0000000Z,616,616,1.0,1.0,1.0,Not.classified,Not.verified
+670,devices.totalDevices,2021-12-20T00:36:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+671,devices.totalDevices,2021-12-20T00:37:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+672,devices.totalDevices,2021-12-20T00:38:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+673,devices.connectedDevices.allProtocol,2021-12-20T00:36:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+674,devices.connectedDevices.allProtocol,2021-12-20T00:37:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+675,devices.connectedDevices.allProtocol,2021-12-20T00:38:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+676,d2c.telemetry.egress.success,2021-12-20T00:36:00.0000000Z,459,4068,1.0,30.0,8.86274509803922,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+677,d2c.telemetry.egress.success,2021-12-20T00:37:00.0000000Z,441,3809,1.0,30.0,8.63718820861678,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+678,d2c.telemetry.egress.success,2021-12-20T00:38:00.0000000Z,461,3970,1.0,30.0,8.6117136659436,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+679,d2c.telemetry.egress.fallback,2021-12-20T00:36:00.0000000Z,3871,3871,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+680,d2c.telemetry.egress.fallback,2021-12-20T00:37:00.0000000Z,3783,3783,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+681,d2c.telemetry.egress.fallback,2021-12-20T00:38:00.0000000Z,3826,3826,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+682,d2c.endpoints.egress.eventHubs,2021-12-20T00:36:00.0000000Z,35,176,1.0,30.0,5.02857142857143,,
+683,d2c.endpoints.egress.eventHubs,2021-12-20T00:37:00.0000000Z,22,36,1.0,2.0,1.63636363636364,,
+684,d2c.endpoints.egress.eventHubs,2021-12-20T00:38:00.0000000Z,25,134,1.0,30.0,5.36,,
+685,d2c.endpoints.latency.eventHubs,2021-12-20T00:36:00.0000000Z,35,4701,58.0,458.0,134.314285714286,,
+686,d2c.endpoints.latency.eventHubs,2021-12-20T00:37:00.0000000Z,22,2802,43.0,238.0,127.363636363636,,
+687,d2c.endpoints.latency.eventHubs,2021-12-20T00:38:00.0000000Z,25,2969,60.0,185.0,118.76,,
+688,d2c.endpoints.egress.builtIn.events,2021-12-20T00:36:00.0000000Z,424,3892,1.0,30.0,9.17924528301887,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+689,d2c.endpoints.egress.builtIn.events,2021-12-20T00:37:00.0000000Z,419,3773,1.0,30.0,9.00477326968974,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+690,d2c.endpoints.egress.builtIn.events,2021-12-20T00:38:00.0000000Z,436,3836,1.0,30.0,8.79816513761468,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+691,d2c.endpoints.latency.builtIn.events,2021-12-20T00:36:00.0000000Z,424,42839,22.0,303.0,101.035377358491,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+692,d2c.endpoints.latency.builtIn.events,2021-12-20T00:37:00.0000000Z,419,44688,26.0,295.0,106.653937947494,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+693,d2c.endpoints.latency.builtIn.events,2021-12-20T00:38:00.0000000Z,436,49811,13.0,466.0,114.245412844037,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+694,RoutingDeliveries,2021-12-20T00:36:00.0000000Z,459,4068,1.0,30.0,8.86274509803922,Not.classified,Not.verified
+695,RoutingDeliveries,2021-12-20T00:37:00.0000000Z,441,3809,1.0,30.0,8.63718820861678,Not.classified,Not.verified
+696,RoutingDeliveries,2021-12-20T00:38:00.0000000Z,461,3970,1.0,30.0,8.6117136659436,Not.classified,Not.verified
+697,RoutingDeliveryLatency,2021-12-20T00:36:00.0000000Z,459,47540,22.0,458.0,103.572984749455,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+698,RoutingDeliveryLatency,2021-12-20T00:37:00.0000000Z,441,47490,26.0,295.0,107.687074829932,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+699,RoutingDeliveryLatency,2021-12-20T00:38:00.0000000Z,461,52780,13.0,466.0,114.490238611714,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+700,RoutingDataSizeInBytesDelivered,2021-12-20T00:36:00.0000000Z,459,8458722,,,18428.5882352941,Not.classified,Not.verified
+701,RoutingDataSizeInBytesDelivered,2021-12-20T00:37:00.0000000Z,441,8041772,,,18235.3106575964,Not.classified,Not.verified
+702,RoutingDataSizeInBytesDelivered,2021-12-20T00:38:00.0000000Z,461,8295482,,,17994.5379609544,Not.classified,Not.verified
+703,dailyMessageQuotaUsed,2021-12-20T00:36:00.0000000Z,39,2831106,71309.0,73530.0,72592.4615384615,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+704,dailyMessageQuotaUsed,2021-12-20T00:37:00.0000000Z,39,2914290,73452.0,75698.0,74725.3846153846,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+705,dailyMessageQuotaUsed,2021-12-20T00:38:00.0000000Z,39,2997812,75612.0,77769.0,76866.9743589744,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+706,deviceDataUsage,2021-12-20T00:36:00.0000000Z,622,7284378,2.0,32698.0,11711.2186495177,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+707,deviceDataUsage,2021-12-20T00:37:00.0000000Z,592,7006934,2.0,32700.0,11836.0371621622,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+708,deviceDataUsage,2021-12-20T00:38:00.0000000Z,616,7124595,2.0,32694.0,11565.900974026,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+709,deviceDataUsageV2,2021-12-20T00:36:00.0000000Z,622,7284378,2.0,32698.0,11711.2186495177,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+710,deviceDataUsageV2,2021-12-20T00:37:00.0000000Z,592,7006934,2.0,32700.0,11836.0371621622,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+711,deviceDataUsageV2,2021-12-20T00:38:00.0000000Z,616,7124595,2.0,32694.0,11565.900974026,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+712,totalDeviceCount,2021-12-20T00:36:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+713,totalDeviceCount,2021-12-20T00:37:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+714,totalDeviceCount,2021-12-20T00:38:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+715,connectedDeviceCount,2021-12-20T00:36:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+716,connectedDeviceCount,2021-12-20T00:37:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+717,connectedDeviceCount,2021-12-20T00:38:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+718,d2c.telemetry.ingress.allProtocol,2021-12-20T00:39:00.0000000Z,613,613,1.0,1.0,1.0,Not.classified,Not.verified
+719,d2c.telemetry.ingress.allProtocol,2021-12-20T00:40:00.0000000Z,607,607,1.0,1.0,1.0,Not.classified,Not.verified
+720,d2c.telemetry.ingress.allProtocol,2021-12-20T00:41:00.0000000Z,632,632,1.0,1.0,1.0,Not.classified,Not.verified
+721,d2c.telemetry.ingress.success,2021-12-20T00:39:00.0000000Z,613,613,1.0,1.0,1.0,Not.classified,Not.verified
+722,d2c.telemetry.ingress.success,2021-12-20T00:40:00.0000000Z,607,607,1.0,1.0,1.0,Not.classified,Not.verified
+723,d2c.telemetry.ingress.success,2021-12-20T00:41:00.0000000Z,632,632,1.0,1.0,1.0,Not.classified,Not.verified
+724,devices.totalDevices,2021-12-20T00:39:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+725,devices.totalDevices,2021-12-20T00:40:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+726,devices.totalDevices,2021-12-20T00:41:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+727,devices.connectedDevices.allProtocol,2021-12-20T00:39:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+728,devices.connectedDevices.allProtocol,2021-12-20T00:40:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+729,devices.connectedDevices.allProtocol,2021-12-20T00:41:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+730,d2c.telemetry.egress.success,2021-12-20T00:39:00.0000000Z,449,3878,1.0,30.0,8.6369710467706,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+731,d2c.telemetry.egress.success,2021-12-20T00:40:00.0000000Z,444,3992,1.0,30.0,8.99099099099099,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+732,d2c.telemetry.egress.success,2021-12-20T00:41:00.0000000Z,469,3734,1.0,30.0,7.96162046908316,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+733,d2c.telemetry.egress.fallback,2021-12-20T00:39:00.0000000Z,3862,3862,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+734,d2c.telemetry.egress.fallback,2021-12-20T00:40:00.0000000Z,3956,3956,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+735,d2c.telemetry.egress.fallback,2021-12-20T00:41:00.0000000Z,3568,3568,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+736,d2c.endpoints.egress.eventHubs,2021-12-20T00:39:00.0000000Z,22,36,1.0,2.0,1.63636363636364,,
+737,d2c.endpoints.egress.eventHubs,2021-12-20T00:40:00.0000000Z,21,36,1.0,2.0,1.71428571428571,,
+738,d2c.endpoints.egress.eventHubs,2021-12-20T00:41:00.0000000Z,45,156,1.0,20.0,3.46666666666667,,
+739,d2c.endpoints.latency.eventHubs,2021-12-20T00:39:00.0000000Z,22,2814,33.0,240.0,127.909090909091,,
+740,d2c.endpoints.latency.eventHubs,2021-12-20T00:40:00.0000000Z,21,2656,33.0,261.0,126.47619047619,,
+741,d2c.endpoints.latency.eventHubs,2021-12-20T00:41:00.0000000Z,45,6478,55.0,1021.0,143.955555555556,,
+742,d2c.endpoints.egress.builtIn.events,2021-12-20T00:39:00.0000000Z,427,3842,1.0,30.0,8.99765807962529,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+743,d2c.endpoints.egress.builtIn.events,2021-12-20T00:40:00.0000000Z,423,3956,1.0,30.0,9.35224586288416,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+744,d2c.endpoints.egress.builtIn.events,2021-12-20T00:41:00.0000000Z,424,3578,1.0,30.0,8.43867924528302,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+745,d2c.endpoints.latency.builtIn.events,2021-12-20T00:39:00.0000000Z,427,47379,28.0,401.0,110.957845433255,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+746,d2c.endpoints.latency.builtIn.events,2021-12-20T00:40:00.0000000Z,423,45117,18.0,233.0,106.659574468085,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+747,d2c.endpoints.latency.builtIn.events,2021-12-20T00:41:00.0000000Z,424,47930,18.0,269.0,113.042452830189,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+748,RoutingDeliveries,2021-12-20T00:39:00.0000000Z,449,3878,1.0,30.0,8.6369710467706,Not.classified,Not.verified
+749,RoutingDeliveries,2021-12-20T00:40:00.0000000Z,444,3992,1.0,30.0,8.99099099099099,Not.classified,Not.verified
+750,RoutingDeliveries,2021-12-20T00:41:00.0000000Z,469,3734,1.0,30.0,7.96162046908316,Not.classified,Not.verified
+751,RoutingDeliveryLatency,2021-12-20T00:39:00.0000000Z,449,50193,28.0,401.0,111.788418708241,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+752,RoutingDeliveryLatency,2021-12-20T00:40:00.0000000Z,444,47773,18.0,261.0,107.596846846847,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+753,RoutingDeliveryLatency,2021-12-20T00:41:00.0000000Z,469,54408,18.0,1021.0,116.008528784648,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+754,RoutingDataSizeInBytesDelivered,2021-12-20T00:39:00.0000000Z,449,8047266,,,17922.6414253898,Not.classified,Not.verified
+755,RoutingDataSizeInBytesDelivered,2021-12-20T00:40:00.0000000Z,444,8589430,,,19345.5630630631,Not.classified,Not.verified
+756,RoutingDataSizeInBytesDelivered,2021-12-20T00:41:00.0000000Z,469,8954436,,,19092.6140724947,Not.classified,Not.verified
+757,dailyMessageQuotaUsed,2021-12-20T00:39:00.0000000Z,39,3078780,77688.0,79868.0,78943.0769230769,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+758,dailyMessageQuotaUsed,2021-12-20T00:40:00.0000000Z,39,3161798,79790.0,81981.0,81071.7435897436,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+759,dailyMessageQuotaUsed,2021-12-20T00:41:00.0000000Z,39,3244883,81904.0,84167.0,83202.1282051282,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+760,deviceDataUsage,2021-12-20T00:39:00.0000000Z,613,7019472,2.0,31211.0,11451.0146818923,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+761,deviceDataUsage,2021-12-20T00:40:00.0000000Z,607,7469059,2.0,32692.0,12304.8747940692,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+762,deviceDataUsage,2021-12-20T00:41:00.0000000Z,632,7877534,2.0,185397.0,12464.4525316456,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+763,deviceDataUsageV2,2021-12-20T00:39:00.0000000Z,613,7019472,2.0,31211.0,11451.0146818923,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+764,deviceDataUsageV2,2021-12-20T00:40:00.0000000Z,606,7469057,2.0,32692.0,12325.1765676568,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+765,deviceDataUsageV2,2021-12-20T00:41:00.0000000Z,633,7877536,2.0,185397.0,12444.7646129542,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+766,totalDeviceCount,2021-12-20T00:39:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+767,totalDeviceCount,2021-12-20T00:40:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+768,totalDeviceCount,2021-12-20T00:41:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+769,connectedDeviceCount,2021-12-20T00:39:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+770,connectedDeviceCount,2021-12-20T00:40:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+771,connectedDeviceCount,2021-12-20T00:41:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+772,d2c.telemetry.ingress.allProtocol,2021-12-20T00:42:00.0000000Z,552,552,1.0,1.0,1.0,Not.classified,Not.verified
+773,d2c.telemetry.ingress.allProtocol,2021-12-20T00:43:00.0000000Z,565,565,1.0,1.0,1.0,Not.classified,Not.verified
+774,d2c.telemetry.ingress.allProtocol,2021-12-20T00:44:00.0000000Z,583,583,1.0,1.0,1.0,Not.classified,Not.verified
+775,d2c.telemetry.ingress.success,2021-12-20T00:42:00.0000000Z,552,552,1.0,1.0,1.0,Not.classified,Not.verified
+776,d2c.telemetry.ingress.success,2021-12-20T00:43:00.0000000Z,565,565,1.0,1.0,1.0,Not.classified,Not.verified
+777,d2c.telemetry.ingress.success,2021-12-20T00:44:00.0000000Z,583,583,1.0,1.0,1.0,Not.classified,Not.verified
+778,devices.totalDevices,2021-12-20T00:42:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+779,devices.totalDevices,2021-12-20T00:43:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+780,devices.totalDevices,2021-12-20T00:44:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+781,devices.connectedDevices.allProtocol,2021-12-20T00:42:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+782,devices.connectedDevices.allProtocol,2021-12-20T00:43:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+783,devices.connectedDevices.allProtocol,2021-12-20T00:44:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+784,d2c.telemetry.egress.success,2021-12-20T00:42:00.0000000Z,416,3290,1.0,30.0,7.90865384615385,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+785,d2c.telemetry.egress.success,2021-12-20T00:43:00.0000000Z,418,3309,1.0,30.0,7.91626794258373,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+786,d2c.telemetry.egress.success,2021-12-20T00:44:00.0000000Z,423,3673,1.0,30.0,8.68321513002364,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+787,d2c.telemetry.egress.fallback,2021-12-20T00:42:00.0000000Z,3256,3256,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+788,d2c.telemetry.egress.fallback,2021-12-20T00:43:00.0000000Z,3271,3271,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+789,d2c.telemetry.egress.fallback,2021-12-20T00:44:00.0000000Z,3628,3628,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+790,d2c.endpoints.egress.eventHubs,2021-12-20T00:42:00.0000000Z,21,34,1.0,2.0,1.61904761904762,,
+791,d2c.endpoints.egress.eventHubs,2021-12-20T00:43:00.0000000Z,25,38,1.0,2.0,1.52,,
+792,d2c.endpoints.egress.eventHubs,2021-12-20T00:44:00.0000000Z,23,36,1.0,2.0,1.56521739130435,,
+793,d2c.endpoints.latency.eventHubs,2021-12-20T00:42:00.0000000Z,21,2991,30.0,313.0,142.428571428571,,
+794,d2c.endpoints.latency.eventHubs,2021-12-20T00:43:00.0000000Z,25,3127,25.0,239.0,125.08,,
+795,d2c.endpoints.latency.eventHubs,2021-12-20T00:44:00.0000000Z,23,3088,32.0,251.0,134.260869565217,,
+796,d2c.endpoints.egress.builtIn.events,2021-12-20T00:42:00.0000000Z,395,3256,1.0,30.0,8.24303797468354,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+797,d2c.endpoints.egress.builtIn.events,2021-12-20T00:43:00.0000000Z,393,3271,1.0,30.0,8.32315521628499,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+798,d2c.endpoints.egress.builtIn.events,2021-12-20T00:44:00.0000000Z,400,3637,1.0,30.0,9.0925,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+799,d2c.endpoints.latency.builtIn.events,2021-12-20T00:42:00.0000000Z,395,44062,20.0,252.0,111.549367088608,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+800,d2c.endpoints.latency.builtIn.events,2021-12-20T00:43:00.0000000Z,393,43343,8.0,301.0,110.287531806616,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+801,d2c.endpoints.latency.builtIn.events,2021-12-20T00:44:00.0000000Z,400,43685,19.0,261.0,109.2125,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+802,RoutingDeliveries,2021-12-20T00:42:00.0000000Z,416,3290,1.0,30.0,7.90865384615385,Not.classified,Not.verified
+803,RoutingDeliveries,2021-12-20T00:43:00.0000000Z,418,3309,1.0,30.0,7.91626794258373,Not.classified,Not.verified
+804,RoutingDeliveries,2021-12-20T00:44:00.0000000Z,423,3673,1.0,30.0,8.68321513002364,Not.classified,Not.verified
+805,RoutingDeliveryLatency,2021-12-20T00:42:00.0000000Z,416,47053,20.0,313.0,113.108173076923,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+806,RoutingDeliveryLatency,2021-12-20T00:43:00.0000000Z,418,46470,8.0,301.0,111.172248803828,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+807,RoutingDeliveryLatency,2021-12-20T00:44:00.0000000Z,423,46773,19.0,261.0,110.574468085106,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+808,RoutingDataSizeInBytesDelivered,2021-12-20T00:42:00.0000000Z,416,7231613,,,17383.6850961538,Not.classified,Not.verified
+809,RoutingDataSizeInBytesDelivered,2021-12-20T00:43:00.0000000Z,418,7357359,,,17601.3373205742,Not.classified,Not.verified
+810,RoutingDataSizeInBytesDelivered,2021-12-20T00:44:00.0000000Z,423,7903238,,,18683.7777777778,Not.classified,Not.verified
+811,dailyMessageQuotaUsed,2021-12-20T00:42:00.0000000Z,39,3333227,84085.0,87546.0,85467.358974359,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+812,dailyMessageQuotaUsed,2021-12-20T00:43:00.0000000Z,39,3414862,85400.0,88501.0,87560.5641025641,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+813,dailyMessageQuotaUsed,2021-12-20T00:44:00.0000000Z,39,3490166,88437.0,90372.0,89491.4358974359,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+814,deviceDataUsage,2021-12-20T00:42:00.0000000Z,552,6367017,2.0,32699.0,11534.4510869565,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+815,deviceDataUsage,2021-12-20T00:43:00.0000000Z,565,6358917,2.0,44454.0,11254.7203539823,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+816,deviceDataUsage,2021-12-20T00:44:00.0000000Z,583,6915815,2.0,31240.0,11862.461406518,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+817,deviceDataUsageV2,2021-12-20T00:42:00.0000000Z,551,6344782,2.0,32699.0,11515.0308529946,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+818,deviceDataUsageV2,2021-12-20T00:43:00.0000000Z,566,6381152,2.0,44454.0,11274.1201413428,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+819,deviceDataUsageV2,2021-12-20T00:44:00.0000000Z,582,6890011,2.0,31240.0,11838.5068728522,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+820,totalDeviceCount,2021-12-20T00:42:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+821,totalDeviceCount,2021-12-20T00:43:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+822,totalDeviceCount,2021-12-20T00:44:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+823,connectedDeviceCount,2021-12-20T00:42:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+824,connectedDeviceCount,2021-12-20T00:43:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+825,connectedDeviceCount,2021-12-20T00:44:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+826,d2c.telemetry.ingress.allProtocol,2021-12-20T00:45:00.0000000Z,574,574,1.0,1.0,1.0,Not.classified,Not.verified
+827,d2c.telemetry.ingress.allProtocol,2021-12-20T00:46:00.0000000Z,579,579,1.0,1.0,1.0,Not.classified,Not.verified
+828,d2c.telemetry.ingress.allProtocol,2021-12-20T00:47:00.0000000Z,597,597,1.0,1.0,1.0,Not.classified,Not.verified
+829,d2c.telemetry.ingress.success,2021-12-20T00:45:00.0000000Z,574,574,1.0,1.0,1.0,Not.classified,Not.verified
+830,d2c.telemetry.ingress.success,2021-12-20T00:46:00.0000000Z,579,579,1.0,1.0,1.0,Not.classified,Not.verified
+831,d2c.telemetry.ingress.success,2021-12-20T00:47:00.0000000Z,597,597,1.0,1.0,1.0,Not.classified,Not.verified
+832,devices.totalDevices,2021-12-20T00:45:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+833,devices.totalDevices,2021-12-20T00:46:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+834,devices.totalDevices,2021-12-20T00:47:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+835,devices.connectedDevices.allProtocol,2021-12-20T00:45:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+836,devices.connectedDevices.allProtocol,2021-12-20T00:46:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+837,devices.connectedDevices.allProtocol,2021-12-20T00:47:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+838,d2c.telemetry.egress.success,2021-12-20T00:45:00.0000000Z,398,3595,1.0,238.0,9.03266331658291,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+839,d2c.telemetry.egress.success,2021-12-20T00:46:00.0000000Z,431,3578,1.0,30.0,8.30162412993039,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+840,d2c.telemetry.egress.success,2021-12-20T00:47:00.0000000Z,418,3883,1.0,30.0,9.28947368421053,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+841,d2c.telemetry.egress.fallback,2021-12-20T00:45:00.0000000Z,3558,3558,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+842,d2c.telemetry.egress.fallback,2021-12-20T00:46:00.0000000Z,3487,3487,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+843,d2c.telemetry.egress.fallback,2021-12-20T00:47:00.0000000Z,3865,3865,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+844,d2c.endpoints.egress.eventHubs,2021-12-20T00:45:00.0000000Z,22,36,1.0,2.0,1.63636363636364,,
+845,d2c.endpoints.egress.eventHubs,2021-12-20T00:46:00.0000000Z,28,92,1.0,30.0,3.28571428571429,,
+846,d2c.endpoints.egress.eventHubs,2021-12-20T00:47:00.0000000Z,24,38,1.0,2.0,1.58333333333333,,
+847,d2c.endpoints.latency.eventHubs,2021-12-20T00:45:00.0000000Z,22,4552,15.0,2167.0,206.909090909091,,
+848,d2c.endpoints.latency.eventHubs,2021-12-20T00:46:00.0000000Z,28,3714,47.0,226.0,132.642857142857,,
+849,d2c.endpoints.latency.eventHubs,2021-12-20T00:47:00.0000000Z,24,6213,33.0,1849.0,258.875,,
+850,d2c.endpoints.egress.builtIn.events,2021-12-20T00:45:00.0000000Z,376,3559,1.0,238.0,9.46542553191489,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+851,d2c.endpoints.egress.builtIn.events,2021-12-20T00:46:00.0000000Z,403,3486,1.0,30.0,8.65012406947891,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+852,d2c.endpoints.egress.builtIn.events,2021-12-20T00:47:00.0000000Z,394,3845,1.0,30.0,9.75888324873096,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+853,d2c.endpoints.latency.builtIn.events,2021-12-20T00:45:00.0000000Z,376,59256,20.0,12158.0,157.595744680851,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+854,d2c.endpoints.latency.builtIn.events,2021-12-20T00:46:00.0000000Z,403,44450,16.0,305.0,110.29776674938,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+855,d2c.endpoints.latency.builtIn.events,2021-12-20T00:47:00.0000000Z,394,43238,21.0,244.0,109.741116751269,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+856,RoutingDeliveries,2021-12-20T00:45:00.0000000Z,397,3585,1.0,238.0,9.03022670025189,Not.classified,Not.verified
+857,RoutingDeliveries,2021-12-20T00:46:00.0000000Z,432,3588,1.0,30.0,8.30555555555556,Not.classified,Not.verified
+858,RoutingDeliveries,2021-12-20T00:47:00.0000000Z,418,3883,1.0,30.0,9.28947368421053,Not.classified,Not.verified
+859,RoutingDeliveryLatency,2021-12-20T00:45:00.0000000Z,397,63709,15.0,12158.0,160.476070528967,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+860,RoutingDeliveryLatency,2021-12-20T00:46:00.0000000Z,432,48263,16.0,305.0,111.719907407407,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+861,RoutingDeliveryLatency,2021-12-20T00:47:00.0000000Z,418,49451,21.0,1849.0,118.303827751196,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+862,RoutingDataSizeInBytesDelivered,2021-12-20T00:45:00.0000000Z,397,7762999,,,19554.1536523929,Not.classified,Not.verified
+863,RoutingDataSizeInBytesDelivered,2021-12-20T00:46:00.0000000Z,432,7768685,,,17983.0671296296,Not.classified,Not.verified
+864,RoutingDataSizeInBytesDelivered,2021-12-20T00:47:00.0000000Z,418,8248203,,,19732.543062201,Not.classified,Not.verified
+865,dailyMessageQuotaUsed,2021-12-20T00:45:00.0000000Z,39,3566051,90284.0,92353.0,91437.2051282051,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+866,dailyMessageQuotaUsed,2021-12-20T00:46:00.0000000Z,39,3644254,92281.0,94299.0,93442.4102564103,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+867,dailyMessageQuotaUsed,2021-12-20T00:47:00.0000000Z,39,3722204,94228.0,96328.0,95441.1282051282,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+868,deviceDataUsage,2021-12-20T00:45:00.0000000Z,574,6758232,2.0,32699.0,11773.9233449477,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+869,deviceDataUsage,2021-12-20T00:46:00.0000000Z,579,6735850,2.0,32691.0,11633.5924006908,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+870,deviceDataUsage,2021-12-20T00:47:00.0000000Z,597,7185558,2.0,32689.0,12036.1105527638,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+871,deviceDataUsageV2,2021-12-20T00:45:00.0000000Z,575,6784036,2.0,32699.0,11798.3234782609,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+872,deviceDataUsageV2,2021-12-20T00:46:00.0000000Z,579,6735850,2.0,32691.0,11633.5924006908,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+873,deviceDataUsageV2,2021-12-20T00:47:00.0000000Z,597,7185558,2.0,32689.0,12036.1105527638,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+874,totalDeviceCount,2021-12-20T00:45:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+875,totalDeviceCount,2021-12-20T00:46:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+876,totalDeviceCount,2021-12-20T00:47:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+877,connectedDeviceCount,2021-12-20T00:45:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+878,connectedDeviceCount,2021-12-20T00:46:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+879,connectedDeviceCount,2021-12-20T00:47:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+880,d2c.telemetry.ingress.allProtocol,2021-12-20T00:48:00.0000000Z,614,614,1.0,1.0,1.0,Not.classified,Not.verified
+881,d2c.telemetry.ingress.allProtocol,2021-12-20T00:49:00.0000000Z,592,592,1.0,1.0,1.0,Not.classified,Not.verified
+882,d2c.telemetry.ingress.allProtocol,2021-12-20T00:50:00.0000000Z,589,589,1.0,1.0,1.0,Not.classified,Not.verified
+883,d2c.telemetry.ingress.success,2021-12-20T00:48:00.0000000Z,614,614,1.0,1.0,1.0,Not.classified,Not.verified
+884,d2c.telemetry.ingress.success,2021-12-20T00:49:00.0000000Z,592,592,1.0,1.0,1.0,Not.classified,Not.verified
+885,d2c.telemetry.ingress.success,2021-12-20T00:50:00.0000000Z,589,589,1.0,1.0,1.0,Not.classified,Not.verified
+886,devices.totalDevices,2021-12-20T00:48:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+887,devices.totalDevices,2021-12-20T00:49:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+888,devices.totalDevices,2021-12-20T00:50:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+889,devices.connectedDevices.allProtocol,2021-12-20T00:48:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+890,devices.connectedDevices.allProtocol,2021-12-20T00:49:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+891,devices.connectedDevices.allProtocol,2021-12-20T00:50:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+892,d2c.telemetry.egress.success,2021-12-20T00:48:00.0000000Z,444,3917,1.0,34.0,8.82207207207207,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+893,d2c.telemetry.egress.success,2021-12-20T00:49:00.0000000Z,445,3837,1.0,30.0,8.62247191011236,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+894,d2c.telemetry.egress.success,2021-12-20T00:50:00.0000000Z,444,3772,1.0,30.0,8.4954954954955,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+895,d2c.telemetry.egress.fallback,2021-12-20T00:48:00.0000000Z,3858,3858,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+896,d2c.telemetry.egress.fallback,2021-12-20T00:49:00.0000000Z,3803,3803,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+897,d2c.telemetry.egress.fallback,2021-12-20T00:50:00.0000000Z,3758,3758,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+898,d2c.endpoints.egress.eventHubs,2021-12-20T00:48:00.0000000Z,23,38,1.0,2.0,1.65217391304348,,
+899,d2c.endpoints.egress.eventHubs,2021-12-20T00:49:00.0000000Z,24,34,1.0,2.0,1.41666666666667,,
+900,d2c.endpoints.egress.eventHubs,2021-12-20T00:50:00.0000000Z,22,34,1.0,2.0,1.54545454545455,,
+901,d2c.endpoints.latency.eventHubs,2021-12-20T00:48:00.0000000Z,23,2760,48.0,237.0,120.0,,
+902,d2c.endpoints.latency.eventHubs,2021-12-20T00:49:00.0000000Z,24,2816,28.0,382.0,117.333333333333,,
+903,d2c.endpoints.latency.eventHubs,2021-12-20T00:50:00.0000000Z,22,2872,38.0,311.0,130.545454545455,,
+904,d2c.endpoints.egress.builtIn.events,2021-12-20T00:48:00.0000000Z,421,3879,1.0,34.0,9.21377672209026,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+905,d2c.endpoints.egress.builtIn.events,2021-12-20T00:49:00.0000000Z,421,3803,1.0,30.0,9.0332541567696,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+906,d2c.endpoints.egress.builtIn.events,2021-12-20T00:50:00.0000000Z,422,3738,1.0,30.0,8.85781990521327,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+907,d2c.endpoints.latency.builtIn.events,2021-12-20T00:48:00.0000000Z,421,46095,18.0,319.0,109.489311163895,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+908,d2c.endpoints.latency.builtIn.events,2021-12-20T00:49:00.0000000Z,421,44881,20.0,265.0,106.605700712589,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+909,d2c.endpoints.latency.builtIn.events,2021-12-20T00:50:00.0000000Z,422,43548,13.0,285.0,103.194312796209,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+910,RoutingDeliveries,2021-12-20T00:48:00.0000000Z,444,3917,1.0,34.0,8.82207207207207,Not.classified,Not.verified
+911,RoutingDeliveries,2021-12-20T00:49:00.0000000Z,445,3837,1.0,30.0,8.62247191011236,Not.classified,Not.verified
+912,RoutingDeliveries,2021-12-20T00:50:00.0000000Z,444,3772,1.0,30.0,8.4954954954955,Not.classified,Not.verified
+913,RoutingDeliveryLatency,2021-12-20T00:48:00.0000000Z,444,48855,18.0,319.0,110.033783783784,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+914,RoutingDeliveryLatency,2021-12-20T00:49:00.0000000Z,445,47697,20.0,382.0,107.184269662921,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+915,RoutingDeliveryLatency,2021-12-20T00:50:00.0000000Z,444,46420,13.0,311.0,104.54954954955,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+916,RoutingDataSizeInBytesDelivered,2021-12-20T00:48:00.0000000Z,444,8343456,,,18791.5675675676,Not.classified,Not.verified
+917,RoutingDataSizeInBytesDelivered,2021-12-20T00:49:00.0000000Z,445,8153453,,,18322.3662921348,Not.classified,Not.verified
+918,RoutingDataSizeInBytesDelivered,2021-12-20T00:50:00.0000000Z,444,8098591,,,18240.0698198198,Not.classified,Not.verified
+919,dailyMessageQuotaUsed,2021-12-20T00:48:00.0000000Z,39,3801467,96251.0,98339.0,97473.5128205128,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+920,dailyMessageQuotaUsed,2021-12-20T00:49:00.0000000Z,39,3881497,98249.0,100482.0,99525.5641025641,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+921,dailyMessageQuotaUsed,2021-12-20T00:50:00.0000000Z,39,3964130,100407.0,102555.0,101644.358974359,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+922,deviceDataUsage,2021-12-20T00:48:00.0000000Z,614,7220472,2.0,32683.0,11759.7263843648,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+923,deviceDataUsage,2021-12-20T00:49:00.0000000Z,592,7046037,2.0,32682.0,11902.089527027,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+924,deviceDataUsage,2021-12-20T00:50:00.0000000Z,589,7084955,2.0,37863.0,12028.7860780985,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+925,deviceDataUsageV2,2021-12-20T00:48:00.0000000Z,614,7220472,2.0,32683.0,11759.7263843648,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+926,deviceDataUsageV2,2021-12-20T00:49:00.0000000Z,592,7046037,2.0,32682.0,11902.089527027,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+927,deviceDataUsageV2,2021-12-20T00:50:00.0000000Z,589,7084955,2.0,37863.0,12028.7860780985,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+928,totalDeviceCount,2021-12-20T00:48:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+929,totalDeviceCount,2021-12-20T00:49:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+930,totalDeviceCount,2021-12-20T00:50:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+931,connectedDeviceCount,2021-12-20T00:48:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+932,connectedDeviceCount,2021-12-20T00:49:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+933,connectedDeviceCount,2021-12-20T00:50:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+934,d2c.telemetry.ingress.allProtocol,2021-12-20T00:51:00.0000000Z,587,587,1.0,1.0,1.0,Not.classified,Not.verified
+935,d2c.telemetry.ingress.allProtocol,2021-12-20T00:52:00.0000000Z,591,591,1.0,1.0,1.0,Not.classified,Not.verified
+936,d2c.telemetry.ingress.allProtocol,2021-12-20T00:53:00.0000000Z,655,655,1.0,1.0,1.0,Not.classified,Not.verified
+937,d2c.telemetry.ingress.success,2021-12-20T00:51:00.0000000Z,587,587,1.0,1.0,1.0,Not.classified,Not.verified
+938,d2c.telemetry.ingress.success,2021-12-20T00:52:00.0000000Z,591,591,1.0,1.0,1.0,Not.classified,Not.verified
+939,d2c.telemetry.ingress.success,2021-12-20T00:53:00.0000000Z,655,655,1.0,1.0,1.0,Not.classified,Not.verified
+940,devices.totalDevices,2021-12-20T00:51:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+941,devices.totalDevices,2021-12-20T00:52:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+942,devices.totalDevices,2021-12-20T00:53:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+943,devices.connectedDevices.allProtocol,2021-12-20T00:51:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+944,devices.connectedDevices.allProtocol,2021-12-20T00:52:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+945,devices.connectedDevices.allProtocol,2021-12-20T00:53:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+946,d2c.telemetry.egress.success,2021-12-20T00:51:00.0000000Z,434,3613,1.0,30.0,8.32488479262673,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+947,d2c.telemetry.egress.success,2021-12-20T00:52:00.0000000Z,446,3752,1.0,40.0,8.41255605381166,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+948,d2c.telemetry.egress.success,2021-12-20T00:53:00.0000000Z,471,3737,1.0,30.0,7.93418259023355,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+949,d2c.telemetry.egress.fallback,2021-12-20T00:51:00.0000000Z,3521,3521,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+950,d2c.telemetry.egress.fallback,2021-12-20T00:52:00.0000000Z,3554,3554,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+951,d2c.telemetry.egress.fallback,2021-12-20T00:53:00.0000000Z,3565,3565,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+952,d2c.endpoints.egress.eventHubs,2021-12-20T00:51:00.0000000Z,24,82,1.0,20.0,3.41666666666667,,
+953,d2c.endpoints.egress.eventHubs,2021-12-20T00:52:00.0000000Z,41,208,1.0,40.0,5.07317073170732,,
+954,d2c.endpoints.egress.eventHubs,2021-12-20T00:53:00.0000000Z,61,162,1.0,8.0,2.65573770491803,,
+955,d2c.endpoints.latency.eventHubs,2021-12-20T00:51:00.0000000Z,24,3219,39.0,221.0,134.125,,
+956,d2c.endpoints.latency.eventHubs,2021-12-20T00:52:00.0000000Z,41,6011,43.0,582.0,146.609756097561,,
+957,d2c.endpoints.latency.eventHubs,2021-12-20T00:53:00.0000000Z,61,8488,22.0,439.0,139.147540983607,,
+958,d2c.endpoints.egress.builtIn.events,2021-12-20T00:51:00.0000000Z,410,3531,1.0,30.0,8.61219512195122,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+959,d2c.endpoints.egress.builtIn.events,2021-12-20T00:52:00.0000000Z,405,3544,1.0,30.0,8.75061728395062,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+960,d2c.endpoints.egress.builtIn.events,2021-12-20T00:53:00.0000000Z,410,3575,1.0,30.0,8.71951219512195,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+961,d2c.endpoints.latency.builtIn.events,2021-12-20T00:51:00.0000000Z,410,43165,14.0,265.0,105.280487804878,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+962,d2c.endpoints.latency.builtIn.events,2021-12-20T00:52:00.0000000Z,405,41508,10.0,254.0,102.488888888889,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+963,d2c.endpoints.latency.builtIn.events,2021-12-20T00:53:00.0000000Z,410,44389,19.0,286.0,108.265853658537,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+964,RoutingDeliveries,2021-12-20T00:51:00.0000000Z,434,3613,1.0,30.0,8.32488479262673,Not.classified,Not.verified
+965,RoutingDeliveries,2021-12-20T00:52:00.0000000Z,446,3752,1.0,40.0,8.41255605381166,Not.classified,Not.verified
+966,RoutingDeliveries,2021-12-20T00:53:00.0000000Z,471,3737,1.0,30.0,7.93418259023355,Not.classified,Not.verified
+967,RoutingDeliveryLatency,2021-12-20T00:51:00.0000000Z,434,46384,14.0,265.0,106.875576036866,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+968,RoutingDeliveryLatency,2021-12-20T00:52:00.0000000Z,446,47519,10.0,582.0,106.544843049327,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+969,RoutingDeliveryLatency,2021-12-20T00:53:00.0000000Z,471,52877,19.0,439.0,112.265392781316,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+970,RoutingDataSizeInBytesDelivered,2021-12-20T00:51:00.0000000Z,434,7824108,,,18027.8986175115,Not.classified,Not.verified
+971,RoutingDataSizeInBytesDelivered,2021-12-20T00:52:00.0000000Z,446,7822865,,,17540.0560538117,Not.classified,Not.verified
+972,RoutingDataSizeInBytesDelivered,2021-12-20T00:53:00.0000000Z,471,9809531,,,20827.0297239915,Not.classified,Not.verified
+973,d2c.twin.update.success,2021-12-20T00:51:00.0000000Z,1,1,1.0,1.0,1.0,,
+974,d2c.twin.update.size,2021-12-20T00:51:00.0000000Z,1,2,2.0,2.0,2.0,,
+975,dailyMessageQuotaUsed,2021-12-20T00:51:00.0000000Z,39,4048335,102476.0,104692.0,103803.461538462,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+976,dailyMessageQuotaUsed,2021-12-20T00:52:00.0000000Z,39,4129071,104602.0,106754.0,105873.615384615,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+977,dailyMessageQuotaUsed,2021-12-20T00:53:00.0000000Z,39,4210999,106652.0,109738.0,107974.333333333,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+978,deviceDataUsage,2021-12-20T00:51:00.0000000Z,588,6803076,2.0,32680.0,11569.8571428571,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+979,deviceDataUsage,2021-12-20T00:52:00.0000000Z,591,6806902,2.0,32687.0,11517.600676819,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+980,deviceDataUsage,2021-12-20T00:53:00.0000000Z,655,8717884,2.0,194041.0,13309.7465648855,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+981,deviceDataUsageV2,2021-12-20T00:51:00.0000000Z,588,6803076,2.0,32680.0,11569.8571428571,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+982,deviceDataUsageV2,2021-12-20T00:52:00.0000000Z,591,6806902,2.0,32687.0,11517.600676819,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+983,deviceDataUsageV2,2021-12-20T00:53:00.0000000Z,655,8717884,2.0,194041.0,13309.7465648855,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+984,totalDeviceCount,2021-12-20T00:51:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+985,totalDeviceCount,2021-12-20T00:52:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+986,totalDeviceCount,2021-12-20T00:53:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+987,connectedDeviceCount,2021-12-20T00:51:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+988,connectedDeviceCount,2021-12-20T00:52:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+989,connectedDeviceCount,2021-12-20T00:53:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+990,d2c.telemetry.ingress.allProtocol,2021-12-20T00:54:00.0000000Z,554,554,1.0,1.0,1.0,Not.classified,Not.verified
+991,d2c.telemetry.ingress.allProtocol,2021-12-20T00:55:00.0000000Z,527,527,1.0,1.0,1.0,Not.classified,Not.verified
+992,d2c.telemetry.ingress.allProtocol,2021-12-20T00:56:00.0000000Z,545,545,1.0,1.0,1.0,Not.classified,Not.verified
+993,d2c.telemetry.ingress.success,2021-12-20T00:54:00.0000000Z,554,554,1.0,1.0,1.0,Not.classified,Not.verified
+994,d2c.telemetry.ingress.success,2021-12-20T00:55:00.0000000Z,527,527,1.0,1.0,1.0,Not.classified,Not.verified
+995,d2c.telemetry.ingress.success,2021-12-20T00:56:00.0000000Z,545,545,1.0,1.0,1.0,Not.classified,Not.verified
+996,devices.totalDevices,2021-12-20T00:54:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+997,devices.totalDevices,2021-12-20T00:55:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+998,devices.totalDevices,2021-12-20T00:56:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+999,devices.connectedDevices.allProtocol,2021-12-20T00:54:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+1000,devices.connectedDevices.allProtocol,2021-12-20T00:55:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+1001,devices.connectedDevices.allProtocol,2021-12-20T00:56:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+1002,d2c.telemetry.egress.success,2021-12-20T00:54:00.0000000Z,414,3455,1.0,30.0,8.34541062801932,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+1003,d2c.telemetry.egress.success,2021-12-20T00:55:00.0000000Z,399,3170,1.0,30.0,7.94486215538847,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+1004,d2c.telemetry.egress.success,2021-12-20T00:56:00.0000000Z,420,3315,1.0,30.0,7.89285714285714,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+1005,d2c.telemetry.egress.fallback,2021-12-20T00:54:00.0000000Z,3407,3407,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+1006,d2c.telemetry.egress.fallback,2021-12-20T00:55:00.0000000Z,3058,3058,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+1007,d2c.telemetry.egress.fallback,2021-12-20T00:56:00.0000000Z,3277,3277,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+1008,d2c.endpoints.egress.eventHubs,2021-12-20T00:54:00.0000000Z,24,38,1.0,4.0,1.58333333333333,,
+1009,d2c.endpoints.egress.eventHubs,2021-12-20T00:55:00.0000000Z,27,112,1.0,27.0,4.14814814814815,,
+1010,d2c.endpoints.egress.eventHubs,2021-12-20T00:56:00.0000000Z,24,38,1.0,2.0,1.58333333333333,,
+1011,d2c.endpoints.latency.eventHubs,2021-12-20T00:54:00.0000000Z,24,2605,35.0,197.0,108.541666666667,,
+1012,d2c.endpoints.latency.eventHubs,2021-12-20T00:55:00.0000000Z,27,3266,26.0,215.0,120.962962962963,,
+1013,d2c.endpoints.latency.eventHubs,2021-12-20T00:56:00.0000000Z,24,3210,20.0,380.0,133.75,,
+1014,d2c.endpoints.egress.builtIn.events,2021-12-20T00:54:00.0000000Z,390,3417,1.0,30.0,8.76153846153846,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+1015,d2c.endpoints.egress.builtIn.events,2021-12-20T00:55:00.0000000Z,372,3058,1.0,30.0,8.22043010752688,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+1016,d2c.endpoints.egress.builtIn.events,2021-12-20T00:56:00.0000000Z,396,3277,1.0,30.0,8.27525252525253,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+1017,d2c.endpoints.latency.builtIn.events,2021-12-20T00:54:00.0000000Z,390,42494,10.0,347.0,108.958974358974,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+1018,d2c.endpoints.latency.builtIn.events,2021-12-20T00:55:00.0000000Z,372,40868,20.0,239.0,109.860215053763,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+1019,d2c.endpoints.latency.builtIn.events,2021-12-20T00:56:00.0000000Z,396,40386,16.0,225.0,101.984848484848,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+1020,RoutingDeliveries,2021-12-20T00:54:00.0000000Z,414,3455,1.0,30.0,8.34541062801932,Not.classified,Not.verified
+1021,RoutingDeliveries,2021-12-20T00:55:00.0000000Z,399,3170,1.0,30.0,7.94486215538847,Not.classified,Not.verified
+1022,RoutingDeliveries,2021-12-20T00:56:00.0000000Z,419,3314,1.0,30.0,7.90930787589499,Not.classified,Not.verified
+1023,RoutingDeliveryLatency,2021-12-20T00:54:00.0000000Z,414,45099,10.0,347.0,108.934782608696,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+1024,RoutingDeliveryLatency,2021-12-20T00:55:00.0000000Z,399,44134,20.0,239.0,110.611528822055,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+1025,RoutingDeliveryLatency,2021-12-20T00:56:00.0000000Z,419,43565,16.0,380.0,103.973747016706,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+1026,RoutingDataSizeInBytesDelivered,2021-12-20T00:54:00.0000000Z,414,7535054,,,18200.61352657,Not.classified,Not.verified
+1027,RoutingDataSizeInBytesDelivered,2021-12-20T00:55:00.0000000Z,399,6943953,,,17403.3909774436,Not.classified,Not.verified
+1028,RoutingDataSizeInBytesDelivered,2021-12-20T00:56:00.0000000Z,419,7191142,,,17162.630071599,Not.classified,Not.verified
+1029,d2c.twin.read.success,2021-12-20T00:55:00.0000000Z,1,1,1.0,1.0,1.0,,
+1030,d2c.twin.read.size,2021-12-20T00:55:00.0000000Z,1,34943,34943.0,34943.0,34943.0,,
+1031,dailyMessageQuotaUsed,2021-12-20T00:54:00.0000000Z,39,4291022,108659.0,112280.0,110026.205128205,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+1032,dailyMessageQuotaUsed,2021-12-20T00:55:00.0000000Z,39,4383849,111180.0,114164.0,112406.384615385,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+1033,dailyMessageQuotaUsed,2021-12-20T00:56:00.0000000Z,39,4458834,113148.0,115944.0,114329.076923077,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+1034,deviceDataUsage,2021-12-20T00:54:00.0000000Z,554,6566722,2.0,34681.0,11853.2888086643,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+1035,deviceDataUsage,2021-12-20T00:55:00.0000000Z,528,6060482,2.0,34943.0,11478.1856060606,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+1036,deviceDataUsage,2021-12-20T00:56:00.0000000Z,545,6266608,2.0,32683.0,11498.3633027523,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+1037,deviceDataUsageV2,2021-12-20T00:54:00.0000000Z,554,6566722,2.0,34681.0,11853.2888086643,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+1038,deviceDataUsageV2,2021-12-20T00:55:00.0000000Z,528,6060482,2.0,34943.0,11478.1856060606,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+1039,deviceDataUsageV2,2021-12-20T00:56:00.0000000Z,545,6266608,2.0,32683.0,11498.3633027523,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+1040,totalDeviceCount,2021-12-20T00:54:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+1041,totalDeviceCount,2021-12-20T00:55:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+1042,totalDeviceCount,2021-12-20T00:56:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+1043,connectedDeviceCount,2021-12-20T00:54:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+1044,connectedDeviceCount,2021-12-20T00:55:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+1045,connectedDeviceCount,2021-12-20T00:56:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+1046,d2c.telemetry.ingress.allProtocol,2021-12-20T00:57:00.0000000Z,544,544,1.0,1.0,1.0,Not.classified,Not.verified
+1047,d2c.telemetry.ingress.allProtocol,2021-12-20T00:58:00.0000000Z,563,563,1.0,1.0,1.0,Not.classified,Not.verified
+1048,d2c.telemetry.ingress.allProtocol,2021-12-20T00:59:00.0000000Z,577,577,1.0,1.0,1.0,Not.classified,Not.verified
+1049,d2c.telemetry.ingress.success,2021-12-20T00:57:00.0000000Z,544,544,1.0,1.0,1.0,Not.classified,Not.verified
+1050,d2c.telemetry.ingress.success,2021-12-20T00:58:00.0000000Z,563,563,1.0,1.0,1.0,Not.classified,Not.verified
+1051,d2c.telemetry.ingress.success,2021-12-20T00:59:00.0000000Z,577,577,1.0,1.0,1.0,Not.classified,Not.verified
+1052,devices.totalDevices,2021-12-20T00:57:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+1053,devices.totalDevices,2021-12-20T00:58:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+1054,devices.totalDevices,2021-12-20T00:59:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+1055,devices.connectedDevices.allProtocol,2021-12-20T00:57:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+1056,devices.connectedDevices.allProtocol,2021-12-20T00:58:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+1057,devices.connectedDevices.allProtocol,2021-12-20T00:59:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+1058,d2c.telemetry.egress.success,2021-12-20T00:57:00.0000000Z,406,3262,1.0,40.0,8.03448275862069,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+1059,d2c.telemetry.egress.success,2021-12-20T00:58:00.0000000Z,427,3555,1.0,33.0,8.32552693208431,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+1060,d2c.telemetry.egress.success,2021-12-20T00:59:00.0000000Z,432,3466,1.0,30.0,8.02314814814815,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+1061,d2c.telemetry.egress.fallback,2021-12-20T00:57:00.0000000Z,3254,3254,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+1062,d2c.telemetry.egress.fallback,2021-12-20T00:58:00.0000000Z,3509,3509,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+1063,d2c.telemetry.egress.fallback,2021-12-20T00:59:00.0000000Z,3439,3439,1.0,1.0,1.0,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+1064,d2c.endpoints.egress.eventHubs,2021-12-20T00:57:00.0000000Z,23,38,1.0,2.0,1.65217391304348,,
+1065,d2c.endpoints.egress.eventHubs,2021-12-20T00:58:00.0000000Z,24,36,1.0,2.0,1.5,,
+1066,d2c.endpoints.egress.eventHubs,2021-12-20T00:59:00.0000000Z,26,38,1.0,2.0,1.46153846153846,,
+1067,d2c.endpoints.latency.eventHubs,2021-12-20T00:57:00.0000000Z,23,3482,47.0,585.0,151.391304347826,,
+1068,d2c.endpoints.latency.eventHubs,2021-12-20T00:58:00.0000000Z,24,2525,26.0,304.0,105.208333333333,,
+1069,d2c.endpoints.latency.eventHubs,2021-12-20T00:59:00.0000000Z,26,2856,12.0,231.0,109.846153846154,,
+1070,d2c.endpoints.egress.builtIn.events,2021-12-20T00:57:00.0000000Z,383,3224,1.0,40.0,8.4177545691906,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+1071,d2c.endpoints.egress.builtIn.events,2021-12-20T00:58:00.0000000Z,403,3519,1.0,33.0,8.73200992555831,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+1072,d2c.endpoints.egress.builtIn.events,2021-12-20T00:59:00.0000000Z,406,3428,1.0,30.0,8.44334975369458,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+1073,d2c.endpoints.latency.builtIn.events,2021-12-20T00:57:00.0000000Z,383,41928,15.0,468.0,109.472584856397,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+1074,d2c.endpoints.latency.builtIn.events,2021-12-20T00:58:00.0000000Z,403,45042,25.0,331.0,111.766749379653,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+1075,d2c.endpoints.latency.builtIn.events,2021-12-20T00:59:00.0000000Z,406,42924,13.0,276.0,105.724137931034,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+1076,RoutingDeliveries,2021-12-20T00:57:00.0000000Z,407,3263,1.0,40.0,8.01719901719902,Not.classified,Not.verified
+1077,RoutingDeliveries,2021-12-20T00:58:00.0000000Z,426,3535,1.0,33.0,8.2981220657277,Not.classified,Not.verified
+1078,RoutingDeliveries,2021-12-20T00:59:00.0000000Z,433,3486,1.0,30.0,8.05080831408776,Not.classified,Not.verified
+1079,RoutingDeliveryLatency,2021-12-20T00:57:00.0000000Z,407,45441,15.0,585.0,111.648648648649,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+1080,RoutingDeliveryLatency,2021-12-20T00:58:00.0000000Z,426,47438,25.0,331.0,111.356807511737,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+1081,RoutingDeliveryLatency,2021-12-20T00:59:00.0000000Z,433,45909,12.0,276.0,106.025404157044,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+1082,RoutingDataSizeInBytesDelivered,2021-12-20T00:57:00.0000000Z,407,7304892,,,17948.1375921376,Not.classified,Not.verified
+1083,RoutingDataSizeInBytesDelivered,2021-12-20T00:58:00.0000000Z,426,7747777,,,18187.2699530516,Not.classified,Not.verified
+1084,RoutingDataSizeInBytesDelivered,2021-12-20T00:59:00.0000000Z,433,7567270,,,17476.3741339492,Not.classified,Not.verified
+1085,d2c.twin.read.success,2021-12-20T00:58:00.0000000Z,1,1,1.0,1.0,1.0,,
+1086,d2c.twin.read.success,2021-12-20T00:59:00.0000000Z,1,1,1.0,1.0,1.0,,
+1087,d2c.twin.read.size,2021-12-20T00:58:00.0000000Z,1,14143,14143.0,14143.0,14143.0,,
+1088,d2c.twin.read.size,2021-12-20T00:59:00.0000000Z,1,2971,2971.0,2971.0,2971.0,,
+1089,d2c.twin.update.success,2021-12-20T00:59:00.0000000Z,3,3,1.0,1.0,1.0,,
+1090,d2c.twin.update.size,2021-12-20T00:59:00.0000000Z,3,3112,211.0,2655.0,1037.33333333333,,
+1091,dailyMessageQuotaUsed,2021-12-20T00:57:00.0000000Z,39,4531340,114976.0,117798.0,116188.205128205,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+1092,dailyMessageQuotaUsed,2021-12-20T00:58:00.0000000Z,39,4604449,116751.0,119737.0,118062.794871795,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+1093,dailyMessageQuotaUsed,2021-12-20T00:59:00.0000000Z,39,4679861,118688.0,121711.0,119996.435897436,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+1094,deviceDataUsage,2021-12-20T00:57:00.0000000Z,544,6460938,2.0,32682.0,11876.7242647059,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+1095,deviceDataUsage,2021-12-20T00:58:00.0000000Z,564,6811506,2.0,32677.0,12077.1382978723,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+1096,deviceDataUsage,2021-12-20T00:59:00.0000000Z,581,6554112,2.0,32677.0,11280.743545611,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+1097,deviceDataUsageV2,2021-12-20T00:57:00.0000000Z,544,6460938,2.0,32682.0,11876.7242647059,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+1098,deviceDataUsageV2,2021-12-20T00:58:00.0000000Z,564,6811506,2.0,32677.0,12077.1382978723,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+1099,deviceDataUsageV2,2021-12-20T00:59:00.0000000Z,581,6554112,2.0,32677.0,11280.743545611,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+1100,totalDeviceCount,2021-12-20T00:57:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+1101,totalDeviceCount,2021-12-20T00:58:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+1102,totalDeviceCount,2021-12-20T00:59:00.0000000Z,12,14,1.0,2.0,1.16666666666667,Tx.tec.performance.protocols.HOST,Number of devices registered
+1103,connectedDeviceCount,2021-12-20T00:57:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+1104,connectedDeviceCount,2021-12-20T00:58:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+1105,connectedDeviceCount,2021-12-20T00:59:00.0000000Z,11,13,1.0,2.0,1.18181818181818,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered

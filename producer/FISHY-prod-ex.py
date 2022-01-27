@@ -16,10 +16,10 @@ import time
 conn = psycopg2.connect(database="keycloak", user="keycloak", password="password", host="127.0.0.1", port="25432")
 
 # DF - Get all the information from the dictionary in the BD
-df_dict = pd.read_sql_query("SELECT * FROM  {}".format('"Dictionary"'),con=conn)
+df_dict = pd.read_sql_query("SELECT * FROM  {}".format('"dictionary_csv"'),con=conn)
 
 # DF Queue
-df_queue = pd.read_sql_query("SELECT DISTINCT queue FROM  {}".format('"Dictionary"'),con=conn) #Name of each row
+df_queue = pd.read_sql_query("SELECT DISTINCT queue FROM  {}".format('"dictionary_csv"'),con=conn) #Name of each row
 lqueue = df_queue.values.tolist()
 # Get the Queues names to create with Rabbit later
 list_queue = [item for sublist in lqueue for item in sublist]
@@ -112,7 +112,7 @@ createservice_amqp(list_queue)
 def get_token(cliend_id, client_secret):
     
     r_login = requests.post("http://{}:8180/auth/realms/experimental/protocol/openid-connect/token".format(host), {"Content-Type":"application/x-www-form-urlencoded", "grant_type":"client_credentials",
-    "client_id":"FISHY-cons-ex", "client_secret":"SWVE0PvMtNeNdRtrhh1T9yCq4PncGVVN"})
+    "client_id":"FISHY-prod-ex", "client_secret":"xzONWxH6RQ2s2MNlvVNLMTkvtjBJ391e"})
     print(r_login.status_code)
     if r_login.status_code == 401:
         print("Access denied")
@@ -120,8 +120,9 @@ def get_token(cliend_id, client_secret):
         r_login_data = json.loads(r_login.content)
         r_introspct = r_login_data["access_token"]
         return(r_introspct) 
-        
-token = get_token("FISHY-cons-ex", "SWVE0PvMtNeNdRtrhh1T9yCq4PncGVVN")
+        print(r_introspct)
+token = get_token("FISHY-prod-ex", "xzONWxH6RQ2s2MNlvVNLMTkvtjBJ391e")
+print(token)
     
 #Check the queue with the queues already registered in the dictionary, and then send the metrics to the correct queues in RabbitMQ
 def send_msg(host, token, data, queue):

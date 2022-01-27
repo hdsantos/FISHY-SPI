@@ -91,7 +91,7 @@ In addition to the above mentioned settings, you will need some minor tweaks to 
 - On line 31 of the code, you will find this code snippet: ```with open('/home/alan/Documents/Code/FISHY-SPI/producer/PT1H.json') as f:``` Change to your scenario.
 - On line 49 of the code, you will find this code snippet: ```host = os.environ["HOST_IP"]keycloak_client_secret = os.environ["CLIENT_SECRET"]keycloak_realm = os.environ["REALM"]``` create a file to save environment variables and their values.
 
-[Example in Python](FISHY-ccflow-ex.py)
+[Example in Python](FISHY-cons-ex.py)
 
 
 ### Accessing RabbitMQ
