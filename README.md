@@ -26,13 +26,10 @@ Make sure you have docker installed.
 ## Importing Metrics Database
 This database has a dictionary that maps the metrics worked so far and also serves so that the client can create queues for each type of metric.
 > **Note**: This database is under construction. According to the progress of research done in metrics, there will be updates on it. At the moment the information is real.
-Access the BD folder and import the Dictionary.cvs, into the same instance of the keycloak database. You should name it "Dictionary".
-![Figure 4 - Import database with dictionary.cvs file](images/Figure4.png)
 
-* ```$cd FISHY-SPI```
-* ```$docker-compose up -d keycloak-db kong-db```
-* ```$docker-compose run --rm kong kong migrations bootstrap```
-* ```$docker-compose up -d```
+Access the BD folder and import the Dictionary.cvs, into the same instance of the keycloak database. You should name it "Dictionary".
+
+![Figure 4 - Import database with dictionary.cvs file](images/Figure4.png)
 
 ## Starting the containers
 
