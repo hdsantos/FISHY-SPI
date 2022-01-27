@@ -72,26 +72,26 @@ In the following example, we will need two clients the first one we will create 
 - Next, we must fill in the **Valid Redirect URIs** field, which will be the entry point for client redirects (```/mock/*``` in our example), even if we do not use it, as in our example. You also need to fill in the Root URL (```http://localhost:8000```), receive incoming HTTP traffic from Consumers, and forward it to upstream Services. Don't forget to click **Save**.
 - Finally, we must select the **Credentials** tab and copy the **Secret** to this customer ID (kong), which we will embed in the customer code below.
 
-### FISHY-cons-ex Client(second client)
-In the same way that the previous client was created, we will do the same. We created the client with the name **FISHY-cons-ex**.
-- On the **FISHY-cons-ex client page** that appears, configure the fields as shown in Figure 3.
+### FISHY-prod-ex Client(second client)
+In the same way that the previous client was created, we will do the same. We created the client with the name **FISHY-prod-ex**.
+- On the **FISHY-prod-ex client page** that appears, configure the fields as shown in Figure 3.
 
 ![Figure 3 - Client application settings](images/Figure3.png)
 
 - **NOTE**: we must first select the **Access Type** as **confidential**. Then enable the **Service Accounts Enabled** option. This parameter activates the authentication flow that we intend to use in this example (**Client Credentials Flow**, as already mentioned).
-- Next, we must fill in the **Valid Redirect URIs** field, which will be the entry point for client redirects (```FISHY-cons-ex``` in our example), even if we don't use it, as in our example. In this case, you will not need more configurations, because the one who will manage the entire flow will be Kong. Don't forget to click **Save**.
+- Next, we must fill in the **Valid Redirect URIs** field, which will be the entry point for client redirects (```FISHY-prod-ex``` in our example), even if we don't use it, as in our example. In this case, you will not need more configurations, because the one who will manage the entire flow will be Kong. Don't forget to click **Save**.
 - Finally, we must select the **Credentials** tab and copy the **Secret** to this customer ID (FISHY-cons-ex), which we will embed in the customer code below.
 
 ### Testing and template
-The client we are going to use was built in Python (```FISHY-cons-ex```)
+The client we are going to use was built in Python (```FISHY-prod-ex```)
 
 For authentication, it is necessary to pass the parameters **Client ID**, **Client Secret** (obtained previously), and **Scope** (with an optional scope value, email in the examples, but it could be anything else). The call must be made to the proper **token endpoint**. The “grant type” specifies the flow to use – in the examples provided, ‘client_credentials’ denotes **CCF** (**Client Credential Flow**).
 
-In addition to the above mentioned settings, you will need some minor tweaks to ```FISHY-cons-ex```.
+In addition to the above mentioned settings, you will need some minor tweaks to ```FISHY-prod-ex```.
 - On line 31 of the code, you will find this code snippet: ```with open('/home/alan/Documents/Code/FISHY-SPI/producer/PT1H.json') as f:``` Change to your scenario.
 - On line 49 of the code, you will find this code snippet: ```host = os.environ["HOST_IP"]keycloak_client_secret = os.environ["CLIENT_SECRET"]keycloak_realm = os.environ["REALM"]``` create a file to save environment variables and their values.
 
-[Example in Python](FISHY-cons-ex.py)
+[Example in Python](producer/FISHY-prod-ex.py)
 
 
 ### Accessing RabbitMQ
