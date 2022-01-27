@@ -20,8 +20,12 @@ When a client is registered, we must define its **protocol mappers** and **role 
 ## Docker
 Make sure you have docker installed.
 
-## clone the repository
+## Clone the repository
 ```$git clone https://github.com/hdsantos/FISHY-SPI.git```
+
+## Importing Metrics Database
+This database has a dictionary that maps the metrics worked so far and also serves so that the client can create queues for each type of metric.
+> **Note**: This database is under construction. According to the progress of research done in metrics, there will be updates on it. At the moment the information is real.
 
 ## Starting the containers
 
@@ -30,7 +34,11 @@ Make sure you have docker installed.
 * ```$docker-compose run --rm kong kong migrations bootstrap```
 * ```$docker-compose up -d```
 
-To install the Keycloak in a docker container, we can use the command:
+Check if all containers are running
+```$docker ps```
+
+
+
 
 ```docker run -d -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.io/keycloak/keycloak:16.1.0```
 
