@@ -111,7 +111,7 @@ The consumer will be integrated into the TIM and SCM modules. Again, as we don't
 
 The current [Python consumer code](FISHY-cons-ex.py) is also a simpler version, it is already being developed with the implementation of the authentication process.
 
-## Visualization - Konga(GUI)
+## Visualization - Konga (GUI)
 You can view through Kong(GUI), all the settings made here.
 
 - Access ```http://localhost:1337/```, and create a user, as shown in Figure 6.

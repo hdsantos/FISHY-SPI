@@ -48,7 +48,7 @@ df_result.to_csv('teste_merge.csv')
 
 #Environment variables
 host = os.environ["HOST_IP"]
-keycloak_client_secret = os.environ["CLIENT_SECRET"]
+keycloak_kong_client_secret = os.environ["CLIENT_SECRET"]
 keycloak_realm = os.environ["REALM"]
 
 #Create Queues
@@ -76,7 +76,7 @@ def createservice_oidc():
         r_route = requests.post(r"http://localhost:8001/services/{}/routes".format(r_id),{"paths[]":"/mock"})
         print(r_route)
         #print("Enabling OIDC plugin with client parameters")
-        r_oidc=requests.post("http://localhost:8001/plugins", {"name":"oidc", "config.client_id":"kong","config.client_secret":keycloak_client_secret, "config.bearer_only":"yes", "config.realm": keycloak_realm,
+        r_oidc=requests.post("http://localhost:8001/plugins", {"name":"oidc", "config.client_id":"kong","config.client_secret":keycloak_kong_client_secret, "config.bearer_only":"yes", "config.realm": keycloak_realm,
         "config.introspection_endpoint": "http://{}:8180/auth/realms/{}/protocol/openid-connect/token/introspect".format(host,keycloak_realm),
         "config.discovery":"http://{}:8180/auth/realms/{}/.well-known/openid-configuration".format(host,keycloak_realm)})
         #print(r_oidc.status_code)
@@ -109,10 +109,10 @@ createservice_amqp(list_queue)
 
 #2. Request Token - Keycloak
 
-def get_token(user, password):
+def get_token(cliend_id, client_secret):
     
-    r_login = requests.post("http://{}:8180/auth/realms/experimental/protocol/openid-connect/token".format(host), {"Content-Type":"application/x-www-form-urlencoded", "username":"{}".format(user),
-    "password":"{}".format(password), "grant_type":"password", "client_id":"myapp"})
+    r_login = requests.post("http://{}:8180/auth/realms/experimental/protocol/openid-connect/token".format(host), {"Content-Type":"application/x-www-form-urlencoded", "grant_type":"client_credentials",
+    "client_id":"FISHY-cons-ex", "client_secret":"SWVE0PvMtNeNdRtrhh1T9yCq4PncGVVN"})
     print(r_login.status_code)
     if r_login.status_code == 401:
         print("Access denied")
@@ -121,7 +121,7 @@ def get_token(user, password):
         r_introspct = r_login_data["access_token"]
         return(r_introspct) 
         
-token = get_token("demouser", "demouser")
+token = get_token("FISHY-cons-ex", "SWVE0PvMtNeNdRtrhh1T9yCq4PncGVVN")
     
 #Check the queue with the queues already registered in the dictionary, and then send the metrics to the correct queues in RabbitMQ
 def send_msg(host, token, data, queue):
