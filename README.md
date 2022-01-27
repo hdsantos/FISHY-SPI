@@ -74,41 +74,48 @@ In the following example, we will need two clients the first one we will create 
 
 ### FISHY-cons-ex Client(second client)
 In the same way that the previous client was created, we will do the same. We created the client with the name **FISHY-cons-ex**.
+- On the **FISHY-cons-ex client page** that appears, configure the fields as shown in Figure 3.
 
 ![Figure 3 - Client application settings](images/Figure3.png)
 
-- **NOTE**: we must first select the **Access Type** as **confidential*. Then enable the **Service Accounts Enabled** option. This parameter activates the authentication flow that we intend to use in this example (**Client Credentials Flow**, as already mentioned).
-- Next, we must fill in the **Valid Redirect URIs** field, which will be the entry point for client redirects (``FISHY-cons-ex``` in our example), even if we don't use it, as in our example. In this case, you will not need more configurations, because the one who will manage the entire flow will be Kong. Don't forget to click **Save**.
+- **NOTE**: we must first select the **Access Type** as **confidential**. Then enable the **Service Accounts Enabled** option. This parameter activates the authentication flow that we intend to use in this example (**Client Credentials Flow**, as already mentioned).
+- Next, we must fill in the **Valid Redirect URIs** field, which will be the entry point for client redirects (```FISHY-cons-ex``` in our example), even if we don't use it, as in our example. In this case, you will not need more configurations, because the one who will manage the entire flow will be Kong. Don't forget to click **Save**.
 - Finally, we must select the **Credentials** tab and copy the **Secret** to this customer ID (FISHY-cons-ex), which we will embed in the customer code below.
 
-### Testing and templates (Python and Java)
-We developed two templates with the code required to interface with Keycloak, both in Python and Java, for illustration and testing purposes.
+### Testing and template
+The client we are going to use was built in Python (```FISHY-cons-ex```)
 
 For authentication, it is necessary to pass the parameters **Client ID**, **Client Secret** (obtained previously), and **Scope** (with an optional scope value, email in the examples, but it could be anything else). The call must be made to the proper **token endpoint**. The “grant type” specifies the flow to use – in the examples provided, ‘client_credentials’ denotes **CCF** (**Client Credential Flow**).
 
 [Example in Python](FISHY-ccflow-ex.py)
 
-[Example in Java](FISHY-ccflow-ex.java)
-
-## Installing RabbitMQ
-To install the RabbitMQ in a container, running as a daemon, we can use the command:
-
-```docker run -d --hostname rabbit-test --name rabbitmq-simulator -p 8082:15672 -p 5672:5672 rabbitmq:3-management```
-
-In the above command, port 5672 is used for RabbitMQ client connections, and port 8082 is for the RabbitMQ management page.
-
 ### Accessing RabbitMQ
 
-We can access the RabbitMQ main page using the URL ```http://localhost:8081```, and using the default username and password, **guest**. Figure 3 shows the main page, from where we can monitor the activity and perform some configurations, like creating queues and logins management (as usual, it is recommended to modify the default administration login).
+We can access the RabbitMQ main page using the URL ```http://localhost:8080```, and using the default username and password, **guest**. Figure 5 shows the main page, from where we can monitor the activity and perform some configurations, like creating queues and logins management (as usual, it is recommended to modify the default administration login).
 - **Note**: concerning queues creation, it is unnecessary to perform it from the management site since producers can also make it when sending data.
+- **Note**: In the menu above, click on QUEUES, to be able to view the information that the client (```FISHY-cons-ex```) sent and the queues that were created.
 
-![Figure 3 - RabbitMQ admin console](images/Figure3.png)
+![Figure 5 - RabbitMQ admin console](images/Figure5.png)
 
 ## Framework for testing SPI
-We now need a **producer** and a **consumer**to test the complete architecture. The producer will be capturing raw data from the infrastructure. Within the FISHY architecture, this producer is one or more modules at the SIA level. However, since there is no prototype available to work with, we will be using a simple simulator agent that reads real log files, applies the required transformations, and submits the data to the broker after authentication.
+Now we need a **producer** and a **consumer** to test the complete architecture. The producer will be capturing raw data from the infrastructure. Within the FISHY architecture, this producer is one or more modules at the SIA level. However, as there is no prototype available to work with, we will use a simple simulator agent that reads real log files, applies the necessary transformations, and sends the data to the broker after authentication.
 
-The actual [producer code in Python](FISHY-prod-ex.py) is a simpler version. It focuses on the required format transformation from raw data to classified events following the taxonomy under development. To support that transformation, we deploy a simple DB. After, the code exemplifies the interface with the RabbitMQ (we will add authentication later).
+The current [Python producer code](FISHY-prod-ex.py) is focused on the required format transformation from raw data to classified events following the evolving taxonomy, then it goes through the authentication process with the infrastructure, and lastly, send the messages to the respective queues in EabbitMQ. To support this transformation, we deploy a simple database.
 
-The consumer will be integrated with the TIM and SCM modules. Again, since we do not have those prototypes yet, we developed a simulated version of the consumer, aiming to test the RambbitMQ and Keycloak interfaces. Concerning Keycloak, we only need to integrate the functionality described above.
+The consumer will be integrated into the TIM and SCM modules. Again, as we don't have these prototypes yet, the consumer is currently under development with the authentication process already included.
 
-The actual [consumer code in Python](FISHY-cons-ex.py) is also a simpler version. It focuses on the RabbitMQ interface (we will add authentication later).
+The current [Python consumer code](FISHY-cons-ex.py) is also a simpler version, it is already being developed with the implementation of the authentication process.
+
+## Visualization - Konga(GUI)
+You can view through Kong(GUI), all the settings made here.
+
+- Access http://localhost:1337/, and create a user, as shown in Figure 6.
+
+![Figure 6 - Konga admin console](images/Figure6.png)
+
+- Then configure your connection with kong API, as shown in figure 7.
+
+![Figure 7 - Konga](images/Figure7.png)
+
+After these steps, you can see in the menus all the services, routes, and plugins that have been configured through our client (```FISHY-cons-ex```).
+- **Note**: The use of konga(GUI), is for test environment only.
