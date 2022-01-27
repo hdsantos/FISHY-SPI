@@ -23,14 +23,6 @@ Make sure you have docker installed.
 ## Clone the repository
 ```$git clone https://github.com/hdsantos/FISHY-SPI.git```
 
-## Importing Metrics Database
-This database has a dictionary that maps the metrics worked so far and also serves so that the client can create queues for each type of metric.
-> **Note**: This database is under construction. According to the progress of research done in metrics, there will be updates on it. At the moment the information is real.
-
-Access the BD folder and import the Dictionary.cvs, into the same instance of the keycloak database. You should name it "Dictionary".
-
-![Figure 4 - Import database with dictionary.cvs file](images/Figure4.png)
-
 ## Starting the containers
 
 * ```$cd FISHY-SPI```
@@ -41,7 +33,13 @@ Access the BD folder and import the Dictionary.cvs, into the same instance of th
 Check if all containers are running
 ```$docker ps```
 
+## Importing Metrics Database
+This database has a dictionary that maps the metrics worked so far and also serves so that the client can create queues for each type of metric.
+> **Note**: This database is under construction. According to the progress of research done in metrics, there will be updates on it. At the moment the information is real.
 
+Access the BD folder and import the Dictionary.cvs, into the same instance of the keycloak database. You should name it "Dictionary".
+
+![Figure 4 - Import database with dictionary.cvs file](images/Figure4.png)
 
 
 ```docker run -d -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.io/keycloak/keycloak:16.1.0```
