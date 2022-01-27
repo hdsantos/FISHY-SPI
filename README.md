@@ -56,7 +56,7 @@ A realm in Keycloak is the equivalent of a tenant. There is a single domain in K
 
 ![Figure 1 - Create a Realm](images/Figure1.png)
 
-### Creating customers
+### Create Clients
 
 ## Kong Client(API Gateway)
 In the following example, we will need two clients the first one we will create is Kong this client will be responsible for the communication between the keycloak and the Kong (API Gateway).
@@ -68,9 +68,12 @@ In the following example, we will need two clients the first one we will create 
 
 ![Figure 2 - Client application settings](images/Figure2.png)
 
-- **NOTE**: We must first select the **Access Type** as **confidential**. Then activate (on) the **Service Accounts Enabled** option. This parameter activates the authentication flow we intent to use in this example (**Client Credentials Flow**, as already mentioned).
-- Next, we must fill in the **Valid Redirect URIs** field, which will be the entry point for client redirections (```http://localhost:8081``` in our example), even if we do not use it, like in our example. Similarly, just for completeness reasons, we will be filling the Root URL (```http://localhost:8080```).  Don't forget to click on **Save**.
-- Finally, we must select the **Credentials** tab and copy the **Secret** for this Client ID (python_fishy), which we will embed in the client code next.
+- **NOTE**: we must first select the **Access Type** as **confidential**. Then enable the **Service Accounts Enabled** option. This parameter activates the authentication flow that we intend to use in this example (**Client Credentials Flow**, as already mentioned).
+- Next, we must fill in the **Valid Redirect URIs** field, which will be the entry point for client redirects (```/mock/*``` in our example), even if we do not use it, as in our example. You also need to fill in the Root URL (```http://localhost:8000```), receive incoming HTTP traffic from Consumers, and forward it to upstream Services. Don't forget to click **Save**.
+- Finally, we must select the **Credentials** tab and copy the **Secret** to this customer ID (kong), which we will embed in the customer code below.
+
+## Client-test Client(second client)
+
 
 ### Testing and templates (Python and Java)
 We developed two templates with the code required to interface with Keycloak, both in Python and Java, for illustration and testing purposes.
