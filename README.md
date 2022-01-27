@@ -31,7 +31,8 @@ Make sure you have docker installed.
 * ```$docker-compose up -d```
 
 Check if all containers are running
-```$docker ps```
+
+* ```$docker ps```
 
 ## Importing Metrics Database
 This database has a dictionary that maps the metrics worked so far and also serves so that the client can create queues for each type of metric.
@@ -42,16 +43,11 @@ Access the BD folder and import the Dictionary.cvs, into the same instance of th
 ![Figure 4 - Import database with dictionary.cvs file](images/Figure4.png)
 
 
-```docker run -d -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.io/keycloak/keycloak:16.1.0```
-
-This will start Keycloak as a normal process (not as a daemon), exposing the entry point on the local port 8080; it will also **create an initial admin user** with a **default password admin**.
-> **Note**: executing it as a process is a good idea in the testing phase for debugging purposes since we can see all system output in the process shell window. However, it will be better to run it as a daemon in production.
-
-When installing Keycloak, it automatically instantiates a database. It's a good idea to create a volume so that we don't have to repeat the settings when the container shuts down.
-> **Note**: Keycloak uses by default a relational H2 Database Engine to store the authentication information. We can use this simple solution without significant problems. However, in production and more complex environments, replacing it with a more robust DB and **using a persistent volume** is highly recommended.
+At this point all services are expected to be running, and we can start the configuration.
 
 ### Login to the Admin console
-Using the URL: ```http://localhost:8080/auth/```, enter the **Keycloak Admin Console**, and log in using the previously chosen credentials.
+Using the URL: ```http://localhost:8180/auth/```, enter the **Keycloak Admin Console**, and log in using the previously chosen credentials(user: admin, password: admin).
+
 ### Create a Realm
 A realm in Keycloak is the equivalent of a tenant. There is a single realm in Keycloak called **master** by default. That is dedicated to managing Keycloak and should not be used for other purposes. To create the first realm:
 - Hover the mouse over the top-left corner where it says Master, then click on **Add realm**. 
