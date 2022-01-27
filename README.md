@@ -46,23 +46,25 @@ Access the BD folder and import the Dictionary.cvs, into the same instance of th
 At this point all services are expected to be running, and we can start the configuration.
 
 ### Login to the Admin console
-Using the URL: ```http://localhost:8180/auth/```, enter the **Keycloak Admin Console**, and log in using the previously chosen credentials(user: admin, password: admin).
+Using the URL: ```http://localhost:8180/auth/```, enter the **Keycloak Admin Console**, and log in using the previously chosen credentials(**user: admin, password: admin**).
 
 ### Create a Realm
-A realm in Keycloak is the equivalent of a tenant. There is a single realm in Keycloak called **master** by default. That is dedicated to managing Keycloak and should not be used for other purposes. To create the first realm:
-- Hover the mouse over the top-left corner where it says Master, then click on **Add realm**. 
-- Fill in the form (the only mandatory field is **Name**) 
-- Select **Create**, and we will get the **General** page for the Test realm, as shown in Figure 1, and where we can add additional information (do not forget to click on **Save**, if necessary).
+A realm in Keycloak is the equivalent of a tenant. There is a single domain in Keycloak called **master** by default. This is dedicated to Keycloak management and should not be used for other purposes. To create the first realm:
+- Hover over the top left corner where it says Master and click on **Add Kingdom**.
+- Fill in the form (the only mandatory field is **Name**)
+- Select **Create**, and we will get the **General** page for the **experimental** domain, as shown in Figure 1, and where we can add additional information (don't forget to click **Save**, if necessary).
 
 ![Figure 1 - Create a Realm](images/Figure1.png)
 
-### Create a Client
-In the example that follows, we will create an application client that will use a dedicated control flow that does not require any authentication from the user (within FISHY, this will be the most frequent case).
-- In the top-left drop-down list, select the previously created realm (Test, in the example, if it is not selected yet).
-- Click **Clients** in the left side menu to open the Clients page.
-- On the right-side, click **Create**.
-- We will create an **application client**. In the **Add Client** dialog box, give it an unique ID (e.g., **python_fishy**) and select the **OpenID-connect** protocol. After clicking **Save** we get the client configuration page.
-- On the **python_fishy client page** that appears, configure the fields as shown in Figure 2.
+### Creating customers
+
+## Kong Client(API Gateway)
+In the following example, we will need two clients the first one we will create is Kong this client will be responsible for the communication between the keycloak and the Kong (API Gateway).
+- In the drop-down list in the upper left corner, select the domain created earlier (Experimental in the example, if not already selected).
+- Click on **Customers** on the left side menu to open the Customers page.
+- On the right side, click **Create**.
+- We will create an **application client**. In the **Add Client** dialog, provide a unique ID (eg **kong**) and select the **OpenID-connect** protocol. After clicking **Save**, we get the client configuration page.
+- On the **kong client page** that appears, configure the fields as shown in Figure 2.
 
 ![Figure 2 - Client application settings](images/Figure2.png)
 
