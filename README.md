@@ -56,9 +56,9 @@ A realm in Keycloak is the equivalent of a tenant. There is a single domain in K
 
 ![Figure 1 - Create a Realm](images/Figure1.png)
 
-### Create Clients
+## Create Clients
 
-## Kong Client(API Gateway)
+### Kong Client(API Gateway)
 In the following example, we will need two clients the first one we will create is Kong this client will be responsible for the communication between the keycloak and the Kong (API Gateway).
 - In the drop-down list in the upper left corner, select the domain created earlier (Experimental in the example, if not already selected).
 - Click on **Customers** on the left side menu to open the Customers page.
@@ -72,8 +72,14 @@ In the following example, we will need two clients the first one we will create 
 - Next, we must fill in the **Valid Redirect URIs** field, which will be the entry point for client redirects (```/mock/*``` in our example), even if we do not use it, as in our example. You also need to fill in the Root URL (```http://localhost:8000```), receive incoming HTTP traffic from Consumers, and forward it to upstream Services. Don't forget to click **Save**.
 - Finally, we must select the **Credentials** tab and copy the **Secret** to this customer ID (kong), which we will embed in the customer code below.
 
-## Client-test Client(second client)
+### FISHY-cons-ex Client(second client)
+In the same way that the previous client was created, we will do the same. We created the client with the name **FISHY-cons-ex**.
 
+![Figure 3 - Client application settings](images/Figure3.png)
+
+- **NOTE**: we must first select the **Access Type** as **confidential*. Then enable the **Service Accounts Enabled** option. This parameter activates the authentication flow that we intend to use in this example (**Client Credentials Flow**, as already mentioned).
+- Next, we must fill in the **Valid Redirect URIs** field, which will be the entry point for client redirects (``FISHY-cons-ex``` in our example), even if we don't use it, as in our example. In this case, you will not need more configurations, because the one who will manage the entire flow will be Kong. Don't forget to click **Save**.
+- Finally, we must select the **Credentials** tab and copy the **Secret** to this customer ID (FISHY-cons-ex), which we will embed in the customer code below.
 
 ### Testing and templates (Python and Java)
 We developed two templates with the code required to interface with Keycloak, both in Python and Java, for illustration and testing purposes.
