@@ -87,7 +87,12 @@ The client we are going to use was built in Python (```FISHY-cons-ex```)
 
 For authentication, it is necessary to pass the parameters **Client ID**, **Client Secret** (obtained previously), and **Scope** (with an optional scope value, email in the examples, but it could be anything else). The call must be made to the proper **token endpoint**. The “grant type” specifies the flow to use – in the examples provided, ‘client_credentials’ denotes **CCF** (**Client Credential Flow**).
 
+In addition to the above mentioned settings, you will need some minor tweaks to ```FISHY-cons-ex```.
+- On line 31 of the code, you will find this code snippet: ```with open('/home/alan/Documents/Code/FISHY-SPI/producer/PT1H.json') as f:``` Change to your scenario.
+- On line 49 of the code, you will find this code snippet: ```host = os.environ["HOST_IP"]keycloak_client_secret = os.environ["CLIENT_SECRET"]keycloak_realm = os.environ["REALM"]``` create a file to save environment variables and their values.
+
 [Example in Python](FISHY-ccflow-ex.py)
+
 
 ### Accessing RabbitMQ
 

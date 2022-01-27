@@ -28,7 +28,7 @@ conn.close() #Close database connection
 
 #In our case, this step was necessary because the imported json comes with some flaws.
 #Read json file as text as json comes invalidly from azure storage explorer
-with open('/home/alan/Documents/Code/Metrics-simulator/publish/PT1H.json') as f:
+with open('/home/alan/Documents/Code/FISHY-SPI/producer/PT1H.json') as f:
   rawdata = [line.rstrip('\n') for line in f] #Break json into a string list
 
 #Creating Dataframe
