@@ -112,17 +112,16 @@ createservice_amqp(list_queue)
 def get_token(cliend_id, client_secret):
     
     r_login = requests.post("http://{}:8180/auth/realms/experimental/protocol/openid-connect/token".format(host), {"Content-Type":"application/x-www-form-urlencoded", "grant_type":"client_credentials",
-    "client_id":"FISHY-prod-ex", "client_secret":"xzONWxH6RQ2s2MNlvVNLMTkvtjBJ391e"})
-    print(r_login.status_code)
+    "client_id":"FISHY-prod-ex", "client_secret":"7kZlISaJzntfEIbzMwZuccEsMu1U7qzw"})
+    #print(r_login.status_code)
     if r_login.status_code == 401:
         print("Access denied")
     else:
         r_login_data = json.loads(r_login.content)
         r_introspct = r_login_data["access_token"]
         return(r_introspct) 
-        print(r_introspct)
-token = get_token("FISHY-prod-ex", "xzONWxH6RQ2s2MNlvVNLMTkvtjBJ391e")
-print(token)
+        
+token = get_token("FISHY-prod-ex", "7kZlISaJzntfEIbzMwZuccEsMu1U7qzw")
     
 #Check the queue with the queues already registered in the dictionary, and then send the metrics to the correct queues in RabbitMQ
 def send_msg(host, token, data, queue):
