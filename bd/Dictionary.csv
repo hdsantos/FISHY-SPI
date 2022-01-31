@@ -1,0 +1,17 @@
+metricName,queue,metric
+connectedDeviceCount,Tx.tec.performance.protocols.NETWORK,Number of connections alive equal to number of connections registered
+d2c.endpoints.egress.builtIn.events,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+d2c.endpoints.latency.builtIn.events,Tx.tec.performance.protocols.NETWORK,Latency time between sending and arriving at an endpoint
+d2c.telemetry.egress.fallback,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+d2c.telemetry.egress.success,Tx.tec.performance.protocols.NETWORK,Number of messages successfully delivered to an endpoint (Messages/Evevnts)
+d2c.telemetry.ingress.allProtocol,Not.classified,Not.verified
+d2c.telemetry.ingress.success,Not.classified,Not.verified
+dailyMessageQuotaUsed,Tx.tec.performance.protocols.NETWORK,Number of messages sent
+deviceDataUsage,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+deviceDataUsageV2,Tx.tec.performance.protocols.NETWORK,Daily amount of transferred bytes
+devices.connectedDevices.allProtocol,Tx.tec.performance.computer-elements.CPU,Number of devices connected
+devices.totalDevices,Tx.tec.performance.computer-elements.CPU,Number of devices registered
+RoutingDataSizeInBytesDelivered,Not.classified,Not.verified
+RoutingDeliveries,Not.classified,Not.verified
+RoutingDeliveryLatency,Tx.tec.performance.protocols.HOST,Latency time for Sending a Message
+totalDeviceCount,Tx.tec.performance.protocols.HOST,Number of devices registered
