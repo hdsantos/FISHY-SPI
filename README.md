@@ -80,7 +80,7 @@ In the same way that the previous client was created, we will do the same. We cr
 
 - **NOTE**: we must first select the **Access Type** as **confidential**. Then enable the **Service Accounts Enabled** option. This parameter activates the authentication flow that we intend to use in this example (**Client Credentials Flow**, as already mentioned).
 - Next, we must fill in the **Valid Redirect URIs** field, which will be the entry point for client redirects (```FISHY-prod-ex``` in our example), even if we don't use it, as in our example. In this case, you will not need more configurations, because the one who will manage the entire flow will be Kong. Don't forget to click **Save**.
-- Finally, we must select the **Credentials** tab and copy the **Secret** to this customer ID (FISHY-cons-ex), which we will embed in the customer code below.
+- Finally, we must select the **Credentials** tab and copy the **Secret** to this customer ID (FISHY-prod-ex), which we will embed in the customer code below.
 
 ### Testing and template
 The client we are going to use was built in Python (```FISHY-prod-ex```)
@@ -98,7 +98,7 @@ In addition to the above mentioned settings, you will need some minor tweaks to 
 
 We can access the RabbitMQ main page using the URL ```http://localhost:8080```, and using the default username and password, **guest**. Figure 5 shows the main page, from where we can monitor the activity and perform some configurations, like creating queues and logins management (as usual, it is recommended to modify the default administration login).
 - **Note**: concerning queues creation, it is unnecessary to perform it from the management site since producers can also make it when sending data.
-- **Note**: In the menu above, click on QUEUES, to be able to view the information that the client (```FISHY-cons-ex```) sent and the queues that were created.
+- **Note**: In the menu above, click on QUEUES, to be able to view the information that the client (```FISHY-prod-ex```) sent and the queues that were created.
 
 ![Figure 5 - RabbitMQ admin console](images/Figure5.png)
 
