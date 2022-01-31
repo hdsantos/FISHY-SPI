@@ -36,8 +36,8 @@ Check if all containers are running
 
 ## Importing Metrics Database
 This database has a dictionary that maps the metrics worked so far and also serves so that the client can create queues for each type of metric.
-> **Note**: This database is under construction. According to the progress of research done in metrics, there will be updates on it. At the moment the information is real.
-> **Note**: To perform this step, we use a **DBeaver**.
+- > **Note**: This database is under construction. According to the progress of research done in metrics, there will be updates on it. At the moment the information is real.
+- > **Note**: To make these settings, we use a **DBeaver**.
 
 Access the BD folder and import the Dictionary.cvs, into the same instance of the keycloak database. You should name it "Dictionary".
 
